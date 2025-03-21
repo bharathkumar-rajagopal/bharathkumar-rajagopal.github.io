@@ -68,60 +68,71 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Amity Institute of Biotechnology, Amity University, Uttar Pradesh",
+      "location": "Noida, India",
+      "url": "https://www.amity.edu/",
+      "area": "Biotechnology",
+      "studyType": "Msc",
+      "startDate": "2022-09-01",
+      "endDate": "2024-07-31",
+      "score": "8.75",
+      "courses": ["Advanced Molecular Biology, Advanced Animal Biotechnology, Advance Applied Biostatistics for Biotechnologists, Molecular Cell Biology, Advanced Biochemistry, Advanced Genetics, Advanced Immunology, Enzymes and Enzyme Technology, Python, Applied Genomics and Proteomics, Advanced Microbiology"]
+    },
+    {
+      "institution": "PSG College of Arts & Science, Bharathiar University",
+      "location": "Coimbatore, India",
+      "url": "https://www.psgcas.ac.in/",
+      "area": "Biotechnology",
+      "studyType": "Bsc",
+      "startDate": "2019-09-01",
+      "endDate": "2022-07-31",
+      "score": "6.8",
+      "courses": ["Environmental Biotechnology, Molecular Biology, Recombinant DNA Technology, Chemistry of Biomolecules, Microbiology, Computer Applications in Biotechnology, Analytical Techniques, Metabolism, Biopharmaceuticals, Animal Biotechnology, Immunology"]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Graduate Aptitude Test – Biotechnology (GAT-B)",
+      "date": "2022-04-01",
+      "awarder": "Department of Biotechnology, Government of India",
+      "url": "",
+      "summary": "All India Rank (Category wise)- 134"
     }
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Introduction to Professional Scientific Communication",
+      "date": "2024-02-31",
+      "issuer": "National Programme on Technology Enhanced Learning (NPTEL), MoE, Government of India",
+      "url": "",
       "icon": "fa-solid fa-location-dot"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Certificate in Bioinformatics",
+      "date": "2020-05-31",
+      "issuer": "PSG College of Arts & Science, Bharathiar University",
+      "url": "",
       "icon": "fa-solid fa-tag"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Certificate course on Bionanotechnology (CBNT)",
+      "date": "2020-05-31 ",
+      "issuer": "Association of Indian Biologists (AIB)",
+      "url": "",
       "icon": "fa-solid fa-envelope"
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Human Molecular Genetics",
+      "date": "2020-02-31",
+      "issuer": "National Programme on Technology Enhanced Learning (NPTEL), MoE, Government of India",
+      "url": "",
       "icon": "fa-solid fa-hashtag"
     },
     {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Hands-on training on “HPLC and GC-MS/MS: Instrumentation, Operation and Application”",
+      "date": "2018-02-28",
+      "issuer": "ICFRE - Institute of Forest Genetics and Tree Breeding",
+      "url": "",
       "icon": "fa-solid fa-calendar"
     },
     {
