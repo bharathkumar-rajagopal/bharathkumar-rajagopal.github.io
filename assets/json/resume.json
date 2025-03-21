@@ -1,24 +1,24 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Bharathkumar Rajagopal",
+    "label": "Msc Biotechnology",
     "image": "",
-    "email": "albert@einstein.de",
+    "email": "i.bharath@outlook.com",
     "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
+    "url": "https://bharathkumar-rajagopal.github.io/bharathkumar-rajagopal/",
     "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "5, Eswaramoorthy Nagar, 3rd Street, Velliyangadu",
+      "postalCode": "641604",
+      "city": "Tiruppur",
+      "countryCode": "India",
+      "region": "Tamil Nadu"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "X.com",
+        "username": "Bharath_PhD",
+        "url": "https://x.com/Bharath_PhD"
       }
     ]
   },
