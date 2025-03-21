@@ -5,9 +5,9 @@ permalink: /
 subtitle: <a href='#'>Prospective PhD Candidate</a>. Ecotoxicology | Atmospheric Chemsitry | Pollutants
 
 profile:
-  align: right
+  align: centre
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>MSc Biotechnology</p>
     <p>i.bharath@outlook.com</p>
