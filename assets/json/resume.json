@@ -4,9 +4,9 @@
     "Diploma": "Msc Biotechnology",
     "image": "",
     "email": "i.bharath@outlook.com",
-    "phone": "(912) 123-4567",
+    "phone": "(+91) 8072253737",
     "url": "https://bharathkumar-rajagopal.github.io/bharathkumar-rajagopal/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "summary": "Prospective PhD candidate",
     "location": {
       "address": "5, Eswaramoorthy Nagar, 3rd Street, Velliyangadu",
       "postalCode": "641604",
@@ -24,25 +24,52 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "CSIR - Indian Institute of Toxicology Research, Lucknow",
+      "position": "Dissertation Trainee",
+      "url": "",
+      "startDate": "2024-01-02",
+      "endDate": "2024-05-13",
+      "Thesis Title": "In Vitro Toxicity Assessment of Polystyrene Nanoplastics in Chinese Hamster Lung fibroblast cells (V-79)",
+      "summary": "A concentration-dependent increase in irregular cell morphology was observed, with decreased cell viability in the
+Trypan Blue and Comet assays. ROS assay indicated varied response, suggesting alternative toxicity pathways at higher
+PS NPs exposure."
+      "highlights": [""]
     }
+    {
+      "name": "Centre for Biotechnology and Biochemical Engineering, Amity Institute of Biotechnology, Amity University Uttar
+Pradesh.",
+      "position": "Postgraduate Research Assistant",
+      "url": "",
+      "startDate": "2023-07-01",
+      "endDate": "2023-12-31",
+      "Project": "Microbeads preparation with Bacterial Consortia",
+      "summary": "The microbeads, synthesised using bacterial consortia that degrade pesticides, facilitate the storage and transport of these
+consortia for extended periods."
+      "highlights": [""]      
+    {
+      "name": "Centre for Biotechnology and Biochemical Engineering, Amity Institute of Biotechnology, Amity University Uttar
+Pradesh.",
+      "position": "Summer Research Intern",
+      "url": "",
+      "startDate": "2023-06-05",
+      "endDate": "2023-07-14",
+      "Project": "Biogenic Synthesis of Silver Nanoparticles using Endophytic Bacteria Isolated from Andrographis paniculata and
+its Potential Applications as Anticancer and Antibacterial Agents",
+      "summary": "Endophytic bacteria identified as Priestia megaterium were used to synthesize silver nanoparticles, which were characterized
+by UV-Visible Spectrophotometry, FTIR, and SEM. The nanoparticles showed significant antibacterial activity and
+reduction in cell viability in the Hep G2 cell line."
+      "highlights": [""]        
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "Liquid Trees",
+      "location": "Noida, India",
+      "position": "Volunteer",
+      "url": "",
+      "startDate": "2023-11-01",
+      "endDate": "present",
+      "summary": "Currently supporting "Diatoms for a Cooler Tomorrow" at Liquid Trees, a bioremediation startup. Join the movement to neutralize pollution and combat climate challenges. Let's make a real difference together!",
+      "highlights": []
     }
   ],
   "education": [
