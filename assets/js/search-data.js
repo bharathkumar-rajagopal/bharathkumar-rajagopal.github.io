@@ -394,16 +394,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-announcement-2",
-          title: 'Announcement_2',
+            },},{id: "news-successfully-defended-my-master-s-thesis-relieved-page-with-curl",
+          title: 'Successfully defended my Master’s thesis :relieved: :page_with_curl:',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-i-took-my-english-proficiency-exam-ielts-on-the-18th-of-this-month-and-got-a-cfpr-c1-advanced-one-step-closer-to-my-phd-hooray-emoji-grin-star2",
+          section: "News",},{id: "news-i-took-my-english-proficiency-exam-ielts-on-the-18th-of-this-month-and-got-a-cfpr-c1-advanced-one-step-closer-to-my-phd-hooray-grin-star2",
           title: 'I took my English Proficiency exam (IELTS) on the 18th of this month...',
           description: "",
-          section: "News",},{id: "news-graduated-with-msc-in-biotechnology-emoji-smile-mortar-board",
-          title: 'Graduated with MSc in Biotechnology emoji! :smile: :mortar_board:',
+          section: "News",},{id: "news-graduated-with-msc-in-biotechnology-smile-mortar-board",
+          title: 'Graduated with MSc in Biotechnology :smile: :mortar_board:',
           description: "",
           section: "News",},{id: "projects-msc-thesis-project",
           title: 'MSc. Thesis Project',
