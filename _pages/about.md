@@ -5,7 +5,7 @@ permalink: /
 subtitle: <a href='#'>Prospective PhD Candidate</a>. Ecotoxicology | Atmospheric Chemsitry | Pollutants
 
 profile:
-  align: centre
+  align: center
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >

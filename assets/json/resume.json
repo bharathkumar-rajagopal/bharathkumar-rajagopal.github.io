@@ -31,7 +31,7 @@
       "endDate": "2024-05-13",
       "Thesis Title": "In Vitro Toxicity Assessment of Polystyrene Nanoplastics in Chinese Hamster Lung fibroblast cells (V-79)",
       "summary": "A concentration-dependent increase in irregular cell morphology was observed, with decreased cell viability in the Trypan Blue and Comet assays. ROS assay indicated varied response, suggesting alternative toxicity pathways at higher PS NPs exposure.",
-      "highlights": [""]
+      "highlights": ["Toxicology, Risk assessments, Mammalian cell culture establishment and maintainance, Cytotoxicity assays, Genotoxicity assays"]
     },
     {
       "name": "Centre for Biotechnology and Biochemical Engineering, Amity Institute of Biotechnology, Amity University Uttar Pradesh.",
@@ -41,7 +41,7 @@
       "endDate": "2023-12-31",
       "Project": "Microbeads preparation with Bacterial Consortia",
       "summary": "The microbeads, synthesised using bacterial consortia that degrade pesticides, facilitate the storage and transport of these consortia for extended periods.",
-      "highlights": [""]   
+      "highlights": ["Microbial Culture Establishment and Maintainance, Microbead preparation and optimisation"]   
     },   
     {
       "name": "Centre for Biotechnology and Biochemical Engineering, Amity Institute of Biotechnology, Amity University Uttar Pradesh.",
@@ -51,7 +51,7 @@
       "endDate": "2023-07-14",
       "Project": "Biogenic Synthesis of Silver Nanoparticles using Endophytic Bacteria Isolated from Andrographis paniculata and its Potential Applications as Anticancer and Antibacterial Agents",
       "summary": "Endophytic bacteria identified as Priestia megaterium were used to synthesize silver nanoparticles, which were characterized by UV-Visible Spectrophotometry, FTIR, and SEM. The nanoparticles showed significant antibacterial activity and reduction in cell viability in the Hep G2 cell line.",
-      "highlights": [""]    
+      "highlights": ["Biogenic synthesis of nanoparticle, Green synthesis, Microbial Culture Establishment and Maintainance, Time kill assay, SEM, FTIR "]    
     }    
   ],
   "volunteer": [
@@ -63,16 +63,66 @@
       "startDate": "2023-11-01",
       "endDate": "present",
       "summary": "Currently supporting ``Diatoms for a Cooler Tomorrow`` at Liquid Trees, a bioremediation startup. Join the movement to neutralize pollution and combat climate challenges. Let's make a real difference together!",
+      "highlights": ["Diatoms, CO2 reduction"]
+    },
+    {  
+      "organization": "Corporate Resource Center (CRC), Amity Institute of Biotechnology, Amity University Uttar Pradesh",
+      "location": "Noida, India",
+      "position": "Student Coordinator",
+      "url": "",
+      "startDate": "2023-08-01",
+      "endDate": "2024-06-30",
+      "summary": "As a Corporate Resource Center (CRC) Student Coordinator at Amity Institute of Biotechnology (AIB), I focused on coordinating and organizing various programs. My role involved guiding students toward higher education opportunities in India and abroad through well-planned webinars and comprehensive guidance sessions.",
+      "highlights": ["Leadership, Team management, Event organisation"]
+  },
+    {
+      "organization": "Manjil Non-Governmental Organization",
+      "location": "Noida, India",
+      "position": "Social Work Intern - Tutor",
+      "url": "",
+      "startDate": "2023-02-01",
+      "endDate": "2023-05-31",
+      "summary": "Taught underprivileged children, focusing on their sustenance and growth within challenging geopolitical conditions.",
       "highlights": []
-    }
+    },   
+    {
+      "organization": "Amity Indian Military College (AIMC Manesar)",
+      "location": "Manesar, India",
+      "position": "Military Training Camp Ser – 262",
+      "url": "",
+      "startDate": "2023-09-01",
+      "endDate": "2023-09-30",
+      "summary": "Gained invaluable experience and skills through participation in a Military Training Camp. Developed discipline, leadership abilities, teamwork, and resilience under challenging conditions. This training enhanced my physical and mental stamina and instilled a strong sense of duty and commitment.",
+      "highlights": ["Discipline, Patriotism, Physical Training"]
+    } ,
+    {  
+    "organization": "Bio Beacons (Department Association) Associated with PSG College of Arts & Science",
+    "location": "Coimbatore, India",
+    "position": "Member",
+    "url": "",
+    "startDate": "2019-08-01",
+    "endDate": "2022-06-30",
+    "summary": "",
+    "highlights": ["Sience, Group Discussion"]
+  },
+  {  
+    "organization": "Youth Forum Associated with Amity University Uttar Pradesh",
+    "location": "Noida, India",
+    "position": "Member",
+    "url": "",
+    "startDate": "2022-08-17",
+    "endDate": "2024-06-30",
+    "summary": "",
+    "highlights": ["Community Servise, Event organisation, Team work"]
+  }
   ],
   "education": [
     {
-      "institution": "Amity Institute of Biotechnology, Amity University, Uttar Pradesh",
+      "institution": "Amity Institute of Biotechnology, Amity University Uttar Pradesh",
       "location": "Noida, India",
       "url": "https://www.amity.edu/",
       "area": "Biotechnology",
-      "studyType": "Msc",
+      "studyType": "Master of Science (MSc.)",
       "startDate": "2022-09-01",
       "endDate": "2024-07-31",
       "score": "8.75",
@@ -83,7 +133,7 @@
       "location": "Coimbatore, India",
       "url": "https://www.psgcas.ac.in/",
       "area": "Biotechnology",
-      "studyType": "Bsc",
+      "studyType": "Bacjelor of Science (BSc.)",
       "startDate": "2019-09-01",
       "endDate": "2022-07-31",
       "score": "6.8",
@@ -136,10 +186,17 @@
       "icon": "fa-solid fa-calendar"
     },
     {
-      "name": "Quantum Teleportation",
+      "name": " Global Digital Corps (GDC) Field Ops Cadet",
       "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "issuer": "Pupilfirst and recognized by the United Nations",
+      "url": "",
+      "icon": "fa-solid fa-clipboard-check"
+    },
+    {
+      "name": "Yoga for Youth Empowerment",
+      "date": "2018-06-01",
+      "issuer": " SKY Yoga",
+      "url": "",
       "icon": "fa-solid fa-clipboard-check"
     }
   ],
@@ -168,65 +225,99 @@
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Applied computational techniques",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "BLAST",
+        "PSIPRED",
+        "Biomolecular visualisation",
+        "SWISS-MODEL",
+        "Rasmol",
+        "Pymol"
+      ]
+    },
+    {
+      "name": "Molecular Biology",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "DNA isolation and purification",
+        "PCR",
+        "Agarose gel electrophoresis",
+        "SDS-PAGE",
+        "Western Blotting"
+      ]
+    },
+    {
+      "name": "Microbiology",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Isolating pure culture",
+        "Culturing and plating",
+        "Staining and visualisation",
+        "sterilisation and fumigation"
+      ]
+    },
+    {
+      "name": "Toxicology",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "MTT",
+        "Neutral red dye uptake assay",
+        "LDH",
+        "Trypan blue dye exclusion assay",
+        "Genotoxicity Assay - Alkaline single-cell electrophoresis (comet assay)"
+      ]
+    },
+    {
+      "name": "Chromatography",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Column chromatography",
+        "Affinity chromatography",
+        "GC-MS/MS",
+        "HPLC",
+        "Spectrophotometry",
+        "Dynamic Light Scattering (DLS)",
+        "Nanoparticle Tracking Analysis (NTA)"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
+      "language": "English",
+      "fluency": "CEFR - C1 (Advanced)",
       "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
+      "language": "Tamil",
+      "fluency": "Native Speaker",
       "icon": ""
     }
   ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
+
   "references": [
     {
-      "name": "Professor John Doe",
+      "name": "Dr. Alok Kumar Pandey",
       "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "Senior Principal Scientist - CSIR - Indian Institute of Toxicology Research, Lucknow",
+      "email": "alokpandey@iitr.res.in"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
+      "name": "Dr. Ravi Kant Singh",
+      "icon": "fa-solid fa-laptop",
+      "reference": "Professor - Amity Institute of Biotechnology, Amity University Uttar Pradesh",
+      "email": "rksingh1@amity.edu"
+    },
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Dr. Boobal Rangaswamy",
+      "icon": "fa-solid fa-thumbtack",
+      "email": "boobal@psgcas.ac.in",
+      "reference": "Assistant Professor – Department of Biotechnology, PSG College of Arts & Science, Tamil Nadu"
     }
   ]
 }
