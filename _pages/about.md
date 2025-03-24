@@ -26,7 +26,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-
+<br><br>
 
 I'm an early-stage researcher passionate about unraveling environmental pollution through advanced biotechnological approaches. With a **Master's in Biotechnology** (Distinction, CGPA: 8.75/10) from Amity University, I specialize in:
 
@@ -35,6 +35,8 @@ I'm an early-stage researcher passionate about unraveling environmental pollutio
 - Pollutant Characterisation  
 
 My work sits at the exciting intersection of **Biotechnology** and **real-world environmental challenges**, using Biotechnology as my foundation while expanding into atmospheric chemistry and environmental science - the interdisciplinary approach modern pollution research demands.
+
+<br><br>
 
 ---
 
@@ -72,3 +74,5 @@ I'm committed to:
 - Mentoring underprivileged children  
 - Communicating complex science to diverse audiences  
 - Building interdisciplinary collaborations  
+
+---
