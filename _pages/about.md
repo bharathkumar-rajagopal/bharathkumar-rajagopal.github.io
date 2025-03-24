@@ -41,12 +41,12 @@ My work sits at the exciting intersection of **Biotechnology** and **real-world 
 ## 🧪 What I've Done
 
 ### Nanoplastic Toxicology Research  
-@ *CSIR-Indian Institute of Toxicology Research*  
+@ *<a href="https://iitr.res.in/">CSIR-Indian Institute of Toxicology Research</a>*  
 - Investigated cellular impacts of polystyrene nanoplastics  
 - Developed protocols for particle characterization and toxicity assessment  
 
 ### Bioremediation Engineering  
-@ *Amity Centre for Biotechnology* (with Dr. Shashi Sharma)  
+@ *<a href="https://amity.edu/">Amity University Uttar Pradesh</a>* (with Dr. Shashi Sharma)  
 - Designed alginate microbead systems for pesticide degradation  
 - Pioneered sustained-release formulations for bacterial consortia  
 
