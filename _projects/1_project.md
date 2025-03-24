@@ -40,7 +40,7 @@ Make your photos 1/3, 2/3, or full width. -->
 </div>
 <div class="caption">
 
-    The sources, formation, and impact pathways of microplastics and nanoplastics on living organisms {% cite Lv2024%}.
+    The sources, formation, and impact pathways of microplastics and nanoplastics on living organisms.
 </div>
 
 <!-- Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles. -->
@@ -53,7 +53,7 @@ The existing problem lies in the lack of comprehensive studies focusing on the c
     </div>
 </div>
 <div class="caption">
-    The degradation pathway of plastic into microplastic and further into nanoplastic, and how it enters the food web.
+    The degradation pathway of plastic into microplastic and further into nanoplastic, and how it enters the food web {% cite Lv2024%}.
     <!-- This image can also have a caption. It's like magic. -->
 </div>
  This gap in knowledge hinders our ability to assess the potential risks associated with nanoplastics exposure and develop effective mitigation strategies. To overcome this limitation, we employed a multi-faceted approach, combining dynamic light scattering (DLS), nanoparticle tracking analysis (NTA), and standard cellular assays to comprehensively evaluate the toxicity of PS NPs in V-79 cells. DLS and NTA were utilized to characterize the physicochemical properties of PS NPs, including size distribution and stability, in Milli-Q and biological media. Our results revealed significant variations in PS NPs size and polydispersity depending on the surrounding medium, suggesting dynamic interactions with biological environments. Additionally, zeta potential measurements shows particles are more stable and remains colloidal due to high repulsive force between each other. Moving beyond characterization, our study investigated the effects of PS NPs on cellular morphology and viability using standard cellular assays. Exposure to PS NPs induced concentration-dependent changes in cellular morphology, with V-79 cells exhibiting irregular shapes at higher nanoparticle concentrations, indicative of cellular stress or perturbation. This finding is consistent with previous studies suggesting that nanoplastics can induce structural alterations in cellular architecture, potentially compromising cellular function and viability.

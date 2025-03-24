@@ -5,18 +5,18 @@
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Bharathkumar
 middle_name: 
-last_name: Rajagopal
+last_name: RAJAGOPAL
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Please prefer to contact me via email, although I am active on all the social platforms mentioned above. # You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: ⚛︎ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://bharathkumar-rajagopal.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -87,8 +87,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: bharathkumar-rajagopal # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Bharathkumar RAJAGOPAL # blog_name will be displayed in your blog page
+blog_description: Blog
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -204,6 +204,25 @@ exclude:
   - _projects/7_project.md
   - _projects/8_project.md
   - _projects/9_project.md
+  - _posts/2023-04-24-videos.md
+  - _posts/2023-04-25-audios.md
+  - _posts/2023-04-25-sidebar-table-of-contents.md
+  - _posts/2023-05-12-custom-blockquotes.md
+  - _posts/2023-07-04-jupyter-notebook.md
+  - _posts/2023-07-12-post-bibliography.md
+  - _posts/2023-12-12-tikzjax.md
+  - _posts/2024-01-26-chartjs.md
+  - _posts/2024-01-26-echarts.md
+  - _posts/2024-01-26-geojson-map.md
+  - _posts/2024-01-27-advanced-images.md
+  - _posts/2024-01-27-code-diff.md
+  - _posts/2024-01-27-yega-lite.md
+  - _posts/2024-04-15-pseudocode.md
+  - _posts/2024-04-28-post-citation.md
+  - _posts/2024-04-29-typograms.md
+  - _posts/2024-05-01-tabs.md
+  - _posts/2024-12-04-photo-gallery.md
+  - _pages/publications.md
 keep_files:
   - CNAME
   - .nojekyll
