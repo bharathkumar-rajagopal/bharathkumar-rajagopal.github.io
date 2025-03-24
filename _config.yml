@@ -7,16 +7,16 @@ first_name: Bharathkumar
 middle_name: 
 last_name: RAJAGOPAL
 contact_note: >
-  Please prefer to contact me via email, although I am active on all the social platforms mentioned above. # You can even add a little note about which of these is the best way to reach you.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
+Please prefer to contact me via email, although I am active on all the social platforms mentioned above. 
+# You can even add a little note about which of these is the best way to reach you.
+# description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛︎ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 👨🏽‍🔬 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://bharathkumar-rajagopal.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -204,6 +204,18 @@ exclude:
   - _projects/7_project.md
   - _projects/8_project.md
   - _projects/9_project.md
+  - _posts/2015-03-15-formatting-and-links.md
+  - _posts/2015-05-15-images.md
+  - _posts/2015-07-15-code.md
+  - _posts/2015-10-20-disgus-comments.md
+  - _posts/2015-10-20-math.md
+  - _posts/2018-12-22-distill.md
+  - _posts/2020-09-28-twitter.md
+  - _posts/2021-07-04-diagrams.md
+  - _posts/2022-02-01-redirect.md
+  - _posts/2022-12-10-giscus-comments.md
+  - _posts/2023-03-20-table-of-contents.md
+  - _posts/2023-03-21-tables.md
   - _posts/2023-04-24-videos.md
   - _posts/2023-04-25-audios.md
   - _posts/2023-04-25-sidebar-table-of-contents.md
