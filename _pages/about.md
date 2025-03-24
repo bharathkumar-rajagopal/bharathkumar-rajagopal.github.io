@@ -27,14 +27,48 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
- I am Bharathkumar Rajagopal, a recent graduate with a Master of Science in Biotechnology from Amity Institute of Biotechnology, Amity University, Uttar Pradesh, where I graduated with First Division with Distinction and a CGPA of 8.75/10. My academic journey has equipped me with a robust understanding of advanced molecular biology, biostatistics, genomics, and proteomics, among other areas.
 
-During my postgraduate studies, I undertook a dissertation project at the CSIR - Indian Institute of Toxicology Research, where I assessed the cytotoxicity and genotoxicity of polystyrene nanoplastics in mammalian lung fibroblast cells. This experience honed my skills in dynamic light scattering, nanoparticle tracking analysis, and various toxicological assays. I also gained valuable insights into the potential adverse effects of nanoplastics at the cellular level.
+I'm an early-stage researcher passionate about unraveling environmental pollution through advanced biotechnological approaches. With a **Master's in Biotechnology** (Distinction, CGPA: 8.75/10) from Amity University, I specialize in:
 
-In addition to my dissertation, I worked as a postgraduate research assistant at the Centre for Biotechnology and Biochemical Engineering, where I developed microbeads incorporating bacterial consortia capable of degrading pesticides. This project aimed to enhance the storage and transport efficiency of these consortia over prolonged periods.
+- Advanced analytical techniques  
+- Environmental Risk assessments    
+- Pollutant Characterisation  
 
-My research experience extends to a summer internship at the Centre for Bioscience and Nanoscience Research, where I synthesized silver nanoparticles using endophytic bacteria and explored their potential applications as anticancer and antibacterial agents. This project involved molecular identification, phylogenetic analysis, and characterization of nanoparticles using various techniques.
+My work sits at the exciting intersection of **Biotechnology** and **real-world environmental challenges**, using Biotechnology as my foundation while expanding into atmospheric chemistry and environmental science - the interdisciplinary approach modern pollution research demands.
 
-I am proficient in a range of molecular biology methods, including DNA isolation, PCR, agarose gel electrophoresis, and Western blotting. My computational skills include nucleotide and protein sequence analysis, biomolecular visualization, and molecular docking. Additionally, I have hands-on experience with analytical techniques such as chromatography, spectrophotometry, and microscopy.
+---
 
-Recently graduated with a Master of Science in Biotechnology at Amity Institute of Biotechnology, Amity University, Uttar Pradesh, I am highly motivated with a clear vision to pursue a PhD in studying environmental pollutants. My goal is to contribute to the field of environmental biotechnology by developing innovative solutions to mitigate the impact of pollutants on human health and the environment.
+## 🧪 What I've Done
+
+### Nanoplastic Toxicology Research  
+@ *CSIR-Indian Institute of Toxicology Research*  
+- Investigated cellular impacts of polystyrene nanoplastics  
+- Developed protocols for particle characterization and toxicity assessment  
+
+### Bioremediation Engineering  
+@ *Amity Centre for Biotechnology* (with Dr. Shashi Sharma)  
+- Designed alginate microbead systems for pesticide degradation  
+- Pioneered sustained-release formulations for bacterial consortia  
+
+---
+
+## 🌍 Where I'm Headed
+
+I'm currently seeking **PhD opportunities** to:  
+- Map pollutant transport pathways across air/water systems  
+- Develop innovative detection methods using advanced analytics  
+- Bridge laboratory findings with environmental policy  
+
+My research interests remain broad, though I'm particularly fascinated by:  
+- Micro/nanoplastic environmental behavior  
+- Cross-ecosystem pollution transport  
+- Comprehensive risk assessments  
+
+---
+
+## 🚀 Beyond Research
+
+I'm committed to:  
+- Mentoring underprivileged children  
+- Communicating complex science to diverse audiences  
+- Building interdisciplinary collaborations  
