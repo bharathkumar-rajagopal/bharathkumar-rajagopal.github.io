@@ -40,6 +40,8 @@ My work sits at the exciting intersection of **Biotechnology** and **real-world 
 
 ---
 
+<br><br>
+
 ## 🧪 What I've Done
 
 ### Nanoplastic Toxicology Research  
@@ -52,8 +54,11 @@ My work sits at the exciting intersection of **Biotechnology** and **real-world 
 - Designed alginate microbead systems for pesticide degradation  
 - Pioneered sustained-release formulations for bacterial consortia  
 
+<br><br>
+
 ---
 
+<br><br>
 ## 🌍 Where I'm Headed
 
 I'm currently seeking **PhD opportunities** to:  
@@ -66,13 +71,18 @@ My research interests remain broad, though I'm particularly fascinated by:
 - Cross-ecosystem pollution transport  
 - Comprehensive risk assessments  
 
+<br><br>
+
 ---
 
+<br><br>
 ## 🚀 Beyond Research
 
 I'm committed to:  
 - Mentoring underprivileged children  
 - Communicating complex science to diverse audiences  
 - Building interdisciplinary collaborations  
+
+<br><br>
 
 ---
