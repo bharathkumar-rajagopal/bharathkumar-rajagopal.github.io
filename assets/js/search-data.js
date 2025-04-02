@@ -54,6 +54,11 @@ ninja.data = [{
           description: "Biogenic synthesis of Silver Nanoparticles using Endophytic bacteria isolated from Andrographis paniculata and its Potential Applications as Anticancer and Antibacterial Agents",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
+            },},{id: "projects-empowering-young-minds",
+          title: 'Empowering Young Minds',
+          description: "My Journey as a Social Work Intern",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Project_NGO/";
             },},{
         id: 'social-email',
         title: 'email',
