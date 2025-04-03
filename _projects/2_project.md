@@ -28,4 +28,4 @@ This study explores the biogenic synthesis of silver nanoparticles (AgNPs) using
 
 
 
--- Further Detils of the project will be updated upon publication --
+-- Further Details of the project will be updated upon publication --

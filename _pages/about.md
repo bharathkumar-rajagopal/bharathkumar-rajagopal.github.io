@@ -28,11 +28,11 @@ latest_posts:
 ---
 <br><br>
 
-I'm an early-stage researcher passionate about unraveling environmental pollution through advanced biotechnological approaches. With a **Master's in Biotechnology** (Distinction, CGPA: 8.75/10) from Amity University, I specialize in:
+I'm an early-stage researcher passionate about unraveling environmental pollution through advanced biotechnological approaches. With a **Master's in Biotechnology** (Distinction, CGPA: 8.75/10) from Amity University, I specialise in:
 
 - Advanced analytical techniques  
-- Environmental Risk assessments    
-- Pollutant Characterisation  
+- Environmental risk assessments  
+- Pollutant characterisation  
 
 My work sits at the exciting intersection of **Biotechnology** and **real-world environmental challenges**, using Biotechnology as my foundation while expanding into atmospheric chemistry and environmental science - the interdisciplinary approach modern pollution research demands.
 
@@ -45,12 +45,12 @@ My work sits at the exciting intersection of **Biotechnology** and **real-world 
 ## 🧪 **What I've Done**
 
 ### Nanoplastic Toxicology Research  
-@ *<a href="https://iitr.res.in/">CSIR-Indian Institute of Toxicology Research</a>*  
+@ *CSIR-Indian Institute of Toxicology Research*  
 - Investigated cellular impacts of polystyrene nanoplastics  
-- Developed protocols for particle characterization and toxicity assessment  
+- Developed protocols for particle characterisation and toxicity assessment  
 
 ### Bioremediation Engineering  
-@ *<a href="https://amity.edu/">Amity University Uttar Pradesh</a>* (with Dr. Shashi Sharma)  
+@ *Amity University Uttar Pradesh* (with Dr. Shashi Sharma)  
 - Designed alginate microbead systems for pesticide degradation  
 - Pioneered sustained-release formulations for bacterial consortia  
 
@@ -68,7 +68,7 @@ I'm currently seeking **PhD opportunities** to:
 - Bridge laboratory findings with environmental policy  
 
 My research interests remain broad, though I'm particularly fascinated by:  
-- Micro/nanoplastic environmental behavior  
+- Micro/nanoplastic environmental behaviour  
 - Cross-ecosystem pollution transport  
 - Comprehensive risk assessments  
 
