@@ -87,8 +87,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Bharathkumar RAJAGOPAL # blog_name will be displayed in your blog page
-blog_description: Blog
+blog_name: Bharath's Lab Notes # blog_name will be displayed in your blog page
+blog_description: A place for my personal thoughts, science updates, and project highlights. Join me as I share summaries of recent research and more.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
