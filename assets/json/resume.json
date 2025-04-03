@@ -5,7 +5,7 @@
     "image": "",
     "email": "i.bharath@outlook.com",
     "phone": "(+91) 8072253737",
-    "url": "https://bharathkumar-rajagopal.github.io/bharathkumar-rajagopal/",
+    "url": "https://bharathkumar-rajagopal.github.io/",
     "summary": "Prospective PhD candidate",
     "location": {
       "address": "5, Eswaramoorthy Nagar, 3rd Street, Velliyangadu",
@@ -26,30 +26,30 @@
     {
       "name": "CSIR - Indian Institute of Toxicology Research, Lucknow",
       "position": "Dissertation Trainee",
-      "url": "",
+      "url": "https://iitr.res.in/",
       "startDate": "2024-01-02",
       "endDate": "2024-05-13",
-      "Thesis Title": "In Vitro Toxicity Assessment of Polystyrene Nanoplastics in Chinese Hamster Lung fibroblast cells (V-79)",
+      "project": "Thesis Title: In Vitro Toxicity Assessment of Polystyrene Nanoplastics in Chinese Hamster Lung fibroblast cells (V-79)",
       "summary": "A concentration-dependent increase in irregular cell morphology was observed, with decreased cell viability in the Trypan Blue and Comet assays. ROS assay indicated varied response, suggesting alternative toxicity pathways at higher PS NPs exposure.",
       "highlights": ["Toxicology, Risk assessments, Mammalian cell culture establishment and maintainance, Cytotoxicity assays, Genotoxicity assays"]
     },
     {
       "name": "Centre for Biotechnology and Biochemical Engineering, Amity Institute of Biotechnology, Amity University Uttar Pradesh.",
       "position": "Postgraduate Research Assistant",
-      "url": "",
+      "url": "https://www.amity.edu/",
       "startDate": "2023-07-01",
       "endDate": "2023-12-31",
-      "Project": "Microbeads preparation with Bacterial Consortia",
+      "project": "Project: Microbeads preparation with Bacterial Consortia",
       "summary": "The microbeads, synthesised using bacterial consortia that degrade pesticides, facilitate the storage and transport of these consortia for extended periods.",
       "highlights": ["Microbial Culture Establishment and Maintainance, Microbead preparation and optimisation"]   
     },   
     {
       "name": "Centre for Biotechnology and Biochemical Engineering, Amity Institute of Biotechnology, Amity University Uttar Pradesh.",
       "position": "Summer Research Intern",
-      "url": "",
+      "url": "https://cbnrindia.com/",
       "startDate": "2023-06-05",
       "endDate": "2023-07-14",
-      "Project": "Biogenic Synthesis of Silver Nanoparticles using Endophytic Bacteria Isolated from Andrographis paniculata and its Potential Applications as Anticancer and Antibacterial Agents",
+      "project": "Project: Biogenic Synthesis of Silver Nanoparticles using Endophytic Bacteria Isolated from Andrographis paniculata and its Potential Applications as Anticancer and Antibacterial Agents",
       "summary": "Endophytic bacteria identified as Priestia megaterium were used to synthesize silver nanoparticles, which were characterized by UV-Visible Spectrophotometry, FTIR, and SEM. The nanoparticles showed significant antibacterial activity and reduction in cell viability in the Hep G2 cell line.",
       "highlights": ["Biogenic synthesis of nanoparticle, Green synthesis, Microbial Culture Establishment and Maintainance, Time kill assay, SEM, FTIR "]    
     }    
@@ -59,7 +59,7 @@
       "organization": "Liquid Trees",
       "location": "Noida, India",
       "position": "Volunteer",
-      "url": "",
+      "url": "https://liquidtrees.org/",
       "startDate": "2023-11-01",
       "endDate": "present",
       "summary": "Currently supporting ``Diatoms for a Cooler Tomorrow`` at Liquid Trees, a bioremediation startup. Join the movement to neutralize pollution and combat climate challenges. Let's make a real difference together!",
@@ -79,11 +79,11 @@
       "organization": "Manjil Non-Governmental Organization",
       "location": "Noida, India",
       "position": "Social Work Intern - Tutor",
-      "url": "",
+      "url": "https://manzil.in/",
       "startDate": "2023-02-01",
       "endDate": "2023-05-31",
       "summary": "Taught underprivileged children, focusing on their sustenance and growth within challenging geopolitical conditions.",
-      "highlights": []
+      "highlights": ["Social Work, Tutoring"]
     },   
     {
       "organization": "Amity Indian Military College (AIMC Manesar)",
@@ -121,7 +121,7 @@
       "institution": "Amity Institute of Biotechnology, Amity University Uttar Pradesh",
       "location": "Noida, India",
       "url": "https://www.amity.edu/",
-      "area": "Biotechnology",
+      "area": "Major: Biotechnology",
       "studyType": "Master of Science (MSc.)",
       "startDate": "2022-09-01",
       "endDate": "2024-07-31",
@@ -132,8 +132,8 @@
       "institution": "PSG College of Arts & Science, Bharathiar University",
       "location": "Coimbatore, India",
       "url": "https://www.psgcas.ac.in/",
-      "area": "Biotechnology",
-      "studyType": "Bacjelor of Science (BSc.)",
+      "area": "Major: Biotechnology",
+      "studyType": "Bachelor of Science (BSc.)",
       "startDate": "2019-09-01",
       "endDate": "2022-07-31",
       "score": "6.8",
@@ -155,79 +155,65 @@
       "date": "2024-02-31",
       "issuer": "National Programme on Technology Enhanced Learning (NPTEL), MoE, Government of India",
       "url": "",
-      "icon": "fa-solid fa-location-dot"
+      "icon": "fa-solid fa-book"
     },
     {
       "name": "Certificate in Bioinformatics",
       "date": "2020-05-31",
       "issuer": "PSG College of Arts & Science, Bharathiar University",
       "url": "",
-      "icon": "fa-solid fa-tag"
+      "icon": "fa-solid fa-laptop-code"
     },
     {
       "name": "Certificate course on Bionanotechnology (CBNT)",
       "date": "2020-05-31 ",
       "issuer": "Association of Indian Biologists (AIB)",
       "url": "",
-      "icon": "fa-solid fa-envelope"
+      "icon": "fa-solid fa-atom"
     },
     {
       "name": "Human Molecular Genetics",
       "date": "2020-02-31",
       "issuer": "National Programme on Technology Enhanced Learning (NPTEL), MoE, Government of India",
       "url": "",
-      "icon": "fa-solid fa-hashtag"
+      "icon": "fa-solid fa-dna"
     },
     {
       "name": "Hands-on training on “HPLC and GC-MS/MS: Instrumentation, Operation and Application”",
       "date": "2018-02-28",
       "issuer": "ICFRE - Institute of Forest Genetics and Tree Breeding",
       "url": "",
-      "icon": "fa-solid fa-calendar"
+      "icon": "fa-solid fa-microscope"
     },
     {
       "name": " Global Digital Corps (GDC) Field Ops Cadet",
       "date": "2018-01-01",
       "issuer": "Pupilfirst and recognized by the United Nations",
       "url": "",
-      "icon": "fa-solid fa-clipboard-check"
+      "icon": "fa-solid fa-house-chimney-crack"
     },
     {
       "name": "Yoga for Youth Empowerment",
       "date": "2018-06-01",
       "issuer": " SKY Yoga",
       "url": "",
-      "icon": "fa-solid fa-clipboard-check"
+      "icon": "fa-solid fa-person-walking"
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Development and Characterization of Artocarpus heterophyllus Lam. Nanosuspension: A Strategy to Enhance Bioavailability and Antioxidant Potential of Plant Bioactives",
+      "publisher": "Nanotechnology for Environmental Engineering",
+      "releaseDate": "",
+      "url": "",
+      "summary": "Under Review"
     }
   ],
   "skills": [
     {
       "name": "Applied computational techniques",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "fa-solid fa-computer",
       "keywords": [
         "BLAST",
         "PSIPRED",
@@ -240,7 +226,7 @@
     {
       "name": "Molecular Biology",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "fa-solid fa-dna",
       "keywords": [
         "DNA isolation and purification",
         "PCR",
@@ -252,7 +238,7 @@
     {
       "name": "Microbiology",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "fa-solid fa-bacterium",
       "keywords": [
         "Isolating pure culture",
         "Culturing and plating",
@@ -263,7 +249,7 @@
     {
       "name": "Toxicology",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "fa-solid fa-biohazard",
       "keywords": [
         "MTT",
         "Neutral red dye uptake assay",
@@ -275,7 +261,7 @@
     {
       "name": "Analytical techniques",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "fa-solid fa-microscope",
       "keywords": [
         "Column chromatography",
         "Affinity chromatography",
@@ -289,7 +275,7 @@
     {
       "name": "Language",
       "level": "Fundational",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "fa-solid fa-laptop-code",
       "keywords": [
         "Python",
         "LaTeX"
@@ -300,31 +286,31 @@
     {
       "language": "English",
       "fluency": "CEFR - C1 (Advanced)",
-      "icon": ""
+      "icon": "fa-solid fa-language"
     },
     {
       "language": "Tamil",
       "fluency": "Native Speaker",
-      "icon": ""
+      "icon": "fa-solid fa-language"
     }
   ],
 
   "references": [
     {
       "name": "Dr. Alok Kumar Pandey",
-      "icon": "fa-solid fa-laptop",
+      "icon": "fa-solid fa-envelope",
       "reference": "Senior Principal Scientist - CSIR - Indian Institute of Toxicology Research, Lucknow",
       "email": "alokpandey@iitr.res.in"
     },
     {
       "name": "Dr. Ravi Kant Singh",
-      "icon": "fa-solid fa-laptop",
+      "icon": "fa-solid fa-envelope",
       "reference": "Professor - Amity Institute of Biotechnology, Amity University Uttar Pradesh",
       "email": "rksingh1@amity.edu"
     },
     {
       "name": "Dr. Boobal Rangaswamy",
-      "icon": "fa-solid fa-laptop",
+      "icon": "fa-solid fa-envelope",
       "email": "boobal@psgcas.ac.in",
       "reference": "Assistant Professor – Department of Biotechnology, PSG College of Arts & Science, Tamil Nadu"
     }
