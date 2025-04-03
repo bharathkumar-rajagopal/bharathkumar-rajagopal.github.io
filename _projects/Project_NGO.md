@@ -13,13 +13,13 @@ I began by teaching them basic English, math, and science. It was a joy to see t
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Project_NGO_pic2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Project_NGO_pic2.jpg" title="With all the children I tutored" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Project_NGO_pic3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Project_NGO_pic3.jpg" title="He reminds me of myself as a kid" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Project_NGO_pic8.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Project_NGO_pic8.jpg" title="I am tutoring, but they only like to pose, lol" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -29,10 +29,10 @@ One of the biggest challenges these children faced was the need to support their
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/Project_NGO_pic7 (8).jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/Project_NGO_pic7 (8).jpg" title="Joyful moments" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/Project_NGO_pic6 (9).jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/Project_NGO_pic6 (9).jpg" title="Yes, she did her homework and it's a victory for us" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -43,10 +43,10 @@ For the children who were already enrolled in schools, I provided homework assis
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Project_NGO_pic9.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Project_NGO_pic9.jpg" title="Being cute is not enough, kiddo. Study, please!" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Project_NGO_description.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Project_NGO_description.jpg" title="Giving flowers is just bribery, but it's cute, tho" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
