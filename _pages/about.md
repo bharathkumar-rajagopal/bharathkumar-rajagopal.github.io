@@ -42,7 +42,7 @@ My work sits at the exciting intersection of **Biotechnology** and **real-world 
 
 <br><br>
 
-## 🧪 What I've Done
+## 🧪 **What I've Done**
 
 ### Nanoplastic Toxicology Research  
 @ *<a href="https://iitr.res.in/">CSIR-Indian Institute of Toxicology Research</a>*  
@@ -59,7 +59,8 @@ My work sits at the exciting intersection of **Biotechnology** and **real-world 
 ---
 
 <br><br>
-## 🌍 Where I'm Headed
+
+## 🌍 **Where I'm Headed**
 
 I'm currently seeking **PhD opportunities** to:  
 - Map pollutant transport pathways across air/water systems  
@@ -76,7 +77,8 @@ My research interests remain broad, though I'm particularly fascinated by:
 ---
 
 <br><br>
-## 🚀 Beyond Research
+
+## 🚀 **Beyond Research**
 
 I'm committed to:  
 - Mentoring underprivileged children  
