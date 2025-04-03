@@ -6,6 +6,7 @@ img: assets/img/project2_description.jpg
 importance: 2
 category: work
 giscus_comments: false
+related_publications: true
 ---
 
     ---
@@ -22,7 +23,7 @@ This study explores the biogenic synthesis of silver nanoparticles (AgNPs) using
     </div>
 </div>
 <div class="caption">
-    A. paniculata, commonly known in English as green chiretta and Nilavembu in Tamil belongs to Acanthaceae family. It is a medicinal plant highly used in Indian traditional system of medicines. Picture {% cite santhionlineplantsAndrographisPaniculata%}
+    A. paniculata, commonly known in English as green chiretta and Nilavembu in Tamil belongs to Acanthaceae family. It is a medicinal plant highly used in Indian traditional system of medicines. Picture from {% cite santhionlineplantsAndrographisPaniculata%}
 </div>
 
 

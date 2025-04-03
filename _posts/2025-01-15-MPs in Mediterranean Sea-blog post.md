@@ -9,11 +9,11 @@ giscus_comments: true
 related_publications: true
 ---
 
-Two recent studies caught my eye this week, both tackling microplastic pollution in the Mediterranean; but from wildly different angles. One dives into the chemical hitchhikers on plastic debris along Italy's Calabrian coast, while the other maps out the weird little ecosystems thriving on microplastics in the Eastern Mediterranean. Together, they're painting a more complex picture of how plastic pollution interacts with marine environments. Let's unpack this.
+Two recent studies caught my eye this week, both tackling microplastic pollution in the Mediterranean; but from wildly different angles. One talks about the chemical hitchhikers on plastic debris along Italy's Calabrian coast, while the other maps out the weird little ecosystems thriving on microplastics in the Eastern Mediterranean. Together, they're painting a more complex picture of how plastic pollution interacts with marine environments. Let's unpack this.
 
 ## Calabrian Coast: Plastics, Ports, and Heavy Metals
 
-The {% cite brunetti2025examining %} sampled microplastics from six sites along Calabria's coastline. They found that areas near commercial ports—like Gioia Tauro and Cetraro—had the highest concentrations of microplastics. Most were polyethylene (PE) fragments between 1-2 mm, which checks out since PE is the poster child of packaging materials. But here's the kicker: these tiny plastic bits weren't just passive litter. They were loaded with heavy metals like lead (Pb), chromium (Cr), and zinc (Zn), with levels up to four times higher on the Ionian coast compared to the Tyrrhenian side. The authors argue that MPs might act as "environmental carriers," shuttling toxic metals into the food chain {% cite brunetti2025examining %}. Scary stuff, especially when you think about seafood ending up on our plates.
+The {% cite brunetti2025examining %} sampled microplastics from six sites along Calabria's coastline. They found that areas near commercial ports, like Gioia Tauro and Cetraro; had the highest concentrations of microplastics. Most were polyethylene (PE) fragments between 1-2 mm, which checks out since PE is the poster child of packaging materials. But here's the kicker: these tiny plastic bits weren't just passive litter. They were loaded with heavy metals like lead (Pb), chromium (Cr), and zinc (Zn), with levels up to four times higher on the Ionian coast compared to the Tyrrhenian side. The authors argue that MPs might act as "environmental carriers," shuttling toxic metals into the food chain {% cite brunetti2025examining %}. Scary stuff, especially when you think about seafood ending up on our plates.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
