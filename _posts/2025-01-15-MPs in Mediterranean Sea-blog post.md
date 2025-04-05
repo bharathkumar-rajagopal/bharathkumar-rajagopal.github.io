@@ -4,7 +4,7 @@ title: Microplastics in the Mediterranean
 date: 2025-01-15 16:40:16
 description: New Insights and Unanswered Questions
 tags: Microplastics, Pollutants, Environmental
-categories: Current-researches
+categories: current-research
 giscus_comments: true
 related_publications: true
 ---

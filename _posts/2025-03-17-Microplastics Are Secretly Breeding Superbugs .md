@@ -3,8 +3,8 @@ layout: post
 title: Microplastics Are Secretly Breeding Superbugs – Here’s How
 date: 2025-03-17 23:27:06
 description: New research shows bacterial biofilms on plastic waste accelerate the spread of resistant genes – and your water bottle might be part of the problem.
-tags: Microplastics, Pollutants, Environmental
-categories: Current-researches
+tags: Microplastics, Health
+categories: current-research
 giscus_comments: true
 related_publications: true
 ---

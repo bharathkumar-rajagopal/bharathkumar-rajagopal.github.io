@@ -4,7 +4,7 @@ title: Microplastics Found in Human Brains: My Take on the Groundbreaking Study
 date: 2025-02-24 21:47:20
 description: A close look at the methods and findings of the recent Nature Medicine paper that detected plastic particles in human brain tissues – separating facts from media hype.
 tags: Microplastics, Pollutants, Environmental
-categories: Current-researches
+categories: current-research
 giscus_comments: true
 related_publications: true
 ---
