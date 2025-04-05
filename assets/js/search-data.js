@@ -30,18 +30,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-",
-      
-        title: "",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2025/2025-02-24-Microplastics-Found-in-Human-Brains/";
-        
-      },
-    },{id: "post-microplastics-are-secretly-breeding-superbugs-here-s-how",
+        },{id: "post-microplastics-are-secretly-breeding-superbugs-here-s-how",
       
         title: "Microplastics Are Secretly Breeding Superbugs – Here’s How",
       
@@ -50,6 +39,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2025/Microplastics-Are-Secretly-Breeding-Superbugs/";
+        
+      },
+    },{id: "post-microplastics-found-in-human-brains-my-take-on-the-groundbreaking-study",
+      
+        title: "Microplastics Found in Human Brains - My Take on the Groundbreaking Study",
+      
+      description: "A close look at the methods and findings of the recent Nature Medicine paper that detected plastic particles in human brain tissues – separating facts from media hype.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/Microplastics-Found-in-Human-Brains/";
         
       },
     },{id: "post-microplastics-in-the-mediterranean",
