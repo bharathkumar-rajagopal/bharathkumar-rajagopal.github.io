@@ -9,7 +9,7 @@ giscus_comments: true
 related_publications: true
 ---
 
-I've been reading a lot about microplastics recently, both out of personal concern and because I'm thinking about focusing on this for my PhD. One paper {% cite Zhou2024-pl %} that really stood out examined how microplastics help bacteria share antibiotic resistance genes. What made it special was how thorough their methods were.
+I've been reading a lot about microplastics recently, both out of personal concern and because I'm thinking about focusing on this for my PhD. One paper {% cite Zhou2024 %} that really stood out examined how microplastics help bacteria share antibiotic resistance genes. What made it special was how thorough their methods were.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -17,7 +17,7 @@ I've been reading a lot about microplastics recently, both out of personal conce
     </div>
 </div>
 <div class="caption">
-  Graphical abstract from {% cite He2022-ka %} illustrating the environmental journey of microplastics: from weathering and transport to biofilm formation, contaminant accumulation, and ecological risks.
+  Graphical abstract from {% cite He2022 %} illustrating the environmental journey of microplastics: from weathering and transport to biofilm formation, contaminant accumulation, and ecological risks.
 </div>
 
 The researchers chose two specific types of E. coli bacteria for their experiments. One strain carried antibiotic resistance genes on a special plasmid, while another strain had different resistance markers. This smart pairing made it easy to track when genes moved between them. They tested four common microplastic types found in rivers and coasts, all cut to the same exact size for consistency. Instead of using plain water, they created artificial estuary conditions that matched real world environments where this gene swapping might happen. This attention to detail was important because factors like salt levels and available nutrients can change how bacteria behave.
