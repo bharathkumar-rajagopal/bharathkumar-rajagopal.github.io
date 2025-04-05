@@ -30,7 +30,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-microplastics-in-the-mediterranean",
+        },{id: "post-",
+      
+        title: "",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/2025-02-24-Microplastics-Found-in-Human-Brains/";
+        
+      },
+    },{id: "post-microplastics-are-secretly-breeding-superbugs-here-s-how",
+      
+        title: "Microplastics Are Secretly Breeding Superbugs – Here’s How",
+      
+      description: "New research shows bacterial biofilms on plastic waste accelerate the spread of resistant genes – and your water bottle might be part of the problem.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/Microplastics-Are-Secretly-Breeding-Superbugs/";
+        
+      },
+    },{id: "post-microplastics-in-the-mediterranean",
       
         title: "Microplastics in the Mediterranean",
       
@@ -41,12 +63,7 @@ ninja.data = [{
           window.location.href = "/blog/2025/MPs-in-Mediterranean-Sea-blog-post/";
         
       },
-    },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-successfully-defended-my-master-s-thesis-relieved-page-with-curl",
+    },{id: "news-successfully-defended-my-master-s-thesis-relieved-page-with-curl",
           title: 'Successfully defended my Master’s thesis :relieved: :page_with_curl:',
           description: "",
           section: "News",},{id: "news-i-took-my-english-proficiency-exam-ielts-on-the-18th-of-this-month-and-got-a-cefr-c1-advanced-one-step-closer-to-my-phd-hooray-grin-star2",
