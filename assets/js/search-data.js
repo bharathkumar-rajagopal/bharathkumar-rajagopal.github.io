@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-microplastics-are-secretly-breeding-superbugs-here-s-how",
+        },{id: "post-microplastics-in-the-sky-how-tiny-plastic-particles-might-be-shaping-clouds-and-climate",
+      
+        title: "Microplastics in the Sky - How Tiny Plastic Particles Might Be Shaping Clouds...",
+      
+      description: "New research reveals that airborne microplastics could influence cloud formation and global climate patterns - here&#39;s what we know so far.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/Microplastics-in-the-Sky/";
+        
+      },
+    },{id: "post-microplastics-are-secretly-breeding-superbugs-here-s-how",
       
         title: "Microplastics Are Secretly Breeding Superbugs – Here’s How",
       
