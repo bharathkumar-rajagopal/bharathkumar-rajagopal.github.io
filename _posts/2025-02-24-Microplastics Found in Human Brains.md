@@ -19,7 +19,7 @@ This isn't just about detection; it's about velocity. A 50% increase in brain mi
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/MPs in brain.png" title=", Polarization wave microscopy images and TEM [only (f)] of plastic shards (100-200nm) and light microscopy images of larger microplastic particles (2-25μm) in postmortem human brain tissue samples." class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/MPs in brain.png" title="Polarization wave microscopy images and TEM [only (f)] of plastic shards (100-200nm) and light microscopy images of larger microplastic particles (2-25μm) in postmortem human brain tissue samples." class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
