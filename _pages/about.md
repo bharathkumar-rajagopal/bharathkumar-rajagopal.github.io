@@ -26,13 +26,14 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+
 <br><br>
 
 I'm an early-stage researcher passionate about unraveling environmental pollution through advanced biotechnological approaches. With a **Master's in Biotechnology** (Distinction, CGPA: 8.75/10) from Amity University, I specialise in:
 
-- Advanced analytical techniques  
-- Environmental risk assessments  
-- Pollutant characterisation  
+- Advanced analytical techniques
+- Environmental risk assessments
+- Pollutant characterisation
 
 My work sits at the exciting intersection of **Biotechnology** and **real-world environmental challenges**, using Biotechnology as my foundation while expanding into atmospheric chemistry and environmental science - the interdisciplinary approach modern pollution research demands.
 
@@ -44,15 +45,19 @@ My work sits at the exciting intersection of **Biotechnology** and **real-world 
 
 ## 🧪 **What I've Done**
 
-### Nanoplastic Toxicology Research  
-@ *C<a href="https://iitr.res.in/">CSIR-Indian Institute of Toxicology Research</a>*  
-- Investigated cellular impacts of polystyrene nanoplastics  
-- Developed protocols for particle characterisation and toxicity assessment  
+### Nanoplastic Toxicology Research
 
-### Bioremediation Engineering  
-@ *<a href="https://amity.edu/">Amity University Uttar Pradesh</a>* (with Dr. Shashi Sharma)  
-- Designed alginate microbead systems for pesticide degradation  
-- Pioneered sustained-release formulations for bacterial consortia  
+@ _C<a href="https://iitr.res.in/">CSIR-Indian Institute of Toxicology Research</a>_
+
+- Investigated cellular impacts of polystyrene nanoplastics
+- Developed protocols for particle characterisation and toxicity assessment
+
+### Bioremediation Engineering
+
+@ _<a href="https://amity.edu/">Amity University Uttar Pradesh</a>_ (with Dr. Shashi Sharma)
+
+- Designed alginate microbead systems for pesticide degradation
+- Pioneered sustained-release formulations for bacterial consortia
 
 <br><br>
 
@@ -62,15 +67,17 @@ My work sits at the exciting intersection of **Biotechnology** and **real-world 
 
 ## 🌍 **Where I'm Headed**
 
-I'm currently seeking **PhD opportunities** to:  
-- Map pollutant transport pathways across air/water systems  
-- Develop innovative detection methods using advanced analytics  
-- Bridge laboratory findings with environmental policy  
+I'm currently seeking **PhD opportunities** to:
 
-My research interests remain broad, though I'm particularly fascinated by:  
-- Micro/nanoplastic environmental behaviour  
-- Cross-ecosystem pollution transport  
-- Comprehensive risk assessments  
+- Map pollutant transport pathways across air/water systems
+- Develop innovative detection methods using advanced analytics
+- Bridge laboratory findings with environmental policy
+
+My research interests remain broad, though I'm particularly fascinated by:
+
+- Micro/nanoplastic environmental behaviour
+- Cross-ecosystem pollution transport
+- Comprehensive risk assessments
 
 <br><br>
 
@@ -80,10 +87,11 @@ My research interests remain broad, though I'm particularly fascinated by:
 
 ## 🚀 **Beyond Research**
 
-I'm committed to:  
-- Mentoring underprivileged children  
-- Communicating complex science to diverse audiences  
-- Building interdisciplinary collaborations  
+I'm committed to:
+
+- Mentoring underprivileged children
+- Communicating complex science to diverse audiences
+- Building interdisciplinary collaborations
 
 <br><br>
 

@@ -11,7 +11,7 @@ related_publications: true
 
 # Microplastics in Human Brains: Cutting Through the Hype
 
-As a grad student watching the media frenzy around microplastics in brains, I went straight to the source - the *Nature Medicine* study {% cite Nihart2025Microplastics %}. The team analyzed 100+ postmortem brains/livers/kidneys using pyrolysis GC/MS (burning samples to identify plastic signatures) and electron microscopy. Their key finding? Brains contained 7-30x more microplastics than other organs, dominated by polyethylene (75% - your grocery bag material), with 2024 levels 5x higher than 2016. Dementia brains showed 10x more plastic accumulation near blood vessels, though causation remains unproven.
+As a grad student watching the media frenzy around microplastics in brains, I went straight to the source - the _Nature Medicine_ study {% cite Nihart2025Microplastics %}. The team analyzed 100+ postmortem brains/livers/kidneys using pyrolysis GC/MS (burning samples to identify plastic signatures) and electron microscopy. Their key finding? Brains contained 7-30x more microplastics than other organs, dominated by polyethylene (75% - your grocery bag material), with 2024 levels 5x higher than 2016. Dementia brains showed 10x more plastic accumulation near blood vessels, though causation remains unproven.
 
 ## Why This Matters Beyond Headlines
 

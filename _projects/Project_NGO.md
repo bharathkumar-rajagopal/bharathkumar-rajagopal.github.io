@@ -4,7 +4,7 @@ title: Empowering Young Minds
 description: My Journey as a Social Work Intern
 img: assets/img/Project_NGO_description.jpg
 importance: 3
-category: social 
+category: social
 ---
 
 Working as a Social Work Intern at Manjil Non-Governmental Organization was one of the most fulfilling experiences of my life. Every evening after school, I would head to the slum areas where children, mostly aged between 8 to 12 years, eagerly awaited my arrival. These children had never had the opportunity to attend school or receive any formal education due to their challenging socioeconomic conditions.

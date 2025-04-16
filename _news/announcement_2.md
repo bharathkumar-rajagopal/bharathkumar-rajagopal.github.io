@@ -5,7 +5,9 @@ date: 2024-06-10 16:11:00-0400
 inline: true
 related_posts: false
 ---
+
 Successfully defended my Master's thesis :relieved: :page_with_curl:
+
 <!-- Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below. -->
 
 <!-- ---

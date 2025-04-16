@@ -7,12 +7,14 @@ importance: 1
 category: work
 related_publications: true
 ---
+
     ---
-    Supervisor: Dr. Alok Kumar Pandey, Senior Principal Scientist  
+    Supervisor: Dr. Alok Kumar Pandey, Senior Principal Scientist
     Institute : CSIR - Indian Institute of Toxicology Research, Lucknow
     ---
 
 Nanoplastics, including polystyrene nanoplastics (PS NPs), are pervasive environmental contaminants with potential adverse effects on biological systems. These miniature plastic particles, measuring less than 1000 nanometers in diameter, have gained significant attention due to their widespread distribution in the environment and their potential to enter various ecosystems, including freshwater and marine environments, as well as terrestrial habitats. Despite their ubiquitous presence, our understanding of the cellular toxicity mechanisms of nanoplastics remains limited. This study aimed to address this gap by investigating the effects of PS NPs on Chinese hamster lung fibroblast cells (V-79) and exploring the underlying toxicity.
+
 <!-- Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width. -->
@@ -40,6 +42,7 @@ Make your photos 1/3, 2/3, or full width. -->
 <div class="caption">
 
     The sources, formation, and impact pathways of microplastics and nanoplastics on living organisms.
+
 </div>
 
 <!-- Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles. -->
@@ -90,8 +93,5 @@ Here's the code for the last row of images above:
   </div>
 </div>
 ``` -->
+
 {% endraw  %}
-
-
-
-
