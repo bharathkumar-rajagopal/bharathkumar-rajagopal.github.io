@@ -4,6 +4,9 @@ title: about
 permalink: /
 subtitle: <a href='#'>Prospective PhD Candidate</a>. Ecotoxicology | Atmospheric Chemsitry | Pollutants
 
+description: "About me"
+
+
 profile:
   align: center
   image: prof_pic.jpg
