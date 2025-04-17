@@ -4,7 +4,7 @@ title: about
 permalink: /
 subtitle: <a href='#'>Prospective PhD Candidate</a>. Ecotoxicology | Atmospheric Chemsitry | Pollutants
 
-description: About me
+description: sample description "leave blank to include all the news in the `_news` folder."
 
 profile:
   align: center
