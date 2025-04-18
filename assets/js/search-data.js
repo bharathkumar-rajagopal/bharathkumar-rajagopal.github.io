@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-microplastics-in-the-sky-how-tiny-plastic-particles-might-be-shaping-clouds-and-climate",
+        },{id: "post-microplastics-in-soil",
+      
+        title: "Microplastics in Soil",
+      
+      description: "Findings from a Two-Year Study",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/Microplastics-in-Soil/";
+        
+      },
+    },{id: "post-microplastics-in-the-sky-how-tiny-plastic-particles-might-be-shaping-clouds-and-climate",
       
         title: "Microplastics in the Sky - How Tiny Plastic Particles Might Be Shaping Clouds...",
       
