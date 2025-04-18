@@ -11,7 +11,7 @@ related_publications: true
 
 # Microplastics in Soil: Findings from a Two-Year Study
 
-I recently came across a paper on <a href="https://x.com/DeniseMitrano/status/1912122726099091907">X.com</a> that caught my attention due to its relevance to my ongoing research on agricultural sustainability. Titled _“Minimal vertical transport of microplastics in soil over two years with little impact of plastics on soil macropore networks,”_ the study investigates how microplastics behave in soil over extended periods. After reading it, I wanted to share a summary of the methods, results, and implications, along with my thoughts on how this work could inform future research.
+I recently came across a paper on <a href="https://x.com/DeniseMitrano/status/1912122726099091907">X.com</a> that caught my attention due to its relevance to my intended PhD research and my interest in microplastics. Titled _<a href="https://doi.org/10.1038/s43247-025-02237-w">“Minimal vertical transport of microplastics in soil over two years with little impact of plastics on soil macropore networks,”</a>_ the study investigates how microplastics behave in soil over extended periods. After reading it, I wanted to share a summary of the methods, results, and implications, along with my thoughts on how this work could inform future research.
 
 ---
 
@@ -68,6 +68,6 @@ This paper has shaped my approach to drafting a research proposal in three key w
 
 ## Final Thoughts
 
-This study offers a balanced perspective on microplastics in soil. While it does not dismiss risks, it highlights soil resilience and the need for nuanced, context-specific research. For early-career researchers like myself, it reinforces the value of patience in environmental science, because complex systems require time to reveal their secrets. As I refine my proposal, I’m inspired to explore unanswered questions: How do different plastic types interact with soil biota? Can biodegradable alternatives reduce long-term risks? And what happens when microplastics meet other stressors, like pesticides or climate extremes?
+This study offers a balanced perspective on microplastics in soil. While it does not dismiss risks, it highlights soil resilience and the need for nuanced, context-specific research. For early-career researchers like myself, it reinforces the value of patience in environmental science, because complex systems require time to reveal their secrets. As I refine my proposal and constantly approach professors with these ideas for my PhD, I’m inspired to explore unanswered questions: How do different plastic types interact with soil biota? Can biodegradable alternatives reduce long-term risks? And what happens when microplastics meet other stressors, like pesticides or climate extremes?
 
-If anything, this paper is a reminder that environmental challenges demand both urgency and humility. Solutions will emerge not from alarmism, but from careful, iterative science. Now, back to drafting that proposal!
+If anything, this paper is a reminder that environmental challenges demand both urgency and humility. Solutions will emerge not from alarmism, but from careful, iterative science. Now, back to searching for a PhD hunt!
