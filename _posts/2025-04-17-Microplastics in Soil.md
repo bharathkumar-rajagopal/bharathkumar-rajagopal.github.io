@@ -11,7 +11,7 @@ related_publications: true
 
 # Microplastics in Soil: Findings from a Two-Year Study
 
-I recently came across a paper on <a href="https://x.com/DeniseMitrano/status/1912122726099091907">X.com</a> that caught my attention due to its relevance to my ongoing research on agricultural sustainability. Titled *“Minimal vertical transport of microplastics in soil over two years with little impact of plastics on soil macropore networks,”* the study investigates how microplastics behave in soil over extended periods. After reading it, I wanted to share a summary of the methods, results, and implications, along with my thoughts on how this work could inform future research.
+I recently came across a paper on <a href="https://x.com/DeniseMitrano/status/1912122726099091907">X.com</a> that caught my attention due to its relevance to my ongoing research on agricultural sustainability. Titled _“Minimal vertical transport of microplastics in soil over two years with little impact of plastics on soil macropore networks,”_ the study investigates how microplastics behave in soil over extended periods. After reading it, I wanted to share a summary of the methods, results, and implications, along with my thoughts on how this work could inform future research.
 
 ---
 
@@ -35,12 +35,15 @@ To track plastic movement, the team used indium-doped PET. Indium, a rare metal,
 ## Key Results: Limited Movement and Soil Adaptation
 
 ### Plastic Transport Was Minimal
+
 After two years, only about 1% of the microplastics reached depths below 8 cm. Most remained concentrated in the upper soil layers where they were initially applied. Fibers showed slightly higher mobility than fragments in some layers, but overall, both types moved very little. This contrasts with lab studies suggesting faster transport, highlighting how natural soil processes like compaction, root activity, and earthworm burrowing; limit vertical migration.
 
 ### Soil Structure Remained Largely Unaffected
+
 Despite initial concerns, microplastics had negligible long-term effects on soil macropores. While soils with plastics initially showed slightly higher macroporosity, these differences disappeared by the second year. Natural processes, such as plant root growth and bioturbation, appeared to override any short-term structural changes caused by plastics. Over time, macropore networks evolved independently of plastic presence, driven by biological activity and environmental factors like wet-dry cycles.
 
 ### High Recovery Rates Highlight Method Reliability
+
 Over 80% of the added microplastics were recoverable after two years. This suggests minimal degradation or lateral loss, underscoring the effectiveness of indium as a tracer. It also implies that microplastics may accumulate in topsoil over time, rather than dispersing or breaking down rapidly.
 
 ---
