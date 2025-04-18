@@ -30,11 +30,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-microplastics-in-soil",
+        },{id: "post-microplastics-in-soil-findings-from-a-two-year-study",
       
-        title: "Microplastics in Soil",
+        title: "Microplastics in Soil - Findings from a Two-Year Study",
       
-      description: "Findings from a Two-Year Study",
+      description: "A summary and analysis of a two-year field study on microplastic transport in agricultural soils, exploring minimal vertical movement and negligible impacts on soil structure, with insights for future research.",
       section: "Posts",
       handler: () => {
         
