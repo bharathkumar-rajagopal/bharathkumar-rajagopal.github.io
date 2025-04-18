@@ -3,6 +3,7 @@ layout: post
 title: Microplastics in Soil
 date: 2025-04-18 11:28:16
 description: Findings from a Two-Year Study
+tags: Microplastics, Environmental
 categories: current-research
 giscus_comments: true
 related_publications: true
@@ -10,7 +11,9 @@ related_publications: true
 
 # Microplastics in Soil: Findings from a Two-Year Study
 
-I recently came across a paper {% cite Schefer_2025 %} on X.com that caught my attention due to its relevance to my ongoing research on agricultural sustainability. Titled *“Minimal vertical transport of microplastics in soil over two years with little impact of plastics on soil macropore networks,”* the study investigates how microplastics behave in soil over extended periods. After reading it, I wanted to share a summary of the methods, results, and implications, along with my thoughts on how this work could inform future research.
+I recently came across a paper {% cite Schefer_2025 %} on 
+<a href="https://x.com/DeniseMitrano/status/1912122726099091907">X.com</a>
+  that caught my attention due to its relevance to my ongoing research on agricultural sustainability. Titled *“Minimal vertical transport of microplastics in soil over two years with little impact of plastics on soil macropore networks,”* the study investigates how microplastics behave in soil over extended periods. After reading it, I wanted to share a summary of the methods, results, and implications, along with my thoughts on how this work could inform future research.
 
 ---
 

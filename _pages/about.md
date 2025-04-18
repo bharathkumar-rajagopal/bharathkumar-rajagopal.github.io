@@ -49,7 +49,7 @@ My work sits at the exciting intersection of **Biotechnology** and **real-world 
 
 ### Nanoplastic Toxicology Research
 
-@ _C<a href="https://iitr.res.in/">CSIR-Indian Institute of Toxicology Research</a>_
+@ _<a href="https://iitr.res.in/">CSIR-Indian Institute of Toxicology Research</a>_
 
 - Investigated cellular impacts of polystyrene nanoplastics
 - Developed protocols for particle characterisation and toxicity assessment
