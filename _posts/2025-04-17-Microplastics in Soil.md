@@ -70,4 +70,4 @@ This paper has shaped my approach to drafting a research proposal in three key w
 
 This study offers a balanced perspective on microplastics in soil. While it does not dismiss risks, it highlights soil resilience and the need for nuanced, context-specific research. For early-career researchers like myself, it reinforces the value of patience in environmental science, because complex systems require time to reveal their secrets. As I refine my proposal and constantly approach professors with these ideas for my PhD, I’m inspired to explore unanswered questions: How do different plastic types interact with soil biota? Can biodegradable alternatives reduce long-term risks? And what happens when microplastics meet other stressors, like pesticides or climate extremes?
 
-If anything, this paper is a reminder that environmental challenges demand both urgency and humility. Solutions will emerge not from alarmism, but from careful, iterative science. Now, back to searching for a PhD hunt!
+If anything, this paper is a reminder that environmental challenges demand both urgency and humility. Solutions will emerge not from alarmism, but from careful, iterative science.
