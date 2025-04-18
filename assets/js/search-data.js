@@ -74,17 +74,6 @@ ninja.data = [{
           window.location.href = "/blog/2025/MPs-in-Mediterranean-Sea-blog-post/";
         
       },
-    },{id: "post-a-post-with-geojson",
-      
-        title: "a post with geojson",
-      
-      description: "this is what included geojson code could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/geojson-map-copy/";
-        
-      },
     },{id: "news-successfully-defended-my-master-s-thesis-relieved-page-with-curl",
           title: 'Successfully defended my Master’s thesis :relieved: :page_with_curl:',
           description: "",
