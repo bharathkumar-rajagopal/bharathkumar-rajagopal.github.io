@@ -308,8 +308,8 @@ display_categories: ["current-research", "my-project"] # these categories will b
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Rajagopal]
+  first_name: [Bharathkumar]
 
   style: apa
   locale: en
