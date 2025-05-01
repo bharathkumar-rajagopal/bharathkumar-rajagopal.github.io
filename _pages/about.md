@@ -31,7 +31,7 @@ latest_posts:
 
 <br><br>
 
-I'm an early-stage researcher passionate about unraveling environmental pollution through advanced biotechnological approaches. With a **Master's in Biotechnology** (Distinction, CGPA: 8.75/10) from Amity University, I specialise in:
+I'm an early-stage researcher passionate about unraveling environmental pollution through advanced biotechnological approaches. With a **Master's in Biotechnology** (Distinction, CGPA: 8.75/10) from <a href="https://amity.edu/">Amity University Uttar Pradesh</a>, I specialise in:
 
 - Advanced analytical techniques
 - Environmental risk assessments
@@ -40,12 +40,11 @@ I'm an early-stage researcher passionate about unraveling environmental pollutio
 My work sits at the exciting intersection of **Biotechnology** and **real-world environmental challenges**, using Biotechnology as my foundation while expanding into atmospheric chemistry and environmental science - the interdisciplinary approach modern pollution research demands.
 
 <br><br>
+<br><br>
 
 ---
 
-<br><br>
-
-## 🧪 **What I've Done**
+<!-- ## 🧪 **What I've Done**
 
 ### Nanoplastic Toxicology Research
 
@@ -62,8 +61,6 @@ My work sits at the exciting intersection of **Biotechnology** and **real-world 
 - Pioneered sustained-release formulations for bacterial consortia
 
 <br><br>
-
----
 
 <br><br>
 
@@ -83,8 +80,6 @@ My research interests remain broad, though I'm particularly fascinated by:
 
 <br><br>
 
----
-
 <br><br>
 
 ## 🚀 **Beyond Research**
@@ -97,4 +92,4 @@ I'm committed to:
 
 <br><br>
 
----
+--- -->
