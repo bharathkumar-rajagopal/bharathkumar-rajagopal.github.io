@@ -236,7 +236,6 @@ exclude:
   - _posts/2024-04-29-typograms.md
   - _posts/2024-05-01-tabs.md
   - _posts/2024-12-04-photo-gallery.md
-  - _pages/publications.md
 keep_files:
   - CNAME
   - .nojekyll
@@ -348,6 +347,7 @@ filtered_bibtex_keywords:
     abstract,
     additional_info,
     altmetric,
+    author,
     annotation,
     arxiv,
     award,
