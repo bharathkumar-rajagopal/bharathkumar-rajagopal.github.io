@@ -105,12 +105,12 @@ ninja.data = [{
           title: 'MSc. Thesis Project',
           description: "Toxicity Assessment of Nanoplastics",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
+              window.location.href = "/projects/MSc_Thesis/";
             },},{id: "projects-project-agnps",
           title: 'Project AgNPs',
           description: "Biogenic synthesis of Silver Nanoparticles using Endophytic bacteria isolated from Andrographis paniculata and its Potential Applications as Anticancer and Antibacterial Agents",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
+              window.location.href = "/projects/Project_AgNPs/";
             },},{id: "projects-empowering-young-minds",
           title: 'Empowering Young Minds',
           description: "My Journey as a Social Work Intern",
