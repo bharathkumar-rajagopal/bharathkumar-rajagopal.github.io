@@ -8,8 +8,8 @@ description: sample description "leave blank to include all the news in the `_ne
 
 profile:
   align: center
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: prof pic 2.png
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MSc Biotechnology</p>
     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i.bharath@outlook.com</p>
@@ -28,8 +28,6 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-
-<br><br>
 
 I'm an early-stage researcher passionate about unraveling environmental pollution through advanced biotechnological approaches. With a **Master's in Biotechnology** (Distinction, CGPA: 8.75/10) from <a href="https://amity.edu/">Amity University Uttar Pradesh</a>, I specialise in:
 
