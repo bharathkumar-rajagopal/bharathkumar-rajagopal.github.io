@@ -8,7 +8,7 @@ description: sample description "leave blank to include all the news in the `_ne
 
 profile:
   align: center
-  image: prof pic 2.png
+  image: prof_pic2.png
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MSc Biotechnology</p>
@@ -29,7 +29,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm an early-stage researcher passionate about unraveling environmental pollution through advanced biotechnological approaches. With a **Master's in Biotechnology** (Distinction, CGPA: 8.75/10) from <a href="https://amity.edu/">Amity University Uttar Pradesh</a>, I specialise in:
+I'm an early-stage researcher passionate about unraveling environmental pollution through advanced biotechnological approaches. With a **Master's in Biotechnology** (Distinction, CGPA: 8.75/10) from **<a href="https://amity.edu/">Amity University Uttar Pradesh</a>**, I specialise in:
 
 - Advanced analytical techniques
 - Environmental risk assessments
@@ -37,8 +37,7 @@ I'm an early-stage researcher passionate about unraveling environmental pollutio
 
 My work sits at the exciting intersection of **Biotechnology** and **real-world environmental challenges**, using Biotechnology as my foundation while expanding into atmospheric chemistry and environmental science - the interdisciplinary approach modern pollution research demands.
 
-<br><br>
-<br><br>
+Currently, I am working as an independent researcher under the scholarly mentorship of **<a href="https://scholar.google.com/citations?hl=en&user=J3s3ad8AAAAJ&view_op=list_works&sortby=pubdate">Dr. Boobal Rangaswamy</a>**, who was also my undergraduate researcher. I am involved in projects related to Pollutants.
 
 ---
 
