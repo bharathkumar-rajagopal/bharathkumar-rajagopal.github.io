@@ -39,6 +39,8 @@ My work sits at the exciting intersection of **Biotechnology** and **real-world 
 
 Currently, I am working as an independent researcher under the scholarly mentorship of **<a href="https://www.linkedin.com/in/boobal-rangaswamy-14a76819a/?originalSubdomain=kr">Dr. Boobal Rangaswamy</a>**, who was also my undergraduate researcher. I am involved in projects related to Pollutants.
 
+<br>
+
 ---
 
 <!-- ## 🧪 **What I've Done**
