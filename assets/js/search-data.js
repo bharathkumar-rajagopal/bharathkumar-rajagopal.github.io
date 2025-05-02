@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-microplastics-in-soil-findings-from-a-two-year-study",
+        },{id: "post-test-bibliography",
+      
+        title: "Test Bibliography",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/test/";
+        
+      },
+    },{id: "post-microplastics-in-soil-findings-from-a-two-year-study",
       
         title: "Microplastics in Soil - Findings from a Two-Year Study",
       
