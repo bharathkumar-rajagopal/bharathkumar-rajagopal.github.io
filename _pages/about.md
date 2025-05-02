@@ -37,7 +37,7 @@ I'm an early-stage researcher passionate about unraveling environmental pollutio
 
 My work sits at the exciting intersection of **Biotechnology** and **real-world environmental challenges**, using Biotechnology as my foundation while expanding into atmospheric chemistry and environmental science - the interdisciplinary approach modern pollution research demands.
 
-Currently, I am working as an independent researcher under the scholarly mentorship of **<a href="https://scholar.google.com/citations?hl=en&user=J3s3ad8AAAAJ&view_op=list_works&sortby=pubdate">Dr. Boobal Rangaswamy</a>**, who was also my undergraduate researcher. I am involved in projects related to Pollutants.
+Currently, I am working as an independent researcher under the scholarly mentorship of **<a href="https://www.linkedin.com/in/boobal-rangaswamy-14a76819a/?originalSubdomain=kr">Dr. Boobal Rangaswamy</a>**, who was also my undergraduate researcher. I am involved in projects related to Pollutants.
 
 ---
 
