@@ -23,8 +23,6 @@ layout: default
     <div class="publications">
       {% bibliography --cited_in_order %}
     </div>
-  {% else %}
-    <p>No related publications found.</p>
   {% endif %}
 
   {% if site.giscus and page.giscus_comments %}
