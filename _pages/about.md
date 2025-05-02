@@ -9,7 +9,7 @@ description: sample description "leave blank to include all the news in the `_ne
 profile:
   align: center
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MSc Biotechnology</p>
     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i.bharath@outlook.com</p>
