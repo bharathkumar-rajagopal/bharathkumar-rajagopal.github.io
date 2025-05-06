@@ -5,6 +5,6 @@ inline: true
 related_posts: false
 ---
 
-Graduated with MSc in Biotechnology :smile: :mortar_board:
+:mortar_board: Graduated with MSc in Biotechnology  
 
 <!-- A simple inline announcement. -->

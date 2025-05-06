@@ -6,7 +6,7 @@ inline: true
 related_posts: false
 ---
 
-Successfully defended my Master's thesis :relieved: :page_with_curl:
+:page_with_curl: Successfully defended my Master's thesis
 
 <!-- Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below. -->
 

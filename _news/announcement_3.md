@@ -5,6 +5,6 @@ inline: true
 related_posts: false
 ---
 
-I took my English Proficiency exam (IELTS) on the 18th of this month and got a CEFR C1 Advanced. One step closer to my PhD—hooray! :grin: :star2:
+:grin: I took my English Proficiency exam (IELTS) on the 18th of this month and got a CEFR C1 Advanced. One step closer to my PhD—hooray!
 
 <!-- A simple inline announcement with Markdown emoji! :sparkles: :smile: -->

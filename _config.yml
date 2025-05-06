@@ -7,7 +7,7 @@ first_name: Bharathkumar
 middle_name:
 last_name: RAJAGOPAL
 contact_note: >
-  Please prefer to contact me via email, although I am active on all the social platforms mentioned above.
+  Please contact me via email at i[dot]bharath[at]outlook[dot]com.
 # You can even add a little note about which of these is the best way to reach you.
 # description: > # the ">" symbol means to ignore newlines until "footer_text:"
 # A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -265,7 +265,7 @@ defaults:
   - scope:
       path: "assets"
     values:
-      sitemap: false
+      sitemap: true
 
 sass:
   style: compressed
