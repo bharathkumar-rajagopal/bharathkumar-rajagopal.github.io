@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-microplastics-in-soil-findings-from-a-two-year-study",
+        },{id: "post-tackling-urban-debris-insights-from-australia-s-metropolitan-clean-up-efforts",
+      
+        title: "Tackling Urban Debris: Insights from Australia’s Metropolitan Clean-Up Efforts",
+      
+      description: "A continental-scale study reveals how policy changes and community efforts are reducing plastic pollution in Australian cities, but cigarette butts and polystyrene remain stubborn challenges.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/Tackling-Urban-Debris/";
+        
+      },
+    },{id: "post-microplastics-in-soil-findings-from-a-two-year-study",
       
         title: "Microplastics in Soil - Findings from a Two-Year Study",
       
