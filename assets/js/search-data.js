@@ -4,38 +4,45 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-blog",
-          title: "blog",
+          title: "Blog",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/blog/";
           },
         },{id: "nav-publications",
-          title: "publications",
+          title: "Publications",
           description: "My publications in reverse chronological order.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
-          title: "projects",
+          title: "Projects",
           description: "A growing collection of some wonderful projects I have been a part of.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "nav-cv",
-          title: "cv",
+          title: "CV",
           description: "I am a recent MSc Biotechnology graduate from Amity University, with expertise in toxicity assessments and comprehensive analytical techniques. I am highly motivated to pursue a PhD focused on studying environmental pollutants.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
+          },
+        },{id: "nav-contact",
+          title: "Contact",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/contact/";
           },
         },{id: "post-tackling-urban-debris-insights-from-australia-s-metropolitan-clean-up-efforts",
       
@@ -103,14 +110,14 @@ ninja.data = [{
           window.location.href = "/blog/2025/MPs-in-Mediterranean-Sea-blog-post/";
         
       },
-    },{id: "news-successfully-defended-my-master-s-thesis-relieved-page-with-curl",
-          title: 'Successfully defended my Master’s thesis :relieved: :page_with_curl:',
+    },{id: "news-page-with-curl-successfully-defended-my-master-s-thesis",
+          title: ':page_with_curl: Successfully defended my Master’s thesis',
           description: "",
-          section: "News",},{id: "news-i-took-my-english-proficiency-exam-ielts-on-the-18th-of-this-month-and-got-a-cefr-c1-advanced-one-step-closer-to-my-phd-hooray-grin-star2",
-          title: 'I took my English Proficiency exam (IELTS) on the 18th of this month...',
+          section: "News",},{id: "news-grin-i-took-my-english-proficiency-exam-ielts-on-the-18th-of-this-month-and-got-a-cefr-c1-advanced-one-step-closer-to-my-phd-hooray",
+          title: ':grin: I took my English Proficiency exam (IELTS) on the 18th of this...',
           description: "",
-          section: "News",},{id: "news-graduated-with-msc-in-biotechnology-smile-mortar-board",
-          title: 'Graduated with MSc in Biotechnology :smile: :mortar_board:',
+          section: "News",},{id: "news-mortar-board-graduated-with-msc-in-biotechnology",
+          title: ':mortar_board: Graduated with MSc in Biotechnology',
           description: "",
           section: "News",},{id: "projects-msc-thesis-project",
           title: 'MSc. Thesis Project',
