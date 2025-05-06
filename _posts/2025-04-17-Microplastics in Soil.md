@@ -9,7 +9,7 @@ giscus_comments: true
 related_publications: true
 ---
 
-I recently came across a paper on <a href="https://x.com/DeniseMitrano/status/1912122726099091907">X.com</a> that caught my attention due to its relevance to my intended PhD research and my interest in microplastics. Titled _<a href="https://doi.org/10.1038/s43247-025-02237-w">“Minimal vertical transport of microplastics in soil over two years with little impact of plastics on soil macropore networks,”</a>_ the study investigates how microplastics behave in soil over extended periods. After reading it, I wanted to share a summary of the methods, results, and implications, along with my thoughts on how this work could inform future research.
+I recently came across a paper on <a href="https://www.x.com/DeniseMitrano/status/1912122726099091907/">X.com</a> that caught my attention due to its relevance to my intended PhD research and my interest in microplastics. Titled _<a href="https://doi.org/10.1038/s43247-025-02237-w">“Minimal vertical transport of microplastics in soil over two years with little impact of plastics on soil macropore networks,”</a>_ the study investigates how microplastics behave in soil over extended periods. After reading it, I wanted to share a summary of the methods, results, and implications, along with my thoughts on how this work could inform future research.
 
 ---
 

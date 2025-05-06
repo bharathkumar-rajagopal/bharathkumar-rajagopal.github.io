@@ -1,13 +1,14 @@
 ---
 layout: page
 title: Contact
+description: Get in Touch!
 permalink: /contact/
 nav: true
 nav_order: 9
 social: true
 ---
 
-`Get in Touch!` I'd love to hear from you! Whether you'd like to discuss my projects, collaborate, chat about my blog posts, or simply connect, please feel free to reach out. Although I'm active on all the social media platforms listed below, I prefer using email for initial communication as I can respond more promptly.
+`I'd love to hear from you!` Whether you'd like to discuss my projects, collaborate, chat about my blog posts, or simply connect and talk, please feel free to reach out. Although I'm active on all the social media platforms listed below, I prefer using email for initial communication as I can respond more promptly.
 
 <br>
 

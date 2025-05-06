@@ -11,10 +11,11 @@ profile:
   image: prof_pic2.png
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MSc Biotechnology</p>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i.bharath@outlook.com</p>
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tiruppur - 641604, India</p>
-
+    <div style="text-align: center; padding-left: 3ch;">
+      <p>MSc Biotechnology</p>
+      <p><a href="mailto:i.bharath@outlook.com">i.bharath@outlook.com</a></p>
+      <p>Tiruppur - 641604, India</p>
+    </div>
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
