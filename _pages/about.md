@@ -11,7 +11,7 @@ profile:
   image: prof_pic2.png
   image_circular: true # crops the image to make it circular
   more_info: >
-    <div style="text-align: center; padding-left: 3ch;">
+    <div style="text-align: left; padding-left: 6ch;">
       <p>MSc Biotechnology</p>
       <p><a href="mailto:i.bharath@outlook.com">i.bharath@outlook.com</a></p>
       <p>Tiruppur - 641604, India</p>
@@ -38,7 +38,7 @@ I'm an early-stage researcher passionate about unraveling environmental pollutio
 
 My work sits at the exciting intersection of **Biotechnology** and **real-world environmental challenges**, using Biotechnology as my foundation while expanding into atmospheric chemistry and environmental science - the interdisciplinary approach modern pollution research demands.
 
-Currently, I am working as an independent researcher under the scholarly mentorship of **<a href="https://www.linkedin.com/in/boobal-rangaswamy-14a76819a/?originalSubdomain=kr">Dr. Boobal Rangaswamy</a>**, who was also my undergraduate advisor. `I am involved in projects related to Pollutants`.
+Currently, I am working as an independent researcher under the scholarly mentorship of **<a href="https://www.linkedin.com/in/boobal-rangaswamy-14a76819a/?originalSubdomain=kr">Dr. Boobal Rangaswamy</a>**, who was also my undergraduate advisor. I am involved in projects related to Pollutants.
 
 <br>
 
