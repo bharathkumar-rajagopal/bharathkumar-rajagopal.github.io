@@ -123,7 +123,7 @@ ninja.data = [{
           title: ':mortar_board: Officially graduated with MSc in Biotechnology - received my degree certificate through...',
           description: "",
           section: "News",},{id: "news-newspaper-preprint-of-our-publication-on-integrating-kinetic-models-gene-circuits-and-biofilm-dynamics-for-enhanced-exopolysaccharide-production-in-nitrifying-bacterial-consortia-is-available-online",
-          title: ':newspaper: Preprint of our publication on Integrating Kinetic Models, Gene Circuits, and Biofilm...',
+          title: ':newspaper: Preprint of our publication on “Integrating Kinetic Models, Gene Circuits, and Biofilm...',
           description: "",
           section: "News",},{id: "projects-msc-thesis-project",
           title: 'MSc. Thesis Project',
