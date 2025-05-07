@@ -5,6 +5,6 @@ inline: true
 related_posts: false
 ---
 
-:newspaper: Preprint of our publication on <a href="https://dx.doi.org/10.2139/ssrn.5235712">Integrating Kinetic Models, Gene Circuits, and Biofilm Dynamics for Enhanced Exopolysaccharide Production in Nitrifying Bacterial Consortia" is available online.</a>
+:newspaper: Preprint of our publication on <a href="https://dx.doi.org/10.2139/ssrn.5235712">Integrating Kinetic Models, Gene Circuits, and Biofilm Dynamics for Enhanced Exopolysaccharide Production in Nitrifying Bacterial Consortia"</a> is available online.
 
 <!-- A simple inline announcement with Markdown emoji! :sparkles: :smile: -->
