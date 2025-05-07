@@ -30,6 +30,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+<br>
+
 I'm an early-stage researcher passionate about unraveling environmental pollution through advanced biotechnological approaches. With a **Master's in Biotechnology** (`Distinction`, CGPA: 8.75/10) from **<a href="https://amity.edu/">Amity University Uttar Pradesh</a>**, I specialise in:
 
 - `Advanced analytical techniques`
