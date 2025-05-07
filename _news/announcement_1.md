@@ -5,6 +5,6 @@ inline: true
 related_posts: false
 ---
 
-:mortar_board: Graduated with MSc in Biotechnology
+:mortar_board: Officially graduated with MSc in Biotechnology - received my degree certificate through mail!
 
 <!-- A simple inline announcement. -->
