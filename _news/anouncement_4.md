@@ -5,6 +5,6 @@ inline: true
 related_posts: false
 ---
 
-:information_desk_person: I joined as an independent researcher under Dr. Boobal Rangaswamy.
+:bow: I joined as an independent researcher under Dr. Boobal Rangaswamy.
 
 <!-- A simple inline announcement with Markdown emoji! :sparkles: :smile: -->
