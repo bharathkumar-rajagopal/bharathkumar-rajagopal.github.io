@@ -11,13 +11,9 @@ related_publications: true
 
 Another day, another study on plastic pollution, but this one’s a bit different. Instead of focusing solely on ocean gyres or remote beaches, `researchers from CSIRO and partner institutions` turned their attention to _metropolitan areas_ across Australia. Published in _Marine Pollution Bulletin_, the paper, `led by Stephanie Brodie`, offers a rare continental-scale snapshot of environmental debris in urban and coastal zones {% cite brodie2025drivers %}. Spoiler alert: there’s both good and bad news. Let’s unpack what they found, and what it means for cities worldwide.
 
----
-
 ### The Big Picture: What Did They Do?
 
 The team surveyed six Australian cities: Alice Springs, Hobart, Newcastle, Perth, Port Augusta, and Sunshine Coast; between 2022 and 2024. Using a stratified random approach, they examined 1,907 transects across inland, riverine, and coastal habitats. Think of transects as systematic sweeps of land or shoreline, where researchers recorded every piece of debris within a defined area. They counted everything from cigarette butts to polystyrene fragments, categorising over 8,383 items. To assess trends, they compared coastal data to a similar survey done a decade earlier.
-
----
 
 ### Key Findings: The Good, the Bad, and the Ugly
 
@@ -40,8 +36,6 @@ The study highlights a few drivers. **Proximity to roads** mattered. Transects n
 
 Riverbanks and coasts told their own stories. **Cobblestone riverbanks trapped debris**, while coastal sites with seawalls (instead of natural dunes) accumulated more litter. Interestingly, steep slopes inland had less debris, probably because gravity whisks trash downhill into waterways, which then carry it out to sea.
 
----
-
 ### Lessons for Policy and Communities
 
 The decline in coastal debris is a win, but the study underscores the need for **item-specific interventions**. For example:
@@ -51,8 +45,6 @@ The decline in coastal debris is a win, but the study underscores the need for *
 - **Bottle caps**: Container deposit schemes often exclude caps, leading to mismanagement. Policies requiring caps to stay attached to bottles (as in the EU) might help.
 
 The paper also praises **local custodianship**. Volunteer clean-ups, school programs, and public awareness campaigns clearly move the needle. In Hobart, where container deposit schemes were absent, beverage bottle litter was notably higher, proof that policy works when enforced.
-
----
 
 ### What’s Next?
 
