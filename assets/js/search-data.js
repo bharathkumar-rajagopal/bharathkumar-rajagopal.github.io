@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "post-tackling-urban-debris-insights-from-australia-s-metropolitan-clean-up-efforts",
+        },{id: "post-microplastics-in-ovaries-a-silent-threat-to-fertility",
+      
+        title: "Microplastics in Ovaries: A Silent Threat to Fertility",
+      
+      description: "First evidence of microplastics in human ovarian follicles sparks alarm over potential impacts on female fertility and reproductive health.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/Microplastics-in-Ovaries/";
+        
+      },
+    },{id: "post-tackling-urban-debris-insights-from-australia-s-metropolitan-clean-up-efforts",
       
         title: "Tackling Urban Debris: Insights from Australia’s Metropolitan Clean-Up Efforts",
       
