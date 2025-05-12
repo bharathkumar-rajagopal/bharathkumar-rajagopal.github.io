@@ -9,7 +9,7 @@ giscus_comments: true
 related_publications: true
 ---
 
-"Plastic’s latest invasion? Your ovaries. Yes, you read that right. In a study published in _Ecotoxicology and Environmental Safety_, researchers from Italy’s EcoFoodFertility Project dropped a bombshell: **microplastics (MPs) were found in human ovarian follicular fluid** for the first time {% cite montano2025first %}. Led by `Luigi Montano, the team analysed samples from women undergoing fertility treatments, uncovering a troubling link between plastic pollution and reproductive health.`
+"Plastic’s latest invasion? Your ovaries. Yes, you read that right. In a study published in `_Ecotoxicology and Environmental Safety_`, researchers from Italy’s `EcoFoodFertility Project` dropped a bombshell: **microplastics (MPs) were found in human ovarian follicular fluid** for the first time {% cite montano2025first %}. Led by Luigi Montano, the team analysed samples from women undergoing fertility treatments, uncovering a troubling link between plastic pollution and reproductive health.
 
 ### The Study: From IVF Clinics to the Lab
 
