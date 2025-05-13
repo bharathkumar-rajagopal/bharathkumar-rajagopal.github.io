@@ -4,7 +4,7 @@ title: MSc. Thesis Project
 description: Toxicity Assessment of Nanoplastics
 img: assets/img/project1_description.jpg
 importance: 1
-category: work
+category: research
 related_publications: true
 ---
 

@@ -4,7 +4,7 @@ title: Project AgNPs
 description: Biogenic synthesis of Silver Nanoparticles using Endophytic bacteria isolated from Andrographis paniculata and its Potential Applications as Anticancer and Antibacterial Agents
 img: assets/img/project2_description.jpg
 importance: 2
-category: work
+category: research
 giscus_comments: false
 related_publications: true
 ---
