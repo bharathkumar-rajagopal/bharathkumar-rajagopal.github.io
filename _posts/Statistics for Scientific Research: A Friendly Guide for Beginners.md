@@ -43,11 +43,13 @@ Quantitative data can be:
 
 #### Example
 
+```markdown
 | Patient ID | Age | Gender | Blood Pressure |
 | ---------- | --- | ------ | -------------- |
 | 001        | 45  | Male   | 130            |
 | 002        | 52  | Female | 140            |
 | 003        | 38  | Male   | 125            |
+```
 
 - Age and Blood Pressure are **quantitative**
 - Gender is **qualitative**
