@@ -4,9 +4,12 @@ title: Statistics for Scientific Research - A Friendly Guide
 date: 2025-06-02 23:26:05
 description: A complete, beginner-friendly guide to understanding statistics in scientific research
 tags: statistics
+pretty_table: true
 giscus_comments: true
 related_publications: true
 featured: true
+toc:
+  sidebar: left
 ---
 
 I always struggled with statistics in my early days of working in a lab. The formulas, the jargon, and the logic behind it all felt overwhelming. But over time, I realised that whether you're a student, researcher, or professional, understanding statistics is not just helpful — it's essential.
@@ -18,15 +21,15 @@ Statistics help us:
 - Test hypotheses
 - Predict future outcomes
 
-In this guide, I’ve tried to explain the most important statistical concepts used in scientific research, especially in health, biology, and social sciences. I’ve used simple language, real-world examples, and clear formulas to make things as accessible as possible.
+In this guide, I've tried to explain the most important statistical concepts used in scientific research, especially in health, biology, and environmental sciences. I've used simple language, real-world examples, and clear formulas to make things as accessible as possible.
 
-I’ve done my best to simplify things, but for a deeper and more structured understanding, I highly recommend reading the original source: {% cite Daniel2024 %}. It’s an absolute gem.
+I've done my best to simplify things, but for a deeper and more structured understanding, I highly recommend reading the original source: {% cite Daniel2024 %}. It's an absolute gem.
 
 ---
 
 ## 1. Descriptive Statistics: Summarising Data
 
-Descriptive statistics help us describe and understand the basic features of a dataset. Think of it as the “first look” at your data.
+Descriptive statistics help us describe and understand the basic features of a dataset. Think of it as the "first look" at your data.
 
 ### 1.1 Types of Data
 
@@ -42,13 +45,11 @@ Quantitative data can be:
 
 #### Example
 
-```markdown
 | Patient ID | Age | Gender | Blood Pressure |
 | ---------- | --- | ------ | -------------- |
 | 001        | 45  | Male   | 130            |
 | 002        | 52  | Female | 140            |
 | 003        | 38  | Male   | 125            |
-```
 
 - Age and Blood Pressure are **quantitative**
 - Gender is **qualitative**
@@ -61,26 +62,24 @@ Before analysing your data, classify each variable. This helps you choose the ri
 
 ### 1.2 Measures of Central Tendency
 
-These tell us where the “centre” of the data lies.
+These tell us where the "centre" of the data lies.
 
 #### Mean (Average)
 
 Add up all the values and divide by the number of values.
 
-```math
 \begin{equation}
-\mu = \frac{1}{N} \sum_{i=1}^{N} x_i
+\mu = \frac{1}{N} \sum\_{i=1}^{N} x_i
 \label{eq:mean}
 \end{equation}
-```
 
 #### Example
 
 If 5 patients have weights: 60, 65, 70, 75, 80 kg
 
-```math
+$$
 \mu = \frac{60 + 65 + 70 + 75 + 80}{5} = 70
-```
+$$
 
 #### How to Use in Your Research
 
@@ -90,7 +89,7 @@ Use the mean to report average values like age, weight, or test scores. But be c
 
 #### Median
 
-The middle value when data is sorted. If there’s an even number of values, take the average of the two middle ones.
+The middle value when data is sorted. If there's an even number of values, take the average of the two middle ones.
 
 #### Example
 
@@ -126,9 +125,9 @@ These tell us how spread out the data is.
 
 #### Range
 
-```math
+$$
 \text{Range} = \text{Maximum} - \text{Minimum}
-```
+$$
 
 #### Example
 
@@ -138,7 +137,7 @@ Range = 50 - 10 = 40
 
 #### How to Use in Your Research
 
-Use range to get a quick sense of variability, but it’s sensitive to outliers.
+Use range to get a quick sense of variability, but it's sensitive to outliers.
 
 ---
 
@@ -146,23 +145,19 @@ Use range to get a quick sense of variability, but it’s sensitive to outliers.
 
 How far each number is from the mean, on average.
 
-```math
 \begin{equation}
-\sigma^2 = \frac{1}{N} \sum_{i=1}^{N} (x_i - \mu)^2
+\sigma^2 = \frac{1}{N} \sum\_{i=1}^{N} (x_i - \mu)^2
 \label{eq:variance}
 \end{equation}
-```
 
 #### Standard Deviation
 
 The square root of the variance.
 
-```math
 \begin{equation}
 \sigma = \sqrt{\sigma^2}
 \label{eq:stddev}
 \end{equation}
-```
 
 #### Example
 
@@ -172,15 +167,15 @@ Mean = 5
 
 Variance:
 
-```math
-\sigma^2 = \frac{(2-5)^2 + (4-5)^2 + ... + (9-5)^2}{8} = 4
-```
+$$
+\sigma^2 = \frac{(2-5)^2 + (4-5)^2 + \cdots + (9-5)^2}{8} = 4
+$$
 
 Standard deviation:
 
-```math
+$$
 \sigma = \sqrt{4} = 2
-```
+$$
 
 #### How to Use in Your Research
 
@@ -192,9 +187,9 @@ Standard deviation is one of the most important statistics. Use it to describe v
 
 The range of the middle 50% of the data.
 
-```math
+$$
 \text{IQR} = Q_3 - Q_1
-```
+$$
 
 #### Example
 
@@ -224,12 +219,10 @@ Probability is a number between 0 and 1 that tells us how likely an event is to 
 
 If an event can happen in \( m \) ways out of \( N \) total equally likely outcomes, the probability of the event is:
 
-```math
 \begin{equation}
 P(E) = \frac{m}{N}
 \label{eq:basic_prob}
 \end{equation}
-```
 
 #### Example
 
@@ -237,9 +230,9 @@ Suppose you have a bag with 3 red balls and 2 blue balls. What is the probabilit
 
 There are 3 red balls out of 5 total balls:
 
-```math
+$$
 P(\text{Red}) = \frac{3}{5} = 0.6
-```
+$$
 
 ### 2.3 Rules of Probability
 
@@ -247,52 +240,50 @@ P(\text{Red}) = \frac{3}{5} = 0.6
 
 The probability that an event does not happen is:
 
-```math
+$$
 P(\text{not } A) = 1 - P(A)
-```
+$$
 
 #### Rule 2: Addition Rule (for mutually exclusive events)
 
 If two events cannot happen at the same time:
 
-```math
+$$
 P(A \cup B) = P(A) + P(B)
-```
+$$
 
 #### Rule 3: Multiplication Rule (for independent events)
 
 If two events do not affect each other:
 
-```math
+$$
 P(A \cap B) = P(A) \cdot P(B)
-```
+$$
 
 #### Example
 
 Suppose the probability of rain on Monday is 0.3 and on Tuesday is 0.4. If the events are independent, the probability it rains on both days is:
 
-```math
+$$
 P(\text{Rain Mon and Tue}) = 0.3 \times 0.4 = 0.12
-```
+$$
 
 ### 2.4 Conditional Probability
 
 Sometimes we want to know the probability of an event given that another event has already happened. This is called conditional probability.
 
-```math
 \begin{equation}
 P(A \mid B) = \frac{P(A \cap B)}{P(B)}
 \label{eq:cond_prob}
 \end{equation}
-```
 
 #### Example
 
 Suppose 20 out of 100 patients have diabetes, and 15 of those 20 are over 60 years old. What is the probability that a patient has diabetes given they are over 60?
 
-```math
+$$
 P(\text{Diabetes} \mid \text{Over 60}) = \frac{15}{30} = 0.5
-```
+$$
 
 ### 2.5 How to Use Probability in Your Research
 
@@ -315,12 +306,10 @@ Used when there are two possible outcomes (success or failure), repeated \( n \)
 
 #### Formula
 
-```math
 \begin{equation}
 P(X = x) = \binom{n}{x} p^x (1 - p)^{n - x}
 \label{eq:binomial}
 \end{equation}
-```
 
 Where:
 
@@ -332,9 +321,9 @@ Where:
 
 Suppose a test has a 70 percent pass rate. What is the probability that 3 out of 5 students pass?
 
-```math
+$$
 P(X = 3) = \binom{5}{3} (0.7)^3 (0.3)^2 = 10 \cdot 0.343 \cdot 0.09 = 0.3087
-```
+$$
 
 #### How to Use
 
@@ -352,12 +341,10 @@ Used to model the number of events in a fixed time or space when events happen i
 
 #### Formula
 
-```math
 \begin{equation}
 P(X = x) = \frac{e^{-\lambda} \lambda^x}{x!}
 \label{eq:poisson}
 \end{equation}
-```
 
 Where:
 
@@ -368,9 +355,9 @@ Where:
 
 If a hospital gets 2 emergency calls per hour on average, what is the probability of getting 3 calls in an hour?
 
-```math
+$$
 P(X = 3) = \frac{e^{-2} \cdot 2^3}{3!} = \frac{0.1353 \cdot 8}{6} = 0.1804
-```
+$$
 
 #### How to Use
 
@@ -388,12 +375,10 @@ The normal distribution is a bell-shaped curve. Many natural phenomena follow th
 
 #### Formula
 
-```math
 \begin{equation}
 f(x) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{ -\frac{(x - \mu)^2}{2\sigma^2} }
 \label{eq:normal}
 \end{equation}
-```
 
 Where:
 
@@ -406,9 +391,9 @@ Suppose the heights of adult women are normally distributed with a mean of 160 c
 
 We convert to a z-score:
 
-```math
+$$
 z = \frac{170 - 160}{10} = 1
-```
+$$
 
 Using a z-table, \( P(Z > 1) = 0.1587 \)
 
@@ -448,12 +433,10 @@ A test statistic is a value calculated from sample data that is used to decide w
 
 For a sample mean:
 
-```math
 \begin{equation}
 z = \frac{\bar{x} - \mu_0}{\sigma / \sqrt{n}}
 \label{eq:ztest}
 \end{equation}
-```
 
 Where:
 
@@ -479,9 +462,9 @@ Step 2: \( \alpha = 0.05 \)
 
 Step 3: Compute the test statistic
 
-```math
+$$
 z = \frac{125 - 120}{12 / \sqrt{36}} = \frac{5}{2} = 2.5
-```
+$$
 
 Step 4: Find the p-value. For \( z = 2.5 \), \( p = 0.0124 \)
 
@@ -503,21 +486,17 @@ A confidence interval (CI) gives a range of values that is likely to contain the
 
 When the population standard deviation is known:
 
-```math
 \begin{equation}
 \text{CI} = \bar{x} \pm z \cdot \frac{\sigma}{\sqrt{n}}
 \label{eq:ci_known}
 \end{equation}
-```
 
 When the population standard deviation is unknown and the sample size is small, use the t-distribution:
 
-```math
 \begin{equation}
 \text{CI} = \bar{x} \pm t \cdot \frac{s}{\sqrt{n}}
 \label{eq:ci_unknown}
 \end{equation}
-```
 
 Where:
 
@@ -532,9 +511,9 @@ A sample of 25 patients has a mean cholesterol level of 200 mg/dL and a standard
 
 Use the t-distribution with \( df = 24 \), \( t = 2.064 \)
 
-```math
+$$
 \text{CI} = 200 \pm 2.064 \cdot \frac{20}{\sqrt{25}} = 200 \pm 8.256
-```
+$$
 
 So the 95 percent CI is (191.74, 208.26)
 
@@ -554,12 +533,10 @@ Correlation tells us how strongly two variables are related.
 
 #### Pearson Correlation Coefficient
 
-```math
 \begin{equation}
 r = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum (x_i - \bar{x})^2 \sum (y_i - \bar{y})^2}}
 \label{eq:correlation}
 \end{equation}
-```
 
 - \( r = 1 \): perfect positive correlation
 - \( r = -1 \): perfect negative correlation
@@ -581,12 +558,10 @@ Regression models the relationship between a dependent variable \( y \) and an i
 
 #### Regression Equation
 
-```math
 \begin{equation}
 y = \beta_0 + \beta_1 x + \varepsilon
 \label{eq:regression}
 \end{equation}
-```
 
 Where:
 
@@ -596,27 +571,23 @@ Where:
 
 #### Estimating the Coefficients
 
-```math
 \begin{equation}
-\hat{\beta}_1 = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sum (x_i - \bar{x})^2}
+\hat{\beta}\_1 = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sum (x_i - \bar{x})^2}
 \label{eq:slope}
 \end{equation}
-```
 
-```math
 \begin{equation}
-\hat{\beta}_0 = \bar{y} - \hat{\beta}_1 \bar{x}
+\hat{\beta}\_0 = \bar{y} - \hat{\beta}\_1 \bar{x}
 \label{eq:intercept}
 \end{equation}
-```
 
 #### Example
 
 Suppose you want to predict blood pressure based on age. You collect data and fit a regression line:
 
-```math
+$$
 \text{BP} = 90 + 0.5 \cdot \text{Age}
-```
+$$
 
 This means for each additional year of age, blood pressure increases by 0.5 mmHg.
 
@@ -641,12 +612,10 @@ Used when comparing one factor across multiple groups.
 
 #### F-Statistic
 
-```math
 \begin{equation}
 F = \frac{\text{Between-group variance}}{\text{Within-group variance}}
 \label{eq:anova}
 \end{equation}
-```
 
 If the F-statistic is large and the p-value is small, reject \( H_0 \).
 
@@ -708,12 +677,10 @@ Survival analysis is used to analyse time-to-event data. The "event" could be de
 
 Estimates the survival function from time-to-event data.
 
-```math
 \begin{equation}
-\hat{S}(t) = \prod_{t_i \leq t} \left(1 - \frac{d_i}{n_i} \right)
+\hat{S}(t) = \prod\_{t_i \leq t} \left(1 - \frac{d_i}{n_i} \right)
 \label{eq:km}
 \end{equation}
-```
 
 Where:
 
@@ -728,12 +695,10 @@ Used to compare survival curves between two or more groups.
 
 A regression model used to examine the effect of several variables on survival time.
 
-```math
 \begin{equation}
 h(t) = h_0(t) \cdot e^{\beta_1 x_1 + \beta_2 x_2 + \cdots + \beta_k x_k}
 \label{eq:cox}
 \end{equation}
-```
 
 Where:
 
@@ -765,12 +730,20 @@ This guide has covered the essential statistical concepts used in scientific res
 - Use non-parametric tests when assumptions are not met.
 - Use survival analysis for time-to-event data.
 
-Always remember to:
-
-- Understand your data type and distribution.
-- Choose the right statistical method.
-- Interpret results in the context of your research question.
+> ##### TIP
+>
+> Always remember to:
+>
+> - Understand your data type and distribution.
+> - Choose the right statistical method.
+> - Interpret results in the context of your research question.
+>   {: .block-tip}
 
 With these tools, you can confidently analyse data and draw meaningful conclusions in your scientific work.
 
 ---
+
+**Further Resources**:
+
+- [R for Data Science (Online Book)](https://r4ds.had.co.nz)
+- [StatQuest YouTube Channel](https://youtube.com/joshstarmer)
