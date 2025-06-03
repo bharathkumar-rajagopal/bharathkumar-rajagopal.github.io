@@ -730,9 +730,7 @@ This guide has covered the essential statistical concepts used in scientific res
 - Use non-parametric tests when assumptions are not met.
 - Use survival analysis for time-to-event data.
 
-> ##### TIP
->
-> Always remember to:
+> ##### Always remember to:
 >
 > - Understand your data type and distribution.
 > - Choose the right statistical method.
