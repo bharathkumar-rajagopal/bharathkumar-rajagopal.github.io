@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Statistics for Scientific Research - A Friendly Guide for Beginners
+title: Statistics for Scientific Research - A Friendly Guide
 date: 2025-06-02 23:26:05
 description: A complete, beginner-friendly guide to understanding statistics in scientific research
-tags: Statistics
-categories: current-research
+tags: statistics
 giscus_comments: true
 related_publications: true
 featured: true
