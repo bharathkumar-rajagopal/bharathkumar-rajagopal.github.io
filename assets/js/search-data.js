@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "post-microplastics-in-ovaries-a-silent-threat-to-fertility",
+        },{id: "post-statistics-for-scientific-research-a-friendly-guide",
+      
+        title: "Statistics for Scientific Research - A Friendly Guide",
+      
+      description: "A complete, beginner-friendly guide to understanding statistics in scientific research",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/Statistics-for-Scientific-Research/";
+        
+      },
+    },{id: "post-microplastics-in-ovaries-a-silent-threat-to-fertility",
       
         title: "Microplastics in Ovaries: A Silent Threat to Fertility",
       
