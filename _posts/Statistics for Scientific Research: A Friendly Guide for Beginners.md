@@ -21,7 +21,7 @@ Statistics help us:
 
 In this guide, I’ve tried to explain the most important statistical concepts used in scientific research, especially in health, biology, and social sciences. I’ve used simple language, real-world examples, and clear formulas to make things as accessible as possible.
 
-I’ve done my best to simplify things, but for a deeper and more structured understanding, I highly recommend reading the original source: {% cite Daniel2024xd %}. It’s an absolute gem.
+I’ve done my best to simplify things, but for a deeper and more structured understanding, I highly recommend reading the original source: {% cite Daniel2024 %}. It’s an absolute gem.
 
 ---
 
