@@ -7,6 +7,7 @@ tags: Microplastics, Pollutants, Environmental
 categories: current-research
 giscus_comments: true
 related_publications: true
+featured: true
 ---
 
 Two recent studies caught my eye this week, both tackling microplastic pollution in the Mediterranean; but from wildly different angles. One talks about the chemical hitchhikers on plastic debris along Italy's Calabrian coast, while the other maps out the weird little ecosystems thriving on microplastics in the Eastern Mediterranean. Together, they're painting a more complex picture of how plastic pollution interacts with marine environments. Let's unpack this.
