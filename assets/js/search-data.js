@@ -44,11 +44,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "post-statistics-for-scientific-research-a-friendly-guide",
+        },{id: "post-statistics-for-scientific-research-comprehensive-environmental-science-guide",
       
-        title: "Statistics for Scientific Research - A Friendly Guide",
+        title: "Statistics for Scientific Research - Comprehensive Environmental Science Guide",
       
-      description: "A complete, beginner-friendly guide to understanding statistics in scientific research",
+      description: "Complete statistical guide with environmental science applications",
       section: "Posts",
       handler: () => {
         
