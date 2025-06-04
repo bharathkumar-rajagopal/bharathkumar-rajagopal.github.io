@@ -6,18 +6,13 @@ img: assets/img/project1_description.jpg
 importance: 1
 category: research
 related_publications: true
-authors:
-  - name: Dr. Alok Kumar Pandey
-    affiliation:
-      name: CSIR - Indian Institute of Toxicology Research, Lucknow
 ---
 
-> <div style="text-align: left; margin-top: 2em;">
->    <strong>Supervisor</strong><br>
->    Dr. Alok Kumar Pandey<br>
->    <em>Senior Principal Scientist</em><br>
->   CSIR - Indian Institute of Toxicology Research, Lucknow<br></div>
->   {: .block-tip}
+> **Supervisor**
+> Dr. Alok Kumar Pandey
+> Senior Principal Scientist
+> CSIR - Indian Institute of Toxicology Research, Lucknow
+> {: .block-tip}
 
 Nanoplastics, including polystyrene nanoplastics (PS NPs), are pervasive environmental contaminants with potential adverse effects on biological systems. These miniature plastic particles, measuring less than 1000 nanometers in diameter, have gained significant attention due to their widespread distribution in the environment and their potential to enter various ecosystems, including freshwater and marine environments, as well as terrestrial habitats. Despite their ubiquitous presence, our understanding of the cellular toxicity mechanisms of nanoplastics remains limited. This study aimed to address this gap by investigating the effects of PS NPs on Chinese hamster lung fibroblast cells (V-79) and exploring the underlying toxicity.
 
