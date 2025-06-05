@@ -1,199 +1,98 @@
 ---
-layout: post
-title: Statistics for Scientific Research
-date: 2025-06-02 23:26:05
-description: Basic statistical guide
-tags: statistics
-pretty_table: true
-giscus_comments: true
+layout: page
+title: MSc. Thesis Project
+description: Toxicity Assessment of Nanoplastics
+img: assets/img/project1_description.jpg
+importance: 1
+category: research
 related_publications: true
-featured: true
-toc:
-  sidebar: left
 ---
 
-I remember feeling completely lost when I first encountered statistical analysis in my research. All those formulas and jargon seemed overwhelming. But here's what I learned: statistics is simply a toolkit for understanding patterns in data. Whether you're studying pollution levels, species diversity, or medical outcomes, these methods help transform numbers into meaningful insights.
+> **Supervisor**
+> Dr. Alok Kumar Pandey,
+> Senior Principal Scientist,
+> CSIR - Indian Institute of Toxicology Research, Lucknow.
+> {: .block-tip}
 
-Statistics gives us the power to:
+Nanoplastics, including polystyrene nanoplastics (PS NPs), are pervasive environmental contaminants with potential adverse effects on biological systems. These miniature plastic particles, measuring less than 1000 nanometers in diameter, have gained significant attention due to their widespread distribution in the environment and their potential to enter various ecosystems, including freshwater and marine environments, as well as terrestrial habitats. Despite their ubiquitous presence, our understanding of the cellular toxicity mechanisms of nanoplastics remains limited. This study aimed to address this gap by investigating the effects of PS NPs on Chinese hamster lung fibroblast cells (V-79) and exploring the underlying toxicity.
 
-- Understand complex datasets
-- Distinguish real patterns from random variations
-- Measure uncertainty in our observations
-- Make evidence-based decisions
+<!-- Every project has a beautiful feature showcase page.
+It's easy to include images in a flexible 3-column grid format.
+Make your photos 1/3, 2/3, or full width. -->
 
-In this guide, I'll explain essential statistical concepts using straightforward language. For deeper understanding, I highly recommend {% cite Daniel2024 %} - it's an absolute gem.
+<!-- To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
----
+    ---
+    layout: page
+    title: project
+    description: a project with a background image
+    img: /assets/img/Project1_description_picture.jpg
+    --- -->
 
-## 1. Descriptive Statistics: Understanding Your Data
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/project1_pic1.jpg" title="Water bottles discarded (source: Unsplash)" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/project1_pic2.jpg" title="Plastic pollution at costal area (source: Unsplash)" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/project1_pic3.jpg" title="Plastic pollution in Ocean (source: Unsplash)" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
 
-Before getting into more advanced techniques, we need to understand our data's basic characteristics. Start by identifying different data types. Quantitative data represents measurable amounts:
+    The sources, formation, and impact pathways of microplastics and nanoplastics on living organisms.
 
-- Discrete: Countable values (e.g., number of contaminated sites)
-- Continuous: Precise measurements (e.g., chemical concentration levels)
+</div>
 
-Qualitative data involves categories:
+<!-- Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles. -->
 
-- Nominal: Unordered groups (e.g., types of pollutants)
-- Ordinal: Ranked categories (e.g., low/medium/high contamination levels)
+The existing problem lies in the lack of comprehensive studies focusing on the cytotoxic and genotoxic effects of nanoplastics in mammalian cell line, particularly PS NPs, which are commonly used in various consumer products such as personal care products, and medical devices and majority of the nanoplastics found in environment are results of withered away from plastics and microplastics dumped in environment. While considerable attention has been directed towards understanding the environmental fate and transport of microplastics, limited research has been devoted to nanaoplastics and their effects on cellular health.
 
-When summarising data, we examine where values cluster. The mean ($\bar{x}$) calculates the average value:
-\begin{equation}
-\bar{x} = \frac{1}{n}\sum\_{i=1}^{n} x_i
-\end{equation}
-where $n$ is the number of observations and $x_i$ represents individual values. Use this for symmetrical data distributions.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/project1_pic4.png" title="The degradation pathway of plastic into microplastic and further into nanoplastic, and how it enters the food web" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The degradation pathway of plastic into microplastic and further into nanoplastic, and how it enters the food web {% cite Lv2024%}.
+    <!-- This image can also have a caption. It's like magic. -->
+</div>
+ This gap in knowledge hinders our ability to assess the potential risks associated with nanoplastics exposure and develop effective mitigation strategies. To overcome this limitation, we employed a multi-faceted approach, combining dynamic light scattering (DLS), nanoparticle tracking analysis (NTA), and standard cellular assays to comprehensively evaluate the toxicity of PS NPs in V-79 cells. DLS and NTA were utilized to characterize the physicochemical properties of PS NPs, including size distribution and stability, in Milli-Q and biological media. Our results revealed significant variations in PS NPs size and polydispersity depending on the surrounding medium, suggesting dynamic interactions with biological environments. Additionally, zeta potential measurements shows particles are more stable and remains colloidal due to high repulsive force between each other. Moving beyond characterization, our study investigated the effects of PS NPs on cellular morphology and viability using standard cellular assays. Exposure to PS NPs induced concentration-dependent changes in cellular morphology, with V-79 cells exhibiting irregular shapes at higher nanoparticle concentrations, indicative of cellular stress or perturbation. This finding is consistent with previous studies suggesting that nanoplastics can induce structural alterations in cellular architecture, potentially compromising cellular function and viability.
 
-The median identifies the middle value in ordered data, better for skewed measurements like pollutant concentrations. The mode shows the most frequent value, useful for categorical data.
+<!-- You can also put regular text between your rows of images, even citations { cite einstein1950meaning %}.
+Say you wanted to write a bit about your project before you posted the rest of the images.
+You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images. -->
 
-To understand data spread, variance ($s^2$) measures average squared deviation from the mean:
-\begin{equation}
-s^2 = \frac{1}{n-1}\sum\_{i=1}^{n} (x_i - \bar{x})^2
-\end{equation}
-Standard deviation ($s$) is its square root, in original units. For skewed data, the interquartile range (IQR) is more appropriate:
-\begin{align*}
-\text{IQR} = Q_3 - Q_1
-\end{align*}
-where $Q_1$ (25th percentile) and $Q_3$ (75th percentile) contain the middle 50% of values. This helps identify variability in field measurements.
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/project1_pic5.png" title="Methodology of the Project" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Methodology of the Project
+<!-- You can also have artistically styled 2/3 + 1/3 images, like these. -->
+</div>
 
----
+Further, the MTT assay demonstrated a biphasic response, with cell viability initially decreasing up to a certain concentration threshold (100 μg/ml) before increasing at higher concentrations, suggesting the activation of compensatory mechanisms or adaptive responses at higher PS NP concentrations. Despite ROS generation, cell viability paradoxically increased at higher PS NP concentrations, indicating the involvement of alternative protective mechanisms or alternative toxicity pathways. Additionally, our evaluation of genotoxicity using the single-cell gel electrophoresis assay confirmed the concentration-dependent toxicity of PS NPs and further supported the notion that PS NPs may induce DNA damage in a dose-dependent manner. These findings collectively underscore the complex interplay between PS NP concentration, cellular responses, and toxicity mechanisms, necessitating further investigation to explain the underlying pathways driving nanoplastics-induced cytotoxicity and genotoxicity.
 
-## 2. Probability: Working with Uncertainty
+<!-- The code is simple.
+Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
+To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
+Here's the code for the last row of images above:
 
-Probability quantifies how likely events are, from 0 (impossible) to 1 (certain). Key rules include:
+{% raw %}
 
-- Complement rule: $P(\text{not } A) = 1 - P(A)$
-- Addition rule for mutually exclusive events: $P(A \text{ or } B) = P(A) + P(B)$
-- Multiplication rule for independent events: $P(A \text{ and } B) = P(A) \times P(B)$
+```html
+<div class="row justify-content-sm-center">
+  <div class="col-sm-8 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+``` -->
 
-For dependent events, conditional probability is essential:
-\begin{equation}
-P(A \mid B) = \frac{P(A \cap B)}{P(B)}
-\end{equation}
-This models situations where outcomes depend on conditions, like the probability of ecosystem recovery given specific interventions.
-
----
-
-## 3. Probability Distributions: Modelling Randomness
-
-Different distributions model different data patterns. The binomial distribution describes yes/no outcomes:
-\begin{equation}
-P(X = k) = \binom{n}{k} p^k (1-p)^{n-k}
-\end{equation}
-where $n$ = trials, $k$ = successes, $p$ = success probability. Useful for contamination detection studies.
-
-The Poisson distribution models rare events:
-\begin{equation}
-P(X = k) = \frac{e^{-\lambda} \lambda^k}{k!}
-\end{equation}
-where $\lambda$ = average event rate. Applies to industrial incidents or wildlife sightings.
-
-The normal distribution (bell curve) appears frequently:
-\begin{equation}
-f(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2}
-\end{equation}
-with $\mu$ = mean, $\sigma$ = standard deviation. Approximately 68% of values fall within $\mu \pm \sigma$, 95% within $\mu \pm 2\sigma$. Many statistical tests assume normality.
-
----
-
-## 4. Hypothesis Testing: Answering Research Questions
-
-Hypothesis testing evaluates whether observed patterns reflect real effects. Start with:
-
-- Null hypothesis ($H_0$): No effect (e.g., $\mu_{\text{treated}} = \mu_{\text{control}}$)
-- Alternative hypothesis ($H_1$): Effect exists
-
-Set significance level $\alpha$ (typically 0.05). For comparing a sample mean to a standard:
-\begin{equation}
-t = \frac{\bar{x} - \mu_0}{s/\sqrt{n}}
-\end{equation}
-where $\bar{x}$ = sample mean, $\mu_0$ = reference value, $s$ = standard deviation, $n$ = sample size. If p-value < $\alpha$, reject $H_0$.
-
----
-
-## 5. Confidence Intervals: Estimating Precision
-
-Confidence intervals show where the true population parameter likely resides:
-\begin{equation}
-\text{CI} = \bar{x} \pm t\_{\alpha/2, df} \frac{s}{\sqrt{n}}
-\end{equation}
-where $t$ comes from t-distribution tables. A 95% CI indicates that 95% of similar intervals would contain the true mean with repeated sampling.
-
----
-
-## 6. Correlation and Regression
-
-Correlation ($r$) measures linear association strength (-1 to 1):
-\begin{equation}
-r = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum (x_i - \bar{x})^2 \sum (y_i - \bar{y})^2}}
-\end{equation}
-Values near ±1 indicate strong relationships, but correlation doesn't imply causation.
-
-Regression models variable relationships:
-\begin{equation}
-Y = \beta_0 + \beta_1 X + \varepsilon
-\end{equation}
-Slope $\beta_1$ shows Y's change per unit X:
-\begin{equation}
-\hat{\beta}\_1 = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sum (x_i - \bar{x})^2}
-\end{equation}
-
----
-
-## 7. Analysis of Variance (ANOVA)
-
-ANOVA compares means across three or more groups:
-\begin{equation}
-F = \frac{MS*{\text{between}}}{MS*{\text{within}}} = \frac{SS*{\text{between}}/df*{\text{between}}}{SS*{\text{within}}/df*{\text{within}}}
-\end{equation}
-where $SS$ = sum of squares, $MS$ = mean square, $df$ = degrees of freedom. Significant F-values indicate group differences.
-
----
-
-## 8. Non-Parametric Tests
-
-When data violates normality assumptions, use distribution-free alternatives:
-
-- Mann-Whitney U test: Compares two independent groups
-- Kruskal-Wallis test: Compares three or more groups
-  These work for ordinal data, small samples, or skewed distributions.
-
----
-
-## 9. Survival Analysis
-
-Survival analysis handles time-to-event data with incomplete observations:
-\begin{equation}
-\hat{S}(t) = \prod\_{t_i \leq t} \left(1 - \frac{d_i}{n_i}\right)
-\end{equation}
-where $d_i$ = events at time $t_i$, $n_i$ = subjects at risk.
-
----
-
-## 10. Statistical Workflow
-
-Effective analysis follows these steps:
-
-1. Define specific research questions
-2. Design studies with proper sampling methods
-3. Collect quality-controlled data
-4. Explore through visualisation
-5. Select appropriate statistical methods
-6. Interpret results in context
-
-> **Key Recommendations:**
->
-> - Visualise data at all stages
-> - Document analytical decisions thoroughly
-> - Report effect sizes with confidence intervals
-> - Acknowledge study limitations
-> - Consult statisticians during design phase  
->   {: .block-tip}
-
----
-
-I'm planning to explore statistics and environmental science more deeply in future posts, focusing on practical considerations for analysis. This will also serve as a personal reference.
-
-**Further Resources:**
-
-- [R for Data Science](https://r4ds.had.co.nz)
-- [StatQuest YouTube Channel](https://youtube.com/joshstarmer)
+{% endraw  %}
