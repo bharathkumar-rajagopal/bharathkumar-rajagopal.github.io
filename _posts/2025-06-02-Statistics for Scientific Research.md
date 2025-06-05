@@ -2,7 +2,7 @@
 layout: post
 title: Statistics for Scientific Research
 date: 2025-06-02 23:26:05
-description: Basic statistical guide
+description: Complete statistical guide with environmental science applications
 tags: statistics
 pretty_table: true
 giscus_comments: true
@@ -12,7 +12,7 @@ toc:
   sidebar: left
 ---
 
-I remember feeling completely lost when I first encountered statistical analysis in my research. All those formulas and jargon seemed overwhelming. But here's what I learned: statistics is simply a toolkit for understanding patterns in data. Whether you're studying pollution levels, species diversity, or medical outcomes, these methods help transform numbers into meaningful insights.
+I remember feeling completely lost when I first encountered statistical analysis in my research. All those formulas and jargon seemed overwhelming. But here's what I learnt: statistics is simply a toolkit for understanding patterns in data. Whether you're studying pollution levels, species diversity, or medical outcomes, these methods help transform numbers into meaningful insights.
 
 Statistics gives us the power to:
 
@@ -21,7 +21,7 @@ Statistics gives us the power to:
 - Measure uncertainty in our observations
 - Make evidence-based decisions
 
-In this guide, I'll explain essential statistical concepts using straightforward language. For deeper understanding, I highly recommend {% cite Daniel2024 %} - it's an absolute gem.
+In this guide, I'll explain essential statistical concepts using straightforward language. For detailed understanding, I highly recommend {% cite Daniel2024 %} - it's an absolute gem.
 
 ---
 
@@ -55,6 +55,8 @@ Standard deviation ($s$) is its square root, in original units. For skewed data,
 \end{align*}
 where $Q_1$ (25th percentile) and $Q_3$ (75th percentile) contain the middle 50% of values. This helps identify variability in field measurements.
 
+Additionally, consider skewness and kurtosis to describe the shape of the distribution.
+
 ---
 
 ## 2. Probability: Working with Uncertainty
@@ -70,6 +72,8 @@ For dependent events, conditional probability is essential:
 P(A \mid B) = \frac{P(A \cap B)}{P(B)}
 \end{equation}
 This models situations where outcomes depend on conditions, like the probability of ecosystem recovery given specific interventions.
+
+Additionally, Bayes' Theorem can be useful for updating probabilities based on new evidence.
 
 ---
 
@@ -108,6 +112,8 @@ t = \frac{\bar{x} - \mu_0}{s/\sqrt{n}}
 \end{equation}
 where $\bar{x}$ = sample mean, $\mu_0$ = reference value, $s$ = standard deviation, $n$ = sample size. If p-value < $\alpha$, reject $H_0$.
 
+Additionally, consider one-tailed vs. two-tailed tests and Type I/II errors.
+
 ---
 
 ## 5. Confidence Intervals: Estimating Precision
@@ -117,6 +123,8 @@ Confidence intervals show where the true population parameter likely resides:
 \text{CI} = \bar{x} \pm t\_{\alpha/2, df} \frac{s}{\sqrt{n}}
 \end{equation}
 where $t$ comes from t-distribution tables. A 95% CI indicates that 95% of similar intervals would contain the true mean with repeated sampling.
+
+Note that CI width decreases with larger sample size or lower variability.
 
 ---
 
@@ -137,6 +145,8 @@ Slope $\beta_1$ shows Y's change per unit X:
 \hat{\beta}\_1 = \frac{\sum (x_i - \bar{x})(y_i - \bar{y})}{\sum (x_i - \bar{x})^2}
 \end{equation}
 
+Consider assumptions of linear regression (e.g., linearity, homoscedasticity, independence, normality of residuals).
+
 ---
 
 ## 7. Analysis of Variance (ANOVA)
@@ -147,6 +157,8 @@ F = \frac{MS*{\text{between}}}{MS*{\text{within}}} = \frac{SS*{\text{between}}/d
 \end{equation}
 where $SS$ = sum of squares, $MS$ = mean square, $df$ = degrees of freedom. Significant F-values indicate group differences.
 
+Consider post-hoc tests (e.g., Tukey's HSD) if ANOVA is significant.
+
 ---
 
 ## 8. Non-Parametric Tests
@@ -155,7 +167,10 @@ When data violates normality assumptions, use distribution-free alternatives:
 
 - Mann-Whitney U test: Compares two independent groups
 - Kruskal-Wallis test: Compares three or more groups
-  These work for ordinal data, small samples, or skewed distributions.
+- Wilcoxon signed-rank test: For paired samples
+- Spearman’s rho: For correlation
+
+These work for ordinal data, small samples, or skewed distributions.
 
 ---
 
@@ -166,6 +181,8 @@ Survival analysis handles time-to-event data with incomplete observations:
 \hat{S}(t) = \prod\_{t_i \leq t} \left(1 - \frac{d_i}{n_i}\right)
 \end{equation}
 where $d_i$ = events at time $t_i$, $n_i$ = subjects at risk.
+
+Consider censoring and log-rank test for comparing survival curves.
 
 ---
 
@@ -180,6 +197,8 @@ Effective analysis follows these steps:
 5. Select appropriate statistical methods
 6. Interpret results in context
 
+---
+
 > **Key Recommendations:**
 >
 > - Visualise data at all stages
@@ -189,9 +208,13 @@ Effective analysis follows these steps:
 > - Consult statisticians during design phase  
 >   {: .block-tip}
 
+Additionally, consider reproducibility and open data/code sharing.
+
 ---
 
-I'm planning to explore statistics and environmental science more deeply in future posts, focusing on practical considerations for analysis. This will also serve as a personal reference.
+I plan to write more about statistics, especially in the context of environmental science, in future posts. I’ll focus on practical aspects of analysis, and it might also serve as a personal reference. It will take some time and effort, but I’ll do my best to share it as soon as I can.
+
+---
 
 **Further Resources:**
 
