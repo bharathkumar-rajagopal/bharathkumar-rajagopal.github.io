@@ -44,9 +44,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "post-statistics-for-scientific-research-comprehensive-environmental-science-guide",
+        },{id: "post-statistics-for-scientific-research",
       
-        title: "Statistics for Scientific Research - Comprehensive Environmental Science Guide",
+        title: "Statistics for Scientific Research",
       
       description: "Complete statistical guide with environmental science applications",
       section: "Posts",
@@ -147,9 +147,9 @@ ninja.data = [{
           section: "News",},{id: "news-newspaper-preprint-of-our-publication-on-integrating-kinetic-models-gene-circuits-and-biofilm-dynamics-for-enhanced-exopolysaccharide-production-in-nitrifying-bacterial-consortia-is-available-online",
           title: ':newspaper: Preprint of our publication on “Integrating Kinetic Models, Gene Circuits, and Biofilm...',
           description: "",
-          section: "News",},{id: "projects-msc-thesis-project",
-          title: 'MSc. Thesis Project',
-          description: "Toxicity Assessment of Nanoplastics",
+          section: "News",},{id: "projects-statistics-for-scientific-research",
+          title: 'Statistics for Scientific Research',
+          description: "Basic statistical guide",
           section: "Projects",handler: () => {
               window.location.href = "/projects/MSc_Thesis/";
             },},{id: "projects-project-agnps",
