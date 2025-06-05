@@ -10,9 +10,9 @@ related_publications: true
 ---
 
 > **Supervisor**
-> Dr. R. Ragunathan
-> Senior Principal Scientist
-> Centre for Bioscience and Nanoscience Research, Coimbatore
+> Dr. R. Ragunathan,
+> Senior Principal Scientist,
+> Centre for Bioscience and Nanoscience Research, Coimbatore.
 > {: .block-tip}
 
 This study explores the biogenic synthesis of silver nanoparticles (AgNPs) using endophytic Priestia megaterium strain BAR isolated from the medicinal plant Andrographis paniculata. This work highlights the promise of biogenic AgNPs as sustainable alternatives for antimicrobial and anticancer therapies.

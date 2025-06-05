@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Statistics for Scientific Research - Comprehensive Environmental Science Guide
+title: Statistics for Scientific Research
 date: 2025-06-02 23:26:05
 description: Complete statistical guide with environmental science applications
 tags: statistics
