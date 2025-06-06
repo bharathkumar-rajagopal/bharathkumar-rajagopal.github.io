@@ -3,8 +3,6 @@ layout: page
 title: Pronounciation
 description: How to say my name right, just in case you’re unsure
 permalink: /pronounciation/
-nav: true
-nav_order: 10
 ---
 
 My name’s a bit of a long one with Indian roots. Some people find it a little tricky at first, but honestly, it’s easier than it looks.
