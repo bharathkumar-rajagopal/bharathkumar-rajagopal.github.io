@@ -152,10 +152,11 @@ Consider assumptions of linear regression (e.g., linearity, homoscedasticity, in
 ## 7. Analysis of Variance (ANOVA)
 
 ANOVA compares means across three or more groups:
+
 \begin{equation}
-\[
-F = \frac{MS_{\text{between}}}{MS_{\text{within}}} = \frac{SS_{\text{between}}/df_{\text{between}}}{SS_{\text{within}}/df_{\text{within}}}
-\]
+F = \frac{MS*{\text{between}}}{MS*{\text{within}}} = \frac{SS*{\text{between}}/df*{\text{between}}}{SS*{\text{within}}/df*{\text{within}}}
+\end{equation}
+
 where $SS$ = sum of squares, $MS$ = mean square, $df$ = degrees of freedom. Significant F-values indicate group differences.
 
 Consider post-hoc tests (e.g., Tukey's HSD) if ANOVA is significant.
