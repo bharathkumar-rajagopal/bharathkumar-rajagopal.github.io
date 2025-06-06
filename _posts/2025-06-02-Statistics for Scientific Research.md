@@ -2,7 +2,7 @@
 layout: post
 title: Statistics for Scientific Research
 date: 2025-06-02 23:26:05
-description: Complete statistical guide with environmental science applications
+description: Introduction to Basic Statistics
 tags: statistics
 pretty_table: true
 giscus_comments: true
