@@ -2,9 +2,19 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+// Body text weight
+
 body {
   font-weight: 400;
 }
+
+// === Bolded body text weight override ===
+
+body strong,
+body b {
+  font-weight: 600;
+}
+
 // Typography
 
 p,
@@ -35,6 +45,11 @@ table {
 
   th {
     font-weight: bold;
+  }
+
+  // Set table data cells to normal weight
+  td {
+    font-weight: 400;
   }
 }
 
