@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Prospective PhD Candidate</a>. Ecotoxicology | Atmospheric Chemsitry | Pollutants
+subtitle: <a href='#'>Prospective PhD Candidate</a>. Ecotoxicology | Atmospheric Chemistry | Pollutants
 
 description: sample description "leave blank to include all the news in the `_news` folder."
 
