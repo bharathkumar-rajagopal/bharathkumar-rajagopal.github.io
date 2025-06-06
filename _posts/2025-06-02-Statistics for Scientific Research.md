@@ -50,10 +50,12 @@ To understand data spread, variance ($s^2$) measures average squared deviation f
 s^2 = \frac{1}{n-1}\sum\_{i=1}^{n} (x_i - \bar{x})^2
 \end{equation}
 Standard deviation ($s$) is its square root, in original units. For skewed data, the interquartile range (IQR) is more appropriate:
-\begin{align*}
+
+\[
 \text{IQR} = Q_3 - Q_1
-\end{align*}
-where $Q_1$ (25th percentile) and $Q_3$ (75th percentile) contain the middle 50% of values. This helps identify variability in field measurements.
+\]
+
+where \( Q_1 \) (25th percentile) and \( Q_3 \) (75th percentile) contain the middle 50% of values. This helps identify variability in field measurements.
 
 Additionally, consider skewness and kurtosis to describe the shape of the distribution.
 
@@ -151,17 +153,15 @@ Consider assumptions of linear regression (e.g., linearity, homoscedasticity, in
 
 ## 7. Analysis of Variance (ANOVA)
 
-ANOVA compares means across three or more groups:
+ANOVA (Analysis of Variance) is used to determine whether the means of three or more independent groups are significantly different from each other.
 
-
-\begin{equation}
+$$
 F = \frac{MS_{\text{between}}}{MS_{\text{within}}} = \frac{SS_{\text{between}} / df_{\text{between}}}{SS_{\text{within}} / df_{\text{within}}}
-\end{equation}
-
+$$
 
 where $SS$ = sum of squares, $MS$ = mean square, $df$ = degrees of freedom. Significant F-values indicate group differences.
 
-Consider post-hoc tests (e.g., Tukey's HSD) if ANOVA is significant.
+A larger F-value suggests that the variation between group means is more than what would be expected by chance. If the F-statistic is significant (based on a p-value), it indicates that at least one group mean is different. In that case, post-hoc tests (like Tukey’s HSD) can help identify which groups differ.
 
 ---
 
