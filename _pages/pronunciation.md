@@ -1,17 +1,17 @@
 ---
 layout: page
-title: Pronounciation
-description: How to say my name right, just in case you’re unsure
-permalink: /pronounciation/
+title: Pronunciation
+description: How to say my name right, just in case if you’re unsure.
+permalink: /pronunciation/
 ---
 
 My name’s a bit of a long one with Indian roots. Some people find it a little tricky at first, but honestly, it’s easier than it looks.
 
-My full name is **Bharathkumar Rajagopal** (IPA: /ˈbʌ.rəθ.kuːˈmɑːr ˈrɑː.dʒə.goʊˈpɑːl/).
+My full name is `Bharathkumar Rajagopal` (IPA: /ˈbʌ.rəθ.kuːˈmɑːr ˈrɑː.dʒə.goʊˈpɑːl/).
 
 It’s pronounced **Buh-rath-koo-mar**, where:
 
-- "**Bha**" sounds like _buh_ in _bud_ — not like _ball_ or _bay_
+- "**Bha**" sounds like _buh_ in _bud_ - not like _ball_ or _bay_
 - "**rath**" rhymes with _path_ or _wrath_ (not stretched out like _raaaath_)
 
 My surname, **Rajagopal**, is said **Rah-jah-go-paal**. It’s not a family name, but actually my dad’s first name. That might sound a bit unusual, but it’s quite normal in South India, especially in Tamil Nadu.

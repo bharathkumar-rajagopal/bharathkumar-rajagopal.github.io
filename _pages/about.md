@@ -31,7 +31,7 @@ latest_posts:
 ---
 
 <br>
-I go by **Bharath**. (Tamil: பரத்குமார் ராஜகோபால்) - <a href="https://bharathkumar-rajagopal.github.io/pronounciation/">Pronunciation :magnifying-glass: </a>
+While my full name is right up there, I usually go by Bharath [Tamil: பரத்குமார் ராஜகோபால்(பரத்)] If you're wondering how to say it, here's a quick <a href="https://bharathkumar-rajagopal.github.io/pronunciation/">Pronunciation guide :mag: </a>.
 
 I'm an early-stage researcher passionate about unraveling environmental pollution through advanced biotechnological approaches. With a **Master's in Biotechnology** (`Distinction`, CGPA: 8.75/10) from **<a href="https://amity.edu/">Amity University Uttar Pradesh</a>**, I specialise in:
 
