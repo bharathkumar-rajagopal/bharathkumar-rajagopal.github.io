@@ -34,7 +34,6 @@ latest_posts:
 **Bharathkumar Rajagopal**  
 (Tamil: பரத்குமார் ராஜகோபால்) - <a href="https://bharathkumar-rajagopal.github.io/pronounciation/">Pronunciation:magnifying-glass: </a>
 
-
 I'm an early-stage researcher passionate about unraveling environmental pollution through advanced biotechnological approaches. With a **Master's in Biotechnology** (`Distinction`, CGPA: 8.75/10) from **<a href="https://amity.edu/">Amity University Uttar Pradesh</a>**, I specialise in:
 
 - `Advanced analytical techniques`
