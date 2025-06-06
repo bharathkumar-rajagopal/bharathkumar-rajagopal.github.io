@@ -48,7 +48,7 @@ ninja.data = [{
       
         title: "Statistics for Scientific Research",
       
-      description: "Complete statistical guide with environmental science applications",
+      description: "Introduction to Basic Statistics",
       section: "Posts",
       handler: () => {
         
