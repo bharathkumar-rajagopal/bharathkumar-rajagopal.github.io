@@ -31,19 +31,19 @@ latest_posts:
 ---
 
 <br>
-While my full name is right up there, I usually go by Bharath [Tamil: பரத்குமார் ராஜகோபால்(பரத்)] If you're wondering how to say it, here's a quick <a href="https://bharathkumar-rajagopal.github.io/pronunciation/">Pronunciation guide :mag: </a>.
 
-I'm an early-stage researcher passionate about unraveling environmental pollution through advanced biotechnological approaches. With a **Master's in Biotechnology** (`Distinction`, CGPA: 8.75/10) from **<a href="https://amity.edu/">Amity University Uttar Pradesh</a>**, I specialise in:
+I’m a researcher passionate about using biotechnology to understand and address environmental pollution. I usually go by Bharath (if you're wondering how to say it, here’s a quick 
+<a href="https://bharathkumar-rajagopal.github.io/pronunciation/">pronunciation guide 🔍</a>).
+
+I hold a **Master's in Biotechnology** (Distinction, CGPA: 8.75/10) from <a href="https://amity.edu/">Amity University Uttar Pradesh</a>, and my work focuses on:
 
 - `Advanced analytical techniques`
 - `Environmental risk assessments`
 - `Pollutant characterisation`
 
-My work sits at the exciting intersection of **Biotechnology** and **real-world environmental challenges**, using Biotechnology as my foundation while expanding into atmospheric chemistry and environmental science - the interdisciplinary approach modern pollution research demands.
+My research brings together **Biotechnology** and **real-world environmental challenges**. I use biotechnology as a foundation and explore areas like atmospheric chemistry and environmental science. This interdisciplinary approach is key to understanding and solving today’s pollution problems.
 
-Currently, I am working as an independent researcher under the scholarly mentorship of **<a href="https://www.linkedin.com/in/boobal-rangaswamy-14a76819a/?originalSubdomain=kr">Dr. Boobal Rangaswamy</a>**, who was also my undergraduate advisor. I am involved in projects related to Pollutants.
-
-<br>
+At the moment, I’m working independently under the guidance of <a href="https://www.linkedin.com/in/boobal-rangaswamy-14a76819a/?originalSubdomain=kr">Dr. Boobal Rangaswamy</a>, who also mentored me during my undergraduate studies. We are currently involved in projects focused on pollutants and their environmental impact.
 
 ---
 
