@@ -30,7 +30,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<br style="line-height:0.2;">
+<div style="margin-top: 1.5em;"></div>
 I’m an **early-career researcher** who’s always been curious about how biotechnology can help us understand and tackle real environmental problems. Both my previous work and my intended PhD aim to build an interdisciplinary approach, bringing together different scientific areas.
 
 My research focuses on the `characterisation` of materials and pollutants using advanced analytical techniques to understand their structure and physico-chemical properties. This forms the basis for `environmental risk assessments`, which help evaluate their potential impact on ecosystems and human health. I also use toxicological assays to study how these substances affect _in vitro_ and _in vivo_ models, and `microbiological systems` to examine the role of microbes in environmental processes. I always try to bring at least two of these areas together in the projects I work on, for a better perspective on environmental problems.
@@ -41,7 +41,7 @@ At present, I am working independently under the supervision of <a href="https:/
 
 While my name is right up there, I usually go by Bharath. If you’re unsure how to pronounce my name, here’s a quick <a href="https://bharathkumar-rajagopal.github.io/pronunciation/">pronunciation guide 🔍</a>.
 
-> <span style="font-family: 'Garamond', 'Georgia', serif; font-size: 1.15em; font-style: italic;">
+> <span style="font-family: 'Garamond', 'Georgia', serif; font-size: 2em; font-style: italic;">
 >  **Science**, for me, is less about having answers and more about learning to ask better questions.
 >  </span>
 > {: .block-tip }
