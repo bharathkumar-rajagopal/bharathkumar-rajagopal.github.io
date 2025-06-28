@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Prospective PhD Candidate</a>. Ecotoxicology | Atmospheric Chemistry | Pollutants
+subtitle: <a href='#'>Prospective PhD Candidate</a>. Ecotoxicology | Analytical Chemistry | Microbiology
 
 description: sample description "leave blank to include all the news in the `_news` folder."
 
@@ -32,18 +32,20 @@ latest_posts:
 
 <br>
 
-I’m a researcher passionate about using biotechnology to understand and address environmental pollution. I usually go by Bharath (if you're wondering how to say it, here’s a quick 
-<a href="https://bharathkumar-rajagopal.github.io/pronunciation/">pronunciation guide 🔍</a>).
+<br>
 
-I hold a **Master's in Biotechnology** (Distinction, CGPA: 8.75/10) from <a href="https://amity.edu/">Amity University Uttar Pradesh</a>, and my work focuses on:
+I’m an early-career researcher who’s always been curious about how biotechnology can help us understand and tackle real environmental problems. Both my previous work and my intended PhD aim to build an interdisciplinary approach, bringing together different scientific areas.
 
-- `Advanced analytical techniques`
-- `Environmental risk assessments`
-- `Pollutant characterisation`
+My research focuses on the characterisation of materials and pollutants using advanced analytical techniques to understand their structure and physico-chemical properties. This forms the basis for environmental risk assessments, which help evaluate their potential impact on ecosystems and human health. I also use toxicological assays to study how these substances affect _in vitro_ and _in vivo_ models, and microbiological systems to examine the role of microbes in environmental processes. I always try to bring at least two of these areas together in the projects I work on, for a better perspective on environmental problems.
 
-My research brings together **Biotechnology** and **real-world environmental challenges**. I use biotechnology as a foundation and explore areas like atmospheric chemistry and environmental science. This interdisciplinary approach is key to understanding and solving today’s pollution problems.
+I completed my **Master’s in Biotechnology** with distinction (CGPA 8.75 out of 10) at <a href="https://amity.edu/">Amity University, Uttar Pradesh</a>. My research brings together biotechnology, analytical chemistry, and environmental science to study how different materials behave and what risks they may pose to ecosystems and human health.
 
-At the moment, I’m working independently under the guidance of <a href="https://www.linkedin.com/in/boobal-rangaswamy-14a76819a/?originalSubdomain=kr">Dr. Boobal Rangaswamy</a>, who also mentored me during my undergraduate studies. We are currently involved in projects focused on pollutants and their environmental impact.
+At present, I am working independently under the supervision of <a href="https://www.linkedin.com/in/boobal-rangaswamy-14a76819a/?originalSubdomain=kr">Dr. Boobal Rangaswamy</a>, who also my adviser during my undergraduate studies. We are currently working on projects related to the ecotoxicology.
+
+While my name is right up there, I usually go by Bharath. If you’re unsure how to pronounce my name, here’s a quick <a href="https://bharathkumar-rajagopal.github.io/pronunciation/">pronunciation guide 🔍</a>.
+
+> Science, for me, is less about having answers and more about learning to ask better questions.
+> {: .block-tip}
 
 ---
 
