@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "post-statistics-for-scientific-research",
+        },{id: "post-pollution-populations-and-the-role-of-mathematical-modelling",
+      
+        title: "Pollution, Populations, and the Role of Mathematical Modelling",
+      
+      description: "Mathematical models help us understand how pollution affects biological populations. They share important knowledge on survival thresholds, environmental stability, and the importance of clean-up efforts.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/Pollution,-Populations,-and-the-Role-of-Mathematical-Modelling/";
+        
+      },
+    },{id: "post-statistics-for-scientific-research",
       
         title: "Statistics for Scientific Research",
       
