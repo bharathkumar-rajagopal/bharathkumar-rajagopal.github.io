@@ -41,7 +41,7 @@ At present, I am working independently under the supervision of <a href="https:/
 
 While my name is right up there, I usually go by Bharath. If you’re unsure how to pronounce my name, here’s a quick <a href="https://bharathkumar-rajagopal.github.io/pronunciation/">pronunciation guide 🔍</a>.
 
-> <span style="font-family: 'Garamond', 'Georgia', serif; font-size: 2em; font-style: italic;">
+> <span style="font-family: 'Garamond', 'Georgia', serif; font-size: 1.em; font-style: italic;">
 >  **Science**, for me, is less about having answers and more about learning to ask better questions.
 >  </span>
 > {: .block-tip }

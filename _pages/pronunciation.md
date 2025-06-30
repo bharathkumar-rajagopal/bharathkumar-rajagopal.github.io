@@ -5,7 +5,7 @@ description: How to say my name right, just in case you’re unsure.
 permalink: /pronunciation/
 ---
 
-**TL;DR:** Just call me Bharath (pronounced: **BUH-ruth**).
+**TL;DR:** Just call me Bharath (pronounced: **Baa-rath**).
 
 <br>
 
