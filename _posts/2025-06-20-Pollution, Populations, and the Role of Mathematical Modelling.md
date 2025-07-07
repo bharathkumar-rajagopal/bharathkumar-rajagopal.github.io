@@ -24,11 +24,11 @@ To study how a population behaves in a polluted environment, researchers develop
 
 Here:
 
-- \( x(t) \) is the population biomass,
-- \( C_0(t) \) is the toxicant concentration inside organisms,
-- \( C_e(t) \) is the toxicant concentration in the environment,
-- \( r_0 \) is the intrinsic growth rate,
-- \( a \), \( b \), and \( f \) are constants representing sensitivity to internal toxicant, environmental toxicant, and intra-species competition respectively.
+- $$ x(t) $$ is the population biomass,
+- $$ C_0(t) $$ is the toxicant concentration inside organisms,
+- $$ C_e(t) $$ is the toxicant concentration in the environment,
+- $$ r_0 $$ is the intrinsic growth rate,
+- $$ a, b, and f $$ are constants representing sensitivity to internal toxicant, environmental toxicant, and intra-species competition respectively.
 
 This equation shows that as pollution increases (either internally or externally), the growth rate of the population decreases. If the pollution is too high, the population may decline to extinction.
 
@@ -52,14 +52,14 @@ This equation includes:
 
 - uptake by organisms,
 - release from dead organisms,
-- natural decay or removal (via \( h \)),
-- and external input \( u(t) \), such as industrial pollution.
+- natural decay or removal (via $$ h $$),
+- and external input $$ u(t) $$, such as industrial pollution.
 
 ### Why These Equations Matter
 
-These equations help identify critical thresholds. For example, if the external input \( u(t) \) exceeds a certain value, the population cannot survive. But if it stays below that threshold, the population may persist. This is formalised in the paper through conditions for persistence and extinction based on parameter values.
+These equations help identify critical thresholds. For example, if the external input $$ u(t)$$ exceeds a certain value, the population cannot survive. But if it stays below that threshold, the population may persist. This is formalised in the paper through conditions for persistence and extinction based on parameter values.
 
-The model also shows how increasing the clean-up rate \( h \) or reducing \( u(t) \) can shift the system from extinction to persistence. This is not just theoretical—it provides a quantitative basis for environmental policy.
+The model also shows how increasing the clean-up rate $ h $ or reducing $$ u(t) $$ can shift the system from extinction to persistence. This is not just theoretical—it provides a quantitative basis for environmental policy.
 
 ### Incomplete H-function and Pollution Diffusion
 
