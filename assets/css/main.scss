@@ -23,3 +23,16 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+
+// Bharath added this:
+@import
+  "tabler-icons/tabler-icons.scss",
+  "tabler-icons/tabler-icons-filled.scss",
+  "tabler-icons/tabler-icons-outline.scss"
+;
+
+// Add your font override below
+body, html {
+  font-family: 'Inter', sans-serif !important; //Replace 'Inter' with 'Lato' if you want to use Lato instead.
+}

@@ -59,7 +59,7 @@ This equation includes:
 
 These equations help identify critical thresholds. For example, if the external input $$ u(t)$$ exceeds a certain value, the population cannot survive. But if it stays below that threshold, the population may persist. This is formalised in the paper through conditions for persistence and extinction based on parameter values.
 
-The model also shows how increasing the clean-up rate $ h $ or reducing $$ u(t) $$ can shift the system from extinction to persistence. This is not just theoretical—it provides a quantitative basis for environmental policy.
+The model also shows how increasing the clean-up rate $$ h $$ or reducing $$ u(t) $$ can shift the system from extinction to persistence. This is not just theoretical—it provides a quantitative basis for environmental policy.
 
 ### Incomplete H-function and Pollution Diffusion
 

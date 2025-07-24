@@ -3,9 +3,9 @@
     "name": "Bharathkumar Rajagopal",
     "Diploma": "Msc Biotechnology",
     "image": "prof_pic2.png",
-    "email": "i.bharath@outlook.com",
+    "email": "",
     "phone": "",
-    "url": "https://bharathkumar-rajagopal.github.io/",
+    "url": "",
     "summary": "Prospective PhD candidate",
     "location": {
       "address": "5, Eswaramoorthy Nagar, 3rd Street, Velliyangadu",
@@ -31,7 +31,7 @@
       "endDate": "present",
       "project": "",
       "summary": "Engaged in independent research in environmental toxicology under the scholarly mentorship of Dr. Boobal Rangaswamy, Department of Biotechnology, PSG College of Arts & Science, contributing substantively to the development and authorship of scientific manuscripts intended for peer-reviewed publication.",
-      "highlights": ["Ecotoxicology, Independent Research, Scientific Writing, Manuscript Preparation"]
+      "highlights": ["Ecotoxicology, Microbiology, Independent Research, Scientific Writing, Manuscript Preparation"]
     },
     {
       "name": "CSIR - Indian Institute of Toxicology Research, Lucknow",
@@ -281,7 +281,7 @@
       "name": "Language",
       "level": "Fundational",
       "icon": "fa-solid fa-laptop-code",
-      "keywords": ["Python (Foundation)", "LaTeX"]
+      "keywords": ["Python (Foundation)", "R", "LaTeX"]
     }
   ],
   "languages": [

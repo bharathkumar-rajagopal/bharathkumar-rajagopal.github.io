@@ -51,11 +51,11 @@ s^2 = \frac{1}{n-1}\sum\_{i=1}^{n} (x_i - \bar{x})^2
 \end{equation}
 Standard deviation ($s$) is its square root, in original units. For skewed data, the interquartile range (IQR) is more appropriate:
 
-\[
+$$
 \text{IQR} = Q_3 - Q_1
-\]
+$$
 
-where \( Q_1 \) (25th percentile) and \( Q_3 \) (75th percentile) contain the middle 50% of values. This helps identify variability in field measurements.
+where $$ Q_1 $$ (25th percentile) and $$ Q_3 $$ (75th percentile) contain the middle 50% of values. This helps identify variability in field measurements.
 
 Additionally, consider skewness and kurtosis to describe the shape of the distribution.
 
@@ -184,7 +184,7 @@ Survival analysis handles time-to-event data with incomplete observations:
 \begin{equation}
 \hat{S}(t) = \prod\_{t_i \leq t} \left(1 - \frac{d_i}{n_i}\right)
 \end{equation}
-where $d_i$ = events at time $t_i$, $n_i$ = subjects at risk.
+where $$d_i$$ = events at time $t_i$, $n_i$ = subjects at risk.
 
 Consider censoring and log-rank test for comparing survival curves.
 
