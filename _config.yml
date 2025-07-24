@@ -488,9 +488,8 @@ third_party_libraries:
   #   url:
   #     fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
   google_fonts:
-  url:
-    css: "https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-  # google_fonts:
+    url:
+      css: "https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
   # url:
   #   fonts: "https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap"
   highlightjs:
