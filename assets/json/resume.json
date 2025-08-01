@@ -31,7 +31,7 @@
       "endDate": "present",
       "project": "",
       "summary": "Engaged in independent research in environmental toxicology under the scholarly mentorship of Dr. Boobal Rangaswamy, Department of Biotechnology, PSG College of Arts & Science, contributing substantively to the development and authorship of scientific manuscripts intended for peer-reviewed publication.",
-      "highlights": ["Ecotoxicology, Microbiology, Independent Research, Scientific Writing, Manuscript Preparation"]
+      "highlights": ["Ecotoxicology, Microbiology, Mothur, R, Scientific Writing, Manuscript Preparation"]
     },
     {
       "name": "CSIR - Indian Institute of Toxicology Research, Lucknow",
@@ -237,7 +237,7 @@
       "name": "Applied computational techniques",
       "level": "Master",
       "icon": "fa-solid fa-computer",
-      "keywords": ["BLAST", "PSIPRED", "Biomolecular visualisation", "SWISS-MODEL", "Rasmol", "Pymol"]
+      "keywords": ["BLAST", "PSIPRED", "Biomolecular visualisation", "SWISS-MODEL", "Rasmol", "Pymol", "Mothur", "QIIME 2"]
     },
     {
       "name": "Molecular Biology",
