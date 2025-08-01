@@ -30,13 +30,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "I am a recent MSc Biotechnology graduate from Amity University, with expertise in toxicity assessments and comprehensive analytical techniques. I am highly motivated to pursue a PhD focused on studying environmental pollutants.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
         },{id: "nav-contact",
           title: "Contact",
           description: "Get in Touch!",
