@@ -13,11 +13,13 @@ toc:
   sidebar: left
 ---
 
-I'm not an expert in R, but while working on my project on microbial ecology, I often felt overwhelmed managing different datasets. There was chaos. Most times, I’d forget what each file was for or how I did certain steps. Eventually, I lost track of so much that I decided to collect tips and best practices to make my RStudio workflow smoother. This blog post is a beginner-friendly guide to help you write better R code, organize your projects, and share your work more effectively.
+I'm not an expert in R, but while working on my project on microbial ecology, I often felt overwhelmed managing different datasets. There was chaos. Most times, I’d forget what each file was for or how I did certain steps. Eventually, I lost track of so much that I decided to collect tips and best practices to make my RStudio workflow smoother. This blog post is a beginner-friendly guide to help you write better R code, organise your projects, and share your work more effectively.
+
+**NOTE:** I used examples from microbial ecology, but the approach is similar for any R-based data analysis. Please don’t focus too much on terms like OTU or alpha diversity. You can replace them with general names like sales_data or apple_counts if that makes it easier to follow.
 
 ---
 
-## Beginner Essentials: Writing, Running, and Organizing R Code
+## Beginner Essentials: Writing, Running, and Organising R Code
 
 _(Focus: Clean workflows, avoiding common pitfalls, setting up projects)_  
 This guide helps new R users establish good habits from the start. Whether you’re setting up a project, writing scripts, or debugging errors, these tips will save you time and frustration.
@@ -27,20 +29,20 @@ This guide helps new R users establish good habits from the start. Whether you�
 ### I. Project Setup & File Management
 
 **Problem:** Saving scripts randomly (e.g., on your desktop) leads to lost work and confusion.  
-**Fix:** Use a consistent folder system and RStudio Projects to keep everything organized and easy to find.
+**Fix:** Use a consistent folder system and RStudio Projects to keep everything organised and easy to find.
 
 #### 1. Basic Project Structure
 
 A clear folder setup is the foundation of a reproducible project. Here’s a simple structure to follow:
 
 ```text
-My_Analysis_Project/
+Microbial_Diversity_Project/
 ├── data/            # Raw data files (never edit these directly!)
-│   ├── raw_data.csv
+│   ├── otu_table.csv
 │   └── metadata.txt
 ├── scripts/         # Your R code, numbered for order
 │   ├── 01_data_clean.R
-│   └── 02_analysis.R
+│   └── 02_alpha_diversity.R
 ├── outputs/         # Results like plots and tables
 │   ├── figures/
 │   └── tables/
@@ -49,7 +51,7 @@ My_Analysis_Project/
 ```
 
 - **data/**: Store untouched raw data here to preserve the originals.
-- **scripts/**: Organize scripts by task with numbers (e.g., 01* for cleaning, 02* for analysis).
+- **scripts/**: Organise scripts by task with numbers (e.g., 01* for cleaning, 02* for analysis).
 - **outputs/**: Keep results separate for easy access (subfolders like figures/ for plots).
 - **backups/**: (Optional) Save workspace or script backups for extra safety.
 - **README.txt**: Write down what the project does and any key details.
@@ -79,10 +81,10 @@ setwd("C:/Users/YourName/Desktop/Project")
   ```r
   # Install once: install.packages("here")
   library(here)
-  read_csv(here("data", "raw_data.csv"))
+  otu_data <- read.csv(here("data", "otu_table.csv"))
   ```
 
-- **Tip:** Always use relative paths (e.g., `"data/raw_data.csv"`) so your code works anywhere.
+- **Tip:** Always use relative paths (e.g., `"data/otu_table.csv"`) so your code works anywhere.
 
 ---
 
@@ -93,31 +95,31 @@ setwd("C:/Users/YourName/Desktop/Project")
 
 #### 1. Script Structure Template
 
-A well-organized script is like a recipe: it’s clear what each part does. Here’s a starter template:
+A well-organised script is like a recipe: it’s clear what each part does. Here’s a starter template:
 
 ```r
 # ---- HEADER ----
-# Project: Customer Analysis
+# Project: Microbial Diversity Study
 # Author: Your Name
 # Date: 2023-08-01
-# Description: Cleans raw sales data
+# Description: Cleans OTU table and calculates alpha diversity
 
 # ---- SETUP ----
 rm(list = ls())  # Clear memory to avoid old variables causing issues
 library(readr)   # Load tools for reading data
 library(here)    # For safe file paths
 
-input_path <- here("data", "raw_data.csv")
+input_path <- here("data", "otu_table.csv")
 output_dir <- here("outputs", "figures")
 
 # ---- LOAD DATA ----
-raw_data <- read_csv(input_path)
+otu_data <- read_csv(input_path)
 
 # ---- CLEAN DATA ----
-clean_data <- raw_data[!is.na(raw_data$Price), ]  # Drop rows with missing prices
+otu_data_clean <- otu_data[complete.cases(otu_data), ]  # Remove rows with missing values
 
 # ---- SAVE RESULTS ----
-write_csv(clean_data, here("data", "clean_data.csv"))
+write_csv(otu_data_clean, here("data", "otu_table_clean.csv"))
 ```
 
 - **Header:** Notes about the project (who, when, why).
@@ -126,13 +128,15 @@ write_csv(clean_data, here("data", "clean_data.csv"))
 - **Clean Data:** Make it usable.
 - **Save Results:** Store the output.
 
+> **Note:** Using `rm(list = ls())` at the start of your script does **not** truly reset your R session. It only removes objects, but loaded packages, options, and the working directory remain unchanged. For truly reproducible scripts, always restart R (e.g., with `Ctrl+Shift+F10` in RStudio) and ensure your script loads all needed packages and sets options explicitly.
+
 #### 2. Life-Saving Habits
 
 - **Save often:** Hit Ctrl+S in RStudio to avoid losing work.
 - **Comment clearly:** Explain tricky steps for your future self:
   ```r
-  # Convert dates from MM/DD/YY to YYYY-MM-DD for consistency
-  data$Date <- as.Date(data$Date, format = "%m/%d/%y")
+  # Convert sample dates from MM/DD/YY to YYYY-MM-DD for consistency
+  metadata$Date <- as.Date(metadata$Date, format = "%m/%d/%y")
   ```
 - **Use section breaks:** In RStudio, Ctrl+Shift+R adds collapsible sections (e.g., `# ---- LOAD DATA ----`) for easy navigation.
 
@@ -154,7 +158,7 @@ write_csv(clean_data, here("data", "clean_data.csv"))
 
 - **Check your data:**
   ```r
-  print(head(your_data))  # Look at the first few rows
+  print(head(otu_data))  # Look at the first few rows
   ```
 - **List variables:**
   ```r
@@ -162,9 +166,10 @@ write_csv(clean_data, here("data", "clean_data.csv"))
   ```
 - **Test snippets:**
   ```r
-  mean(raw_data$Price, na.rm = TRUE)  # Try a small piece in the console
+  mean(otu_data_clean$Abundance, na.rm = TRUE)  # Try a small piece in the console
   ```
-- **Tip:** Restart R (`Session > Restart R`) if you’re stuck—it clears memory and lets you start fresh.
+- **Tip:** Restart R (`Session > Restart R`, `Ctrl+Shift+F10 (Windows and Linux)`, or `Command+Shift+F10 (Mac OS)`) if you’re stuck—it clears memory and lets you start fresh.
+  - Even if you're fine, it's always best to restart R very often and re-run your under-development script from the top.
 
 ---
 
@@ -178,8 +183,8 @@ write_csv(clean_data, here("data", "clean_data.csv"))
 Programmatic saving ensures consistency:
 
 ```r
-png(file = here("outputs", "figures", "price_histogram.png"), width = 800, height = 600)
-hist(clean_data$Price, main = "Price Distribution")
+png(file = here("outputs", "figures", "shannon_histogram.png"), width = 800, height = 600)
+hist(otu_data_clean$Shannon, main = "Shannon Diversity Index Distribution")
 dev.off()  # Closes the file—don’t skip this!
 ```
 
@@ -190,7 +195,7 @@ dev.off()  # Closes the file—don’t skip this!
 Export data to CSV for later use:
 
 ```r
-write.csv(clean_data, here("outputs", "tables", "cleaned_data.csv"), row.names = FALSE)
+write.csv(otu_data_clean, here("outputs", "tables", "otu_table_clean.csv"), row.names = FALSE)
 ```
 
 > `row.names = FALSE` keeps the file clean by skipping row numbers.
@@ -216,13 +221,13 @@ Here’s how to dodge frequent headaches:
 **Problem:** Wrong file paths break your code.
 
 ```r
-read.csv("data.csv")  # Assumes script is in the root
+read.csv("otu_table.csv")  # Assumes script is in the root
 ```
 
 **Fix:** Use relative paths or `here()` from your project directory.
 
 ```r
-read.csv(here("data", "raw_data.csv"))
+read.csv(here("data", "otu_table.csv"))
 ```
 
 #### 2. Overwriting Variables
@@ -230,15 +235,15 @@ read.csv(here("data", "raw_data.csv"))
 **Problem:** Reusing names wipes out data.
 
 ```r
-result <- calculate_stats(data)
-result <- make_plot(data)  # Oops, stats are gone!
+result <- calculate_diversity(otu_data)
+result <- plot_diversity(otu_data)  # Oops, diversity results are gone!
 ```
 
 **Fix:** Use unique, descriptive names.
 
 ```r
-stats_result <- calculate_stats(data)
-price_plot <- make_plot(data)
+diversity_result <- calculate_diversity(otu_data)
+diversity_plot <- plot_diversity(otu_data)
 ```
 
 #### 3. Not Closing Plots
@@ -258,8 +263,8 @@ dev.off()
 
 #### 4. Case Sensitivity
 
-**Problem:** `data$price` fails if it’s `data$Price`.  
-**Fix:** Check names with `names(data)`.
+**Problem:** `otu_data$abundance` fails if it’s `otu_data$Abundance`.  
+**Fix:** Check names with `names(otu_data)`.
 
 #### 5. Ignoring Warnings
 
@@ -271,19 +276,19 @@ dev.off()
 **Problem:** Spaces break paths.
 
 ```r
-read.csv("my data.csv")  # Fails
+read.csv("otu table.csv")  # Fails
 ```
 
-**Fix:** Rename files (`my_data.csv`) or quote paths.
+**Fix:** Rename files (`otu_table.csv`) or quote paths.
 
 #### 7. Missing Packages
 
-**Problem:** `library(dplyr)` fails if it’s not installed.  
+**Problem:** `library(vegan)` fails if it’s not installed.  
 **Fix:** Add a check.
 
 ```r
-if (!require("dplyr")) install.packages("dplyr")
-library(dplyr)
+if (!require("vegan")) install.packages("vegan")
+library(vegan)
 ```
 
 #### 8. Ruining Raw Data
@@ -291,14 +296,14 @@ library(dplyr)
 **Problem:** Editing raw data directly.
 
 ```r
-raw_data$Price <- raw_data$Price * 2
+otu_data$Abundance <- otu_data$Abundance * 2
 ```
 
 **Fix:** Copy first.
 
 ```r
-clean_data <- raw_data
-clean_data$Price <- clean_data$Price * 2
+otu_data_clean <- otu_data
+otu_data_clean$Abundance <- otu_data_clean$Abundance * 2
 ```
 
 #### 9. Unreadable Code
@@ -306,14 +311,14 @@ clean_data$Price <- clean_data$Price * 2
 **Problem:** Cramming too much into one line.
 
 ```r
-x <- data[data$sales > 1000 & !is.na(data$sales), c(1, 3, 5)]
+x <- otu_data[otu_data$Abundance > 100 & !is.na(otu_data$Abundance), c(1, 3, 5)]
 ```
 
 **Fix:** Break it up.
 
 ```r
-high_sales <- data[data$Sales > 1000 & !is.na(data$Sales), ]
-selected_cols <- high_sales[, c("ID", "Product", "Region")]
+high_abundance <- otu_data[otu_data$Abundance > 100 & !is.na(otu_data$Abundance), ]
+selected_cols <- high_abundance[, c("SampleID", "OTU", "Abundance")]
 ```
 
 #### 10. No Backups
@@ -333,21 +338,21 @@ They point you to the problem.
 **Example:**
 
 ```r
-Error in mean(data$Prize) : object 'Prize' not found
+Error in mean(otu_data$Abudance) : object 'Abudance' not found
 ```
 
 **Steps:**
 
-- Check spelling (`Price` vs. `Prize`).
-- Confirm columns with `names(data)`.
+- Check spelling (`Abundance` vs. `Abudance`).
+- Confirm columns with `names(otu_data)`.
 
 #### 2. Ultimate Debugging Trick
 
 Add `print()` to peek inside:
 
 ```r
-clean_data <- raw_data[raw_data$Price > 0, ]
-print(nrow(clean_data))  # How many rows left?
+otu_data_clean <- otu_data[otu_data$Abundance > 0, ]
+print(nrow(otu_data_clean))  # How many samples left?
 ```
 
 #### 3. Isolate the Issue
@@ -372,11 +377,11 @@ print(nrow(clean_data))  # How many rows left?
 #### 2. Handy Functions
 
 ```r
-View(data)     # Spreadsheet view
-str(data)      # Data structure
-summary(data)  # Quick stats
-dir()          # List files
-getwd()        # Current directory
+View(otu_data)     # Spreadsheet view
+str(otu_data)      # Data structure
+summary(otu_data)  # Quick stats
+dir()              # List files
+getwd()            # Current directory
 ```
 
 #### 3. Memory Management
@@ -444,7 +449,7 @@ This section is for users comfortable with R basics who want to work smarter, no
 **Fix:** Use clear, snake_case names:
 
 ```r
-customer_orders <- read_csv("customer_orders_2023.csv")  # Not `d`
+soil_otu_table <- read_csv("soil_otu_table_2023.csv")  # Not `d`
 ```
 
 #### 3. Comment Strategically
@@ -453,8 +458,8 @@ Explain why you’re doing something:
 
 ```r
 # ---- Data Cleaning ----
-# Drop test accounts per company policy (IDs < 1000 are invalid)
-valid_orders <- filter(customer_orders, customer_id >= 1000)
+# Remove samples with fewer than 1000 reads (low quality)
+filtered_otu <- filter(soil_otu_table, TotalReads >= 1000)
 ```
 
 #### 4. Functions Over Repeated Code
@@ -463,12 +468,11 @@ valid_orders <- filter(customer_orders, customer_id >= 1000)
 **Fix:** Write functions:
 
 ```r
-summarise_sales <- function(data, group_var) {
-  data %>%
-    group_by({{ group_var }}) %>%
-    summarise(avg_sales = mean(sales, na.rm = TRUE))
+calculate_shannon <- function(abundance_vector) {
+  prop <- abundance_vector / sum(abundance_vector)
+  -sum(prop * log(prop), na.rm = TRUE)
 }
-summarise_sales(sales_data, region)
+otu_data$Shannon <- apply(otu_data[, -1], 1, calculate_shannon)
 ```
 
 #### 5. Never Hardcode Paths
@@ -478,7 +482,7 @@ summarise_sales(sales_data, region)
 
 ```r
 library(here)
-sales <- read_csv(here("data", "raw", "sales_2023.csv"))
+metadata <- read_csv(here("data", "metadata.csv"))
 ```
 
 ---
@@ -490,30 +494,29 @@ sales <- read_csv(here("data", "raw", "sales_2023.csv"))
 Pause and inspect with `browser()`:
 
 ```r
-calculate_metrics <- function(x) {
+calculate_richness <- function(abundance) {
   browser()  # Stops here—explore variables
-  result <- (x * 10) / max(x)
-  return(result)
+  sum(abundance > 0)
 }
 ```
 
 #### 2. Speed Up Code
 
-- **Vectorize:** Skip loops for faster operations.
+- **Vectorise:** Skip loops for faster operations.
   ```r
-  data$discount <- data$price * 0.2  # Beats a for loop
+  otu_data$RelativeAbundance <- otu_data$Abundance / sum(otu_data$Abundance)
   ```
 - **Use data.table:** For big data:
   ```r
   library(data.table)
-  setDT(sales_data)
-  sales_data[, total_sales := sum(units * price), by = region]
+  setDT(otu_data)
+  otu_data[, TotalAbundance := sum(Abundance), by = SampleID]
   ```
 
 #### 3. Handle Memory Wisely
 
 ```r
-rm(unused_dataframe)
+rm(unused_otu_table)
 gc()  # Garbage collection
 ```
 
@@ -539,9 +542,9 @@ Test changes with `testthat`:
 
 ```r
 library(testthat)
-test_that("summarise_sales works", {
-  test_data <- data.frame(region = c("A", "A", "B"), sales = c(100, 200, 150))
-  expect_equal(summarise_sales(test_data, region)$avg_sales, c(150, 150))
+test_that("calculate_shannon works", {
+  test_abund <- c(10, 20, 30)
+  expect_equal(round(calculate_shannon(test_abund), 2), 1.01)
 })
 ```
 
@@ -557,15 +560,15 @@ renv::snapshot()  # Save versions
 
 ---
 
-### IV. Visualizing Data Effectively
+### IV. Visualising Data Effectively
 
 #### 1. ggplot2 Shortcuts
 
 Define once, reuse:
 
 ```r
-base_plot <- ggplot(sales_data, aes(x = price, y = sales))
-base_plot + geom_point() + geom_smooth()
+base_plot <- ggplot(otu_data, aes(x = SampleType, y = Shannon))
+base_plot + geom_boxplot() + labs(title = "Shannon Diversity by Sample Type")
 ```
 
 #### 2. Interactive Plots with plotly
@@ -574,7 +577,7 @@ Add interactivity:
 
 ```r
 library(plotly)
-static_plot <- ggplot(sales_data, aes(x = price, y = sales)) + geom_point()
+static_plot <- ggplot(otu_data, aes(x = SampleType, y = Shannon)) + geom_boxplot()
 ggplotly(static_plot)
 ```
 
@@ -584,8 +587,8 @@ Use `viridis`:
 
 ```r
 library(viridis)
-ggplot(data, aes(x = category, y = value, fill = category)) +
-  geom_bar(stat = "identity") +
+ggplot(otu_data, aes(x = SampleType, y = Shannon, fill = SampleType)) +
+  geom_boxplot() +
   scale_fill_viridis(discrete = TRUE)
 ```
 
@@ -599,18 +602,18 @@ Mix code and text for reproducible reports:
 
 ````markdown
 ---
-title: "Sales Report"
+title: "Microbial Diversity Report"
 output: html_document
 ---
 
 ```{r}
 library(here)
-sales <- read_csv(here("data", "sales.csv"))
-top_products <- sales %>% group_by(product) %>% summarise(total_sales = sum(amount)) %>% head(5)
-print(top_products)
+otu_data <- read_csv(here("data", "otu_table.csv"))
+summary_stats <- otu_data %>%
+  group_by(SampleType) %>%
+  summarise(mean_shannon = mean(Shannon, na.rm = TRUE))
+print(summary_stats)
 ```
-````
-
 ````
 
 #### 2. Share Interactive Apps with Shiny
@@ -619,14 +622,21 @@ Quick app:
 
 ```r
 library(shiny)
-ui <- fluidPage(selectInput("region", "Region", unique(sales_data$region)), plotOutput("sales_plot"))
+ui <- fluidPage(
+  selectInput("sample_type", "Sample Type", unique(otu_data$SampleType)),
+  plotOutput("shannon_plot")
+)
 server <- function(input, output) {
-  output$sales_plot <- renderPlot({
-    sales_data %>% filter(region == input$region) %>% ggplot(aes(x = month, y = sales)) + geom_line()
+  output$shannon_plot <- renderPlot({
+    otu_data %>%
+      filter(SampleType == input$sample_type) %>%
+      ggplot(aes(x = SampleID, y = Shannon)) +
+      geom_bar(stat = "identity") +
+      labs(title = paste("Shannon Diversity for", input$sample_type))
   })
 }
 shinyApp(ui, server)
-````
+```
 
 #### 3. Reproducible Sessions
 
@@ -645,10 +655,10 @@ sessionInfo()  # R version, packages, etc.
 Break pipes with `browser()`:
 
 ```r
-sales_data %>%
-  filter(year == 2023) %T>%
+otu_data %>%
+  filter(SampleType == "Soil") %T>%
   { browser() } %>%
-  group_by(region)
+  group_by(SampleID)
 ```
 
 #### 2. Fast Row-Wise Operations
@@ -657,7 +667,8 @@ Use `purrr::pmap()`:
 
 ```r
 library(purrr)
-sales_data %>% mutate(profit = pmap_dbl(list(price, cost), ~ ..1 - ..2))
+otu_data <- otu_data %>%
+  mutate(ratio = pmap_dbl(list(Abundance, TotalReads), ~ ..1 / ..2))
 ```
 
 #### 3. Secret Shortcuts
