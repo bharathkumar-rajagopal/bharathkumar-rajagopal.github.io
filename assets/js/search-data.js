@@ -30,8 +30,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-curriculum-vitae",
-          title: "Curriculum vitae",
+        },{id: "nav-cv",
+          title: "CV",
           description: "I am a prospective PhD student interested in applying biotechnology to study complex environmental systems through interdisciplinary research. My work often combines analytical methods, biological models, and microbial approaches to explore interactions within these systems.",
           section: "Navigation",
           handler: () => {
@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "post-pollution-populations-and-the-role-of-mathematical-modelling",
+        },{id: "post-the-beginner-39-s-r-survival-guide",
+      
+        title: "The Beginner&#39;s R Survival Guide",
+      
+      description: "A practical guide to help beginners write cleaner R code, manage projects better, and avoid common mistakes.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/R-Survival-Guide/";
+        
+      },
+    },{id: "post-pollution-populations-and-the-role-of-mathematical-modelling",
       
         title: "Pollution, Populations, and the Role of Mathematical Modelling",
       
