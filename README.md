@@ -1,3 +1,3 @@
 # Bharath
 
-This is the repository for my [personal website](https://bharathkumar-rajagopal.github.io/), made with the [al-folio](https://github.com/alshedivat/al-folio) theme.
+This is the repository for my [personal website](https://bharathkumar-rajagopal.github.io/).

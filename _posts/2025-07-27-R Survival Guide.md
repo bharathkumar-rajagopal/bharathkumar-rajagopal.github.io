@@ -419,11 +419,11 @@ gc()               # Free memory
 ### Final Tip: The 30-Second Rule
 
 Ask yourself: “If I reopen this in 6 months, will I get it in 30 seconds?”  
-Good organization makes this a “yes”!
+Good organisation makes this a “yes”!
 
 ---
 
-## Level Up: Pro Tips for Efficient R Coding and Organization
+## Level Up: Pro Tips for Efficient R Coding and Organisation
 
 _For Beginners Ready to Level Up_
 
