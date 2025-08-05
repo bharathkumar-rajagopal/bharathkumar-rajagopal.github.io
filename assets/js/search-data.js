@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "I am a prospective PhD student interested in applying biotechnology to study complex environmental systems through interdisciplinary research. My work often combines analytical methods, biological models, and microbial approaches to explore interactions within these systems.",
+          description: "I am a postgraduate interested in applying biotechnology to study complex environmental systems through interdisciplinary research. My work often combines analytical methods with biological models and microbes to explore interactions within these systems.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -159,9 +159,6 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-bow-i-joined-as-an-independent-researcher-under-dr-boobal-rangaswamy",
           title: ':bow: I joined as an independent researcher under Dr. Boobal Rangaswamy.',
-          description: "",
-          section: "News",},{id: "news-grin-i-took-my-english-proficiency-exam-ielts-on-the-18th-of-this-month-and-got-a-cefr-c1-advanced-one-step-closer-to-my-phd-hooray",
-          title: ':grin: I took my English Proficiency exam (IELTS) on the 18th of this...',
           description: "",
           section: "News",},{id: "news-mortar-board-officially-graduated-with-msc-in-biotechnology-received-my-degree-certificate-through-mail",
           title: ':mortar_board: Officially graduated with MSc in Biotechnology - received my degree certificate through...',
