@@ -42,7 +42,7 @@ I completed my **Master’s in Biotechnology** with **First class distinction** 
 
 While my name is right up there, I usually go by Bharath. If you’re unsure how to pronounce my name, here’s a quick <a href="https://bharathkumar-rajagopal.github.io/pronunciation/">pronunciation guide 🔍</a>.
 
-> <span style="font-family: 'Garamond', 'Georgia', serif; font-size: 1.5em; font-style: italic;">
+> <span style="font-family: 'Georgia', serif; font-size: 1.5em; font-style: italic;">
 >  **Science**, for me, is less about having answers and more about learning to ask better questions.
 >  </span>
 > {: .block-tip }

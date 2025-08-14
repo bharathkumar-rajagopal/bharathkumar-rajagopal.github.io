@@ -8,8 +8,6 @@ permalink: /pronunciation/
 > **TL;DR:** Just call me Bharath (pronounced: **Baa-rath**).
 > {: .block-tip }
 
-<br>
-
 My name’s a bit of a long one with Indian roots. Some people find it a little tricky at first, but honestly, it’s easier than it looks.
 
 My full name is `Bharathkumar Rajagopal` (IPA: /ˈbʌ.rəθ.kuːˈmɑːr ˈrɑː.dʒə.gəʊˈpɑːl/).
