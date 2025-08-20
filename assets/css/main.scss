@@ -34,5 +34,5 @@ $max-content-width: {{ site.max_width }};
 
 // Add your font override below
 body, html {
-  font-family: "PT Serif", "Public Sans", Lato, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif; !important; //Replace 'Inter' with 'Lato' if you want to use Lato instead.
+  font-family: "PT Serif", "Public Sans", Lato, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif !important; //Replace 'Inter' with 'Lato' if you want to use Lato instead.
 }
