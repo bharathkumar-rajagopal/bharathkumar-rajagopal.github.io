@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "post-the-beginner-39-s-r-survival-guide",
+        },{id: "post-pragmatic-statistics-a-beginner-friendly-guide-for-research",
+      
+        title: "Pragmatic Statistics: A Beginner-Friendly Guide for Research",
+      
+      description: "A practical, honest, and clear guide to statistical design and analysis for researchers, with examples from environmental and pollution science.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/Pragmatic-Statistics/";
+        
+      },
+    },{id: "post-the-beginner-39-s-r-survival-guide",
       
         title: "The Beginner&#39;s R Survival Guide",
       
