@@ -484,12 +484,12 @@ third_party_libraries:
         library: "https://cdn.jsdelivr.net/npm/echarts@{{version}}/dist/echarts.min.js"
         dark_theme: "https://cdn.jsdelivr.net/npm/echarts@{{version}}/theme/dark-fresh-cut.js"
     version: "5.5.0"
-  # google_fonts:
-  #   url:
-  #     fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+    # google_fonts:
+    #   url:
+    #     fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
     google_fonts:
-    url:
-      fonts: "https://fonts.googleapis.com/css?family=PT+Serif:400,700|Public+Sans:400,700|Lato:400,700&display=swap"
+      url:
+        fonts: "https://fonts.googleapis.com/css?family=PT+Serif:400,700|Public+Sans:400,700|Lato:400,700&display=swap"
   # google_fonts:
   #   url:
   #     css: "https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
