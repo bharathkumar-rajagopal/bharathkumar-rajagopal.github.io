@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-publications",
           title: "Publications",
-          description: "My publications in reverse chronological order.",
+          description: "My publications in reverse chronological order (§ contributed equally).",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
@@ -48,7 +48,7 @@ ninja.data = [{
       
         title: "Pragmatic Statistics: A Beginner-Friendly Guide for Research",
       
-      description: "A practical, honest, and clear guide to statistical design and analysis for researchers, with examples from environmental and pollution science.",
+      description: "A practical, honest, and clear guide to statistical design and analysis.",
       section: "Posts",
       handler: () => {
         
