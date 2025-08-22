@@ -2,12 +2,12 @@
 layout: post
 title: "Pragmatic Statistics: A Beginner-Friendly Guide for Research"
 date: 2025-08-19 23:06:42
-description: A practical, honest, and clear guide to statistical design and analysis for researchers, with examples from environmental and pollution science.
+description: A practical, honest, and clear guide to statistical design and analysis.
 tags: statistics
 pretty_table: true
 giscus_comments: true
 related_publications: false
-featured: true
+featured: false
 toc:
   sidebar: left
 ---

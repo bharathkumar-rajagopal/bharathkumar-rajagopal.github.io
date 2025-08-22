@@ -308,8 +308,8 @@ display_categories: ["current-research", "my-project"] # these categories will b
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Rajagopal]
-  first_name: [Bharathkumar]
+  last_name: [Rajagopal, R.]
+  first_name: [Bharathkumar, B., Bharathkumar Rajagopal, Bharathkumar Rajagopal<sup>§</sup>]
 
   style: apa
   locale: en
@@ -487,12 +487,12 @@ third_party_libraries:
     # google_fonts:
     #   url:
     #     fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
-    google_fonts:
-      url:
-        fonts: "https://fonts.googleapis.com/css?family=PT+Serif:400,700|Public+Sans:400,700|Lato:400,700&display=swap"
-  # google_fonts:
-  #   url:
-  #     css: "https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    # google_fonts:
+    #   url:
+    #     fonts: "https://fonts.googleapis.com/css?family=PT+Serif:400,700|Public+Sans:400,700|Lato:400,700&display=swap"
+  google_fonts:
+    url:
+      fonts: "https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
   # url:
   #   fonts: "https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap"
   highlightjs:

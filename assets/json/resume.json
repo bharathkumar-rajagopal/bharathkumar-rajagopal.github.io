@@ -6,7 +6,7 @@
     "email": "",
     "phone": "",
     "url": "",
-    "summary": "Prospective PhD candidate",
+    "summary": "",
     "location": {
       "address": "5, Eswaramoorthy Nagar, 3rd Street, Velliyangadu",
       "postalCode": "641604",
@@ -220,16 +220,30 @@
     {
       "name": "Integrating Kinetic Models, Gene Circuits, and Biofilm Dynamics for Enhanced Exopolysaccharide Production in Nitrifying Bacterial Consortia",
       "publisher": "Journal of Microbiological Methods [PREPRINT in SSRN]",
-      "releaseDate": "",
+      "releaseDate": "2025",
       "url": "https://doi.org/10.2139/ssrn.5235712",
-      "summary": "Under Review"
+      "summary": "in press"
     },
     {
-      "name": "Development and Characterization of Artocarpus heterophyllus Lam. Nanosuspension: A Strategy to Enhance Bioavailability and Antioxidant Potential of Plant Bioactives",
+      "name": "Development of Artocarpus heterophyllus Lam. Nanosuspension",
       "publisher": "Nanotechnology for Environmental Engineering",
       "releaseDate": "",
       "url": "",
       "summary": "Under Review"
+    },
+    {
+      "name": "Biogenic Synthesis of Silver Nanoparticles Using Endophytic Bacteria from Andrographis paniculata",
+      "publisher": "",
+      "releaseDate": "-",
+      "url": "",
+      "summary": "In preparation"
+    },
+    {
+      "name": "Functional Dynamics Revealing Metacommunity and Organisation of Microbial Populations in Lentic Environment",
+      "publisher": "",
+      "releaseDate": "-",
+      "url": "",
+      "summary": "In preparation."
     }
   ],
   "skills": [
@@ -299,6 +313,12 @@
 
   "references": [
     {
+      "name": "Dr. Boobal Rangaswamy",
+      "icon": "fa-solid fa-envelope",
+      "email": "boobal@psgcas.ac.in",
+      "reference": "Assistant Professor – Department of Biotechnology, PSG College of Arts & Science, Tamil Nadu"
+    },
+    {
       "name": "Dr. Alok Kumar Pandey",
       "icon": "fa-solid fa-envelope",
       "reference": "Senior Principal Scientist - CSIR - Indian Institute of Toxicology Research, Lucknow",
@@ -309,12 +329,6 @@
       "icon": "fa-solid fa-envelope",
       "reference": "Professor - Amity Institute of Biotechnology, Amity University Uttar Pradesh",
       "email": "rksingh1@amity.edu"
-    },
-    {
-      "name": "Dr. Boobal Rangaswamy",
-      "icon": "fa-solid fa-envelope",
-      "email": "boobal@psgcas.ac.in",
-      "reference": "Assistant Professor – Department of Biotechnology, PSG College of Arts & Science, Tamil Nadu"
     }
   ]
 }
