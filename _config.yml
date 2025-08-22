@@ -308,7 +308,7 @@ display_categories: ["current-research", "my-project"] # these categories will b
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Rajagopal, R.]
+  last_name: [Rajagopal, R., Rajagopal<sup>§</sup>]
   first_name: [Bharathkumar, B., Bharathkumar Rajagopal, Bharathkumar Rajagopal<sup>§</sup>]
 
   style: apa
