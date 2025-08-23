@@ -30,7 +30,7 @@ latest_posts:
 
 <div style="margin-top: 1.5em;"></div>
 
-I'm an **early-career researcher* who loves exploring how biotechnology can solve environmental problems. My past projects and intended future work are all about trying interdisciplinarity to better understand the research question.
+I'm an \*_early-career researcher_ who loves exploring how biotechnology can solve environmental problems. My past projects and intended future work are all about trying interdisciplinarity to better understand the research question.
 
 I really enjoy working with `analytical instruments`. I love learning how high-end instruments work, and with a bit of guidance, I'll always give them a try. This means I'm now pretty comfortable with almost all the analytical tools used in environmental research.
 
@@ -38,7 +38,7 @@ In this field, we always start by studying sample, materials or pollutants to se
 
 For my master's dissertation, I studied nanoplastics. I did `health risk assessments` using tests on _in vitro_ models. I'm also very interested in `microbial systems` and how microbes help our environment. Lately, I'm also learning to use `programming languages and other computational tools`. I often try to combine all these areas in my work to get a broader perspective of the problem.
 
-I got my *Master’s in Biotechnology* with *First Class Distinction* (CGPA 8.75/10) from [Amity University, Uttar Pradesh](https://amity.edu/). Right now, I'm working independently with [Dr. Boobal Rangaswamy](https://www.linkedin.com/in/boobal-rangaswamy-14a76819a/?originalSubdomain=kr). He was my adviser during my undergrad too. Together, we're focusing on projects about ecotoxicology and microbial ecology.
+I got my _Master’s in Biotechnology_ with _First Class Distinction_ (CGPA 8.75/10) from [Amity University, Uttar Pradesh](https://amity.edu/). Right now, I'm working independently with [Dr. Boobal Rangaswamy](https://www.linkedin.com/in/boobal-rangaswamy-14a76819a/?originalSubdomain=kr). He was my adviser during my undergrad too. Together, we're focusing on projects about ecotoxicology and microbial ecology.
 
 My name's up there, but you can just call me Bharath. Not sure how to say it? Check out my [pronunciation guide 🔍](https://bharathkumar-rajagopal.github.io/pronunciation/).
 
