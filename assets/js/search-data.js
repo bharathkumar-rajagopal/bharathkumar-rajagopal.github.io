@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-publications",
           title: "Publications",
-          description: "My publications in reverse chronological order (§Equal contribution).",
+          description: "My publications in reverse chronological order.  Note: The section sign (§) indicates equal contribution.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
@@ -177,6 +177,9 @@ ninja.data = [{
           section: "News",},{id: "news-newspaper-preprint-of-our-publication-on-integrating-kinetic-models-gene-circuits-and-biofilm-dynamics-for-enhanced-exopolysaccharide-production-in-nitrifying-bacterial-consortia-is-available-online",
           title: ':newspaper: Preprint of our publication on “Integrating Kinetic Models, Gene Circuits, and Biofilm...',
           description: "",
+          section: "News",},{id: "news-newspaper-our-paper-titled-integrating-kinetic-models-gene-circuits-and-biofilm-dynamics-for-enhanced-exopolysaccharide-production-in-nitrifying-bacterial-consortia-has-been-accepted-for-publication",
+          title: ':newspaper: Our paper titled “Integrating Kinetic Models, Gene Circuits, and Biofilm Dynamics for...',
+          description: "",
           section: "News",},{id: "projects-msc-thesis-project",
           title: 'MSc. Thesis Project',
           description: "Toxicity Assessment of Nanoplastics",
@@ -219,6 +222,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://twitter.com/Bharath_PhD", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0002-7922-8467", "_blank");
         },
       },{
       id: 'light-theme',
