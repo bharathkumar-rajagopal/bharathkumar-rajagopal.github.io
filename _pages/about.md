@@ -30,16 +30,17 @@ latest_posts:
 
 <div style="margin-top: 1.5em;"></div>
 
-I’m an **early-career researcher** who loves exploring how biotechnology can help solve environmental problems. My past projects and intended future work are all about trying interdisciplinarity to better understand the research question.
+I'm an **early-career researcher* who loves exploring how biotechnology can solve environmental problems. My past projects and intended future work are all about trying interdisciplinarity to better understand the research question.
 
-I’ve worked with `analytical techniques` and enjoy learning more about them. Whenever I get the chance, I try out new instruments with some guidance, which has made me pretty comfortable with almost all analytical tools often used in environmental research.
+I really enjoy working with `analytical instruments`. I love learning how high-end instruments work, and with a bit of guidance, I'll always give them a try. This means I'm now pretty comfortable with almost all the analytical tools used in environmental research.
 
-If you’re in this field of research, you probably know we start by studying materials and pollutants to understand their makeup. That’s my favourite part too. I like characterising things. Maybe that’s one reason I like analytical instruments; it helps me know them better. In my master's dissertation, I studied nanoplastics and did `environmental risk assessments` using tests on _in vitro_ models. Besides, I’m also interested in `microbial systems` and studying how microbes play a role in the environment. I’m learning and using languages and other computational approaches lately, too. I often try to combine these areas in my work to get a broader perspective of the problem.
+In this field, we always start by studying sample, materials or pollutants to see what they're made of. That's my favourite part. I just like characterising things. Maybe that's why I like the instruments so much, they help me get to know them better.
 
-I got my **Master’s in Biotechnology** with **First Class Distinction** (CGPA 8.75/10) from [Amity University, Uttar Pradesh](https://amity.edu/). Right now, I’m working independently under the supervision of [Dr. Boobal Rangaswamy](https://www.linkedin.com/in/boobal-rangaswamy-14a76819a/?originalSubdomain=kr), who was also my adviser during my undergrad. We’re focusing on projects about ecotoxicology and microbial ecology.
+For my master's dissertation, I studied nanoplastics. I did `health risk assessments` using tests on _in vitro_ models. I'm also very interested in `microbial systems` and how microbes help our environment. Lately, I'm also learning to use `programming languages and other computational tools`. I often try to combine all these areas in my work to get a broader perspective of the problem.
 
-My name’s up there, but you can just call me Bharath. Not sure how to say it? Check out my [pronunciation guide 🔍](https://bharathkumar-rajagopal.github.io/pronunciation/).
+I got my *Master’s in Biotechnology* with *First Class Distinction* (CGPA 8.75/10) from [Amity University, Uttar Pradesh](https://amity.edu/). Right now, I'm working independently with [Dr. Boobal Rangaswamy](https://www.linkedin.com/in/boobal-rangaswamy-14a76819a/?originalSubdomain=kr). He was my adviser during my undergrad too. Together, we're focusing on projects about ecotoxicology and microbial ecology.
 
+My name's up there, but you can just call me Bharath. Not sure how to say it? Check out my [pronunciation guide 🔍](https://bharathkumar-rajagopal.github.io/pronunciation/).
 
 > <span style="font-family: 'Georgia', serif; font-size: 1.5em; font-style: italic;">
 >  **Science**, for me, is less about having answers and more about learning to ask better questions.
