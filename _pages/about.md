@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>MSc in Biotechnology</a>. Ecotoxicology | Analytical Chemistry | Microbiology
+subtitle: <a href='#'>MSc in Biotechnology</a>. Microplastics | Analytical Chemistry | Microbial Ecology
 
 description: sample description "leave blank to include all the news in the `_news` folder."
 

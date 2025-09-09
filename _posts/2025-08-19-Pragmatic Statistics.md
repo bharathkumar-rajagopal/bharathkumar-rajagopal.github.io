@@ -12,81 +12,82 @@ toc:
   sidebar: left
 ---
 
-This is the second part of my beginner-friendly series on statistics. You can treat this as the main starting point for learning how to use statistics in research. Earlier, I wrote a post on [basic statistics for scientific research](https://bharathkumar-rajagopal.github.io/blog/2025/Statistics-for-Scientific-Research/), where I explained topics such as averages, variation, and the normal distribution. If you are new to those ideas, you might find that post helpful too. As I always mention, I am not an expert. I am still learning, reading, and trying to understand these ideas better each day. My aim is to share what I learn in a way that feels practical and easy to follow, especially for beginners like myself.
-In this post, I want to go a bit further and talk about how to approach statistics in research. This was something I found quite confusing when I first started. It is not just about knowing formulas or using software. It is about understanding the type of research you are doing, the questions you are asking, and how to choose the right design and analysis method for your data.
+This is the second part of my beginner-friendly series on statistics. You can use this as your main starting point for learning how to apply statistics in research. Previously, I wrote a post on [basic statistics for scientific research](https://bharathkumar-rajagopal.github.io/blog/2025/Statistics-for-Scientific-Research/), where I explained topics such as averages, variation, and the normal distribution. If you are new to those ideas, you might find that post helpful as well. I am not an expert, but I am learning and trying to understand these ideas better every day. My aim is to share what I learn in a way that is practical and easy to follow, especially for beginners.
+
+In this post, I will go a bit further and talk about how to approach statistics in research. This is something I found confusing when I first started. It is not just about knowing formulas or using software. It is about understanding the type of research you are doing, the questions you are asking, and how to choose the right design and analysis method for your data.
 
 I will use examples from general science and environmental or pollution studies, as that is the area I know best. These examples help explain the ideas more clearly, but the same principles apply to most fields of research. I will keep the language simple and avoid unnecessary jargon. Where technical terms are needed, I will explain them as clearly as I can. Most importantly, I want this post to be useful. If you feel unsure about how to use statistics in research, I hope this guide gives you a clear starting point and helps you avoid some of the mistakes I made when I began.
 
 > #### Note
 >
-> I've done my best to make this post accurate. It’s quite a long one, written while learning from different sources. I believe the content is correct, but I plan to check with someone more experienced, like my professor or one who understands these topics better. If everything is confirmed, I’ll remove this note. Until then, please keep in mind that there may be a few mistakes or things I’ve misunderstood while learning. This is meant to be a basic learning guide, not a final reference.
+> I have done my best to make this post accurate. It is quite a long one, written while learning from different sources. I believe the content is correct, but I plan to check with someone more experienced, such as my professor or someone who understands these topics better. If everything is confirmed, I will remove this note. Until then, please keep in mind that there may be a few mistakes or things I have misunderstood while learning. This is meant to be a basic learning guide, not a final reference.
 > {: .block-warning }
 
 ---
 
-## The One Big Idea: Match Questions to Designs, and Designs to Analyses
+## The Main Idea: Match Your Questions to Designs, and Designs to Analyses
 
-It is tempting to begin with methods, "Should I use t-tests, ANOVA, or regression?", but the honest starting point is your **research question**. Statistics is not magic dust sprinkled after data collection; it is a logical process that starts the moment you shape the question. A good workflow looks like this:
+It is easy to want to start with methods, asking questions like "Should I use t-tests, ANOVA, or regression?" However, the real starting point is your **research question**. Statistics is not something you add after collecting data. It is a logical process that begins as soon as you shape your question. A good workflow looks like this:
 
-1. **Question**: Is it descriptive, predictive, explanatory/causal, or evaluative?
-2. **Design**: Observational or experimental? Cross-sectional or longitudinal? Randomised or not? Controlled or not?
-3. **Measurement & sampling**: What variables, scales, instruments, detection limits, sampling frames, and spatial/temporal scope?
-4. **Analysis plan**: What assumptions, models/tests, diagnostics, uncertainty quantification, and sensitivity analyses?
-5. **Interpretation & communication**: Effect sizes, intervals, context, limitations, and external validity.
+1. **Question:** Is your question descriptive, predictive, explanatory or causal, or evaluative?
+2. **Design:** Is your study observational or experimental? Is it a snapshot in time or does it follow things over time? Is it randomised or not? Is there a control group?
+3. **Measurement and sampling:** What are you measuring? What scales and instruments are you using? What are the detection limits? How are you choosing your samples? What is the time and place covered?
+4. **Analysis plan:** What assumptions do you need? What models or tests will you use? How will you check if your analysis is working? How will you measure uncertainty? Will you do any sensitivity analyses?
+5. **Interpretation and communication:** How will you report effect sizes, intervals, context, limitations, and whether your results apply elsewhere?
 
-If you can write a sentence or two about each of these before collecting data, your study will run more smoothly, fewer detours, fewer "we cannot analyse this" moments, and a much stronger story at the end.
+If you can write a sentence or two about each of these before collecting data, your study will run more smoothly. You will have fewer surprises, fewer moments where you realise you cannot analyse your data, and a much stronger story at the end.
 
 ---
 
-## Variables and Measurement: Foundations You Cannot Skip
+## Variables and Measurement: The Basics You Must Understand
 
-Before designs and tests, be precise about **what you are measuring** and **how**.
+Before you think about study designs or statistical tests, you need to be clear about **what you are measuring** and **how you are measuring it**.
 
 ### Types of Variables
 
-- **Categorical (nominal):** Unordered labels (e.g., land use type: industrial, residential, agricultural).
-- **Ordinal:** Ordered categories (e.g., water clarity ratings: poor, fair, good, excellent).
-- **Discrete counts:** Whole numbers, usually non-negative (e.g., number of species observed in a plot).
-- **Continuous:** Real-valued measurements (e.g., PM2.5 concentration in µg/m³, pH, temperature).
-- **Binary (Bernoulli):** Two outcomes (e.g., presence or absence of a pollutant above a threshold).
+- **Categorical (nominal):** These are labels without any order. For example, land use type such as industrial, residential, or agricultural.
+- **Ordinal:** These are categories with a clear order. For example, water clarity ratings such as poor, fair, good, or excellent.
+- **Discrete counts:** These are whole numbers, usually non-negative. For example, the number of birds seen in a park.
+- **Continuous:** These are measurements that can take any value within a range. For example, temperature, height, or the concentration of a chemical in water.
+- **Binary (Bernoulli):** These are variables with only two possible outcomes. For example, whether a pollutant is present or absent above a certain level.
 
-### Measurement Scales and Implications
+### Measurement Scales and What They Mean
 
-- **Nominal/ordinal**: Use nonparametric methods or models that respect ordering (e.g., ordinal logistic regression).
-- **Interval/ratio**: Continuous scale with meaningful differences (ratio has a true zero). Many parametric methods can be used if assumptions hold.
-- **Count data**: Poisson or negative binomial distributions usually fit better than normal models.
-- **Proportions** (bounded between 0 and 1): Binomial or beta regression, depending on how the data were generated.
+- **Nominal or ordinal:** For these, you usually use nonparametric methods or models that respect the order (for example, ordinal logistic regression).
+- **Interval or ratio:** These are continuous scales where differences are meaningful. Ratio scales have a true zero. Many parametric methods can be used if their assumptions are met.
+- **Count data:** These are often better analysed with Poisson or negative binomial models rather than normal models.
+- **Proportions:** These are values between 0 and 1. You might use binomial or beta regression, depending on how the data were collected.
 
 ### Reliability, Validity, and Detection Limits
 
-- **Reliability**: Instruments should give similar results under similar conditions. Calibration and repeated measurements matter.
-- **Validity**: The measurement must reflect what you care about (e.g., using PM2.5 readings to infer exposure requires thinking about indoor/outdoor differences and time activity patterns).
-- **Detection limits (LOD/LOQ)**: If measurements fall below detection thresholds, you have censored data. Imputation rules of thumb (e.g., LOD/2) are common but can bias results; censored models are better when possible.
+- **Reliability:** Your instruments should give similar results under similar conditions. This means you need to calibrate them and sometimes take repeated measurements.
+- **Validity:** Your measurement should actually reflect what you care about. For example, if you use outdoor air pollution readings to estimate exposure, you need to think about whether people spend time indoors or outdoors.
+- **Detection limits (LOD/LOQ):** Sometimes your instruments cannot measure below a certain level. If your data include values below this limit, you have censored data. Simple rules like replacing these values with half the detection limit are common, but they can bias your results. Special models for censored data are better if you can use them.
 
-These points may seem dry, but they influence everything downstream. For example, transforming heavily skewed pollutant concentrations (e.g., log-transform) before modelling often stabilises variance and gives more sensible results.
+These points might seem technical, but they affect everything you do later. For example, if your data are very skewed, transforming them (such as taking the logarithm) before analysis can make your results more reliable.
 
 ---
 
-## The Taxonomy of Research Questions
+## Types of Research Questions
 
-You can classify research questions by their **purpose**. This helps you choose both **designs** and **statistics**:
+You can group research questions by their **purpose**. This helps you choose both your **study design** and your **statistical methods**:
 
 1. **Descriptive:** "What is happening?"  
-   _Example:_ What is the distribution of PM2.5 across 24 neighbourhoods in winter?
+   _Example:_ What is the range of air pollution levels across different neighbourhoods in winter?
 
-2. **Associational/Correlational:** "What varies with what?"  
-   _Example:_ Is traffic volume associated with NO₂ levels after adjusting for wind and temperature?
+2. **Associational or correlational:** "What varies with what?"  
+   _Example:_ Is there a link between traffic volume and air pollution, after accounting for weather?
 
 3. **Predictive:** "Can we forecast or classify accurately?"  
-   _Example:_ Can we predict algal bloom probability next week from temperature, nutrients, and flow?
+   _Example:_ Can we predict the chance of an algal bloom next week using temperature and nutrient levels?
 
-4. **Explanatory/Causal:** "What causes what?"  
-   _Example:_ Does installing scrubbers in a factory reduce downwind SO₂ levels compared to similar sites without scrubbers?
+4. **Explanatory or causal:** "What causes what?"  
+   _Example:_ Does installing air filters in a factory reduce pollution levels in nearby areas compared to similar places without filters?
 
-5. **Evaluative/Policy:** "What is the effect of an intervention at scale?"  
-   _Example:_ Did a statewide fuel policy reduce ambient benzene concentrations compared to neighbouring states?
+5. **Evaluative or policy:** "What is the effect of an intervention at scale?"  
+   _Example:_ Did a new fuel policy reduce pollution levels compared to areas without the policy?
 
-Most confusion in statistics comes from trying to do a **causal** analysis with a **descriptive** design, or interpreting a correlational result as causal. Label your question early and keep it labelled.
+A lot of confusion in statistics comes from trying to answer a **causal** question with a **descriptive** design, or from interpreting a correlation as if it proves causation. Label your question early and keep that label in mind.
 
 ---
 
@@ -94,30 +95,30 @@ Most confusion in statistics comes from trying to do a **causal** analysis with 
 
 ### 1. Descriptive Designs
 
-**Goal:** Summarise characteristics without asserting causation.
+**Goal:** Summarise characteristics without claiming one thing causes another.
 
-- **Cross-sectional surveys/monitoring:** Measure variables at one time point across locations (e.g., sampling PM2.5 across districts).
-- **Routine monitoring time series:** Summarise trends and seasonality in a single station’s data across time.
-- **Ecological summaries:** Aggregate by units (e.g., average NO₂ per ward) to describe patterns.
+- **Cross-sectional surveys or monitoring:** Measure variables at one point in time across different places. For example, measuring air pollution in different districts on the same day.
+- **Routine monitoring time series:** Look at trends and patterns over time at a single location.
+- **Ecological summaries:** Group data by area, such as the average pollution level in each neighbourhood.
 
-**Typical statistics:** Percentiles, means/medians, histograms, kernel density plots, boxplots, maps, time series plots; confidence intervals for means or quantiles; trend lines with uncertainty ribbons.
+**Typical statistics:** Percentiles, means, medians, histograms, boxplots, maps, time series plots, and confidence intervals for means or other summaries.
 
-**Pitfall:** Ecological fallacy, inferring individual-level relationships from aggregated data.
+**Common mistake:** Drawing conclusions about individuals from group-level data. This is called the ecological fallacy.
 
 ---
 
 ### 2. Observational Correlational Designs
 
-**Goal:** Quantify associations while acknowledging potential confounding.
+**Goal:** Measure associations while recognising that other factors might be involved.
 
-- **Cross-sectional associations:** Measure exposure and outcome once (e.g., neighbourhood traffic vs NO₂).
-- **Case-control:** Select outcomes first (algal bloom events vs non-events) and look backward at exposures.
-- **Cohort (prospective/retrospective):** Follow units over time with documented exposures (e.g., communities before/after monsoon with varying industrial emissions).
-- **Panel data (repeated measures):** Multiple observations per unit (e.g., daily pollution and hospital visits by city).
+- **Cross-sectional associations:** Measure exposure and outcome at the same time. For example, comparing traffic and pollution in different areas.
+- **Case-control:** Start with outcomes (such as people who became ill and those who did not) and look back at exposures.
+- **Cohort (prospective or retrospective):** Follow groups over time, recording exposures and outcomes.
+- **Panel data (repeated measures):** Collect data from the same units (such as cities or people) at multiple times.
 
-**Typical statistics:** Correlation coefficients (Pearson/Spearman), linear or generalised linear models (GLMs), mixed-effects models for repeated measures and clustering, splines for nonlinearity.
+**Typical statistics:** Correlation coefficients, linear or generalised linear models, mixed-effects models for repeated measures, and splines for non-linear relationships.
 
-**Pitfall:** Confounding, variables that affect both exposure and outcome (e.g., temperature confounding pollution–health associations). Directed acyclic graphs (DAGs) help decide what to adjust for.
+**Common mistake:** Confounding, where another variable affects both the exposure and the outcome. Drawing a diagram called a directed acyclic graph (DAG) can help you decide what to adjust for.
 
 ---
 
@@ -125,209 +126,205 @@ Most confusion in statistics comes from trying to do a **causal** analysis with 
 
 **Goal:** Estimate causal effects by controlling or randomising exposures.
 
-- **Completely randomised design (CRD):** Randomly assign treatments to units (e.g., plants exposed to different ozone levels).
-- **Randomised block design:** Block on a nuisance factor (e.g., light conditions), then randomise within blocks.
-- **Factorial designs (2×2, 3×3, etc.):** Manipulate multiple factors simultaneously (e.g., nutrient level × temperature on algal growth).
-- **Split-plot designs:** Some treatments are harder to randomise and applied to plots, with sub-plot treatments nested within (common in field ecology).
-- **Response surface/DOE (Design of Experiments):** Systematic designs to optimise responses (e.g., Box–Behnken for maximising biodegradation rate).
+- **Completely randomised design:** Randomly assign treatments to units, such as plants exposed to different levels of a chemical.
+- **Randomised block design:** Group units by a factor that might affect the outcome, then randomise within those groups.
+- **Factorial designs:** Test more than one factor at the same time, such as different levels of nutrients and temperature.
+- **Split-plot designs:** Some treatments are applied to larger groups, with other treatments applied within those groups.
+- **Design of Experiments (DOE):** Systematic designs to find the best combination of factors.
 
-**Typical statistics:** ANOVA/ANCOVA, linear models with interactions, mixed models for random blocks or split plots, regression with polynomial terms.
+**Typical statistics:** ANOVA, ANCOVA, linear models with interactions, mixed models for random blocks or split plots, and regression with polynomial terms.
 
-**Pitfall:** Pseudoreplication, treating sub-samples from the same experimental unit as independent replicates.
+**Common mistake:** Pseudoreplication, which means treating subsamples from the same unit as if they were independent.
 
 ---
 
 ### 4. Quasi-Experimental Designs (Natural Experiments)
 
-**Goal:** Estimate causal effects when randomisation is not feasible, common in environmental policy and public health.
+**Goal:** Estimate causal effects when randomisation is not possible, often used in policy or public health studies.
 
-- **Interrupted time series (ITS):** Examine level/slope changes after a policy start date (e.g., emissions limits enacted on a known date).
-- **Difference-in-differences (DiD):** Compare changes over time in treated vs control units (e.g., cities with vs without a new bus rapid transit policy).
-- **Regression discontinuity (RD):** Use a threshold rule (e.g., plants above a capacity threshold must comply) and compare units just above and below.
-- **Instrumental variables (IV):** Use a variable related to exposure but not directly to the outcome except through that exposure (weather as an instrument for pollution dispersion is sometimes used cautiously).
+- **Interrupted time series:** Look for changes after a policy or event starts.
+- **Difference-in-differences:** Compare changes over time in treated and control groups.
+- **Regression discontinuity:** Use a threshold rule, such as comparing places just above and below a cut-off.
+- **Instrumental variables:** Use a variable that affects the exposure but not the outcome directly.
 
-**Typical statistics:** Segmented regression (ITS), two-way fixed effects (DiD), local linear regression around thresholds (RD), two-stage least squares (IV).
+**Typical statistics:** Segmented regression, two-way fixed effects, local linear regression, and two-stage least squares.
 
-**Pitfall:** Violated assumptions, parallel trends for DiD, no manipulation around the threshold for RD, valid instrument for IV.
-
----
-
-### 5. Longitudinal vs Cross-Sectional
-
-- **Cross-sectional:** Snapshot at one time, efficient but limited for causation.
-- **Longitudinal:** Repeated measurements, richer, allows within-unit comparisons, but requires models that account for autocorrelation and individual random effects.
-
-**Typical statistics for longitudinal data:** Mixed-effects models, generalised estimating equations (GEE), time series models (ARIMA), distributed lag models for exposure effects over time.
+**Common mistake:** Not checking the assumptions needed for these methods, such as parallel trends for difference-in-differences.
 
 ---
 
-### 6. Sampling Designs You Can Defend
+### 5. Longitudinal and Cross-Sectional Designs
 
-- **Simple random sampling (SRS):** Every unit has equal chance, baseline.
-- **Stratified sampling:** Partition the population into strata (e.g., industrial, residential, rural) and sample within each, improves precision and ensures coverage.
-- **Cluster sampling:** Sample clusters first (e.g., villages), then units within, cost effective but requires design-based inference.
-- **Systematic sampling:** Every $k$th unit after a random start, simple but watch for periodic patterns.
-- **Spatial sampling:** Regular grids, random points, stratified by land cover; transects along rivers or coastlines.
-- **Multistage sampling:** Combine strategies, common in large surveys.
+- **Cross-sectional:** Take a snapshot at one time. This is efficient but limited for understanding causes.
+- **Longitudinal:** Collect repeated measurements over time. This allows you to see changes within units, but you need models that account for repeated measures.
 
-**Design analysis note:** If you use complex sampling (strata, clusters, weights), your analysis must reflect it, standard errors and confidence intervals differ from simple random sampling.
+**Typical statistics for longitudinal data:** Mixed-effects models, generalised estimating equations, time series models, and distributed lag models.
 
 ---
 
-## Choosing the Right Design: A Practical Decision Framework
+### 6. Sampling Designs You Can Explain
 
-When in doubt, step through these questions:
+- **Simple random sampling:** Every unit has an equal chance of being chosen.
+- **Stratified sampling:** Divide the population into groups (such as urban and rural) and sample within each group.
+- **Cluster sampling:** Sample groups first (such as villages), then sample within those groups.
+- **Systematic sampling:** Choose every kth unit after a random start.
+- **Spatial sampling:** Use grids, random points, or lines across an area.
+- **Multistage sampling:** Combine several strategies, often used in large surveys.
 
-1. **Is the aim descriptive, predictive, or causal?**
+**Note on analysis:** If you use complex sampling, your analysis must account for it. Standard errors and confidence intervals will be different from simple random sampling.
 
-   - Descriptive: Surveys/monitoring; summary statistics and visualisation.
-   - Predictive: Split data into training/validation; prioritise out-of-sample performance.
-   - Causal: Randomise if possible; else consider DiD, ITS, RD, IV.
+---
+
+## How to Choose the Right Design: A Step-by-Step Guide
+
+When you are not sure, ask yourself these questions:
+
+1. **What is your main aim? Is it descriptive, predictive, or causal?**
+
+   - Descriptive: Use surveys or monitoring, and focus on summaries and visualisation.
+   - Predictive: Split your data into training and validation sets, and focus on how well your model predicts new data.
+   - Causal: Randomise if you can. If not, consider methods like difference-in-differences or interrupted time series.
 
 2. **What are your constraints?**
 
    - Ethical: You cannot randomly assign harmful exposures.
-   - Feasibility: Instruments, budget, time, access to sites.
-   - Policy/operational: Fixed implementation dates, partial rollouts.
+   - Practical: What equipment, time, and money do you have? Can you access the sites you need?
+   - Policy or operational: Are there fixed dates or partial rollouts?
 
-3. **What are the key confounders or nuisance factors?**
+3. **What are the main confounders or nuisance factors?**
 
-   - Draw a DAG. Decide on minimal adjustment sets. Plan blocking or stratification.
+   - Draw a DAG. Decide what you need to adjust for. Plan blocking or stratification if needed.
 
 4. **What is your unit of analysis and replication?**
 
-   - Individual plants, plots, rivers, cities? Avoid pseudoreplication.
+   - Are you studying individual people, plants, plots, rivers, or cities? Avoid treating subsamples as independent.
 
-5. **What is the expected effect size and variability?**
+5. **What effect size and variability do you expect?**
 
-   - Run a power analysis to determine sample size or assess if the study is underpowered. If unsure, pilot.
+   - Do a power analysis to decide how many samples you need. If you are not sure, do a small pilot study.
 
-6. **What is the temporal and spatial scope?**
+6. **What is the time and place covered by your study?**
 
-   - Are you capturing seasonality, diurnal cycles, or spatial heterogeneity?
+   - Are you capturing seasonal changes, daily cycles, or differences between places?
 
-7. **What quality controls are needed?**
-   - Calibration, blanks, duplicates, inter-lab comparisons, metadata logging.
+7. **What quality controls do you need?**
+   - Calibration, blanks, duplicates, comparisons between labs, and keeping good records.
 
-If you draft a one-page design rationale with these elements before collecting data, your future self will thank you.
-
----
-
-## Statistical Approaches Paired to Designs
-
-### Descriptive Statistics and Exploratory Data Analysis (EDA)
-
-- **Central tendency:** Mean, median, trimmed mean. For skewed data, the median often summarises better.
-- **Dispersion:** Standard deviation, interquartile range (IQR), median absolute deviation (MAD), robust to outliers.
-- **Shape:** Skewness, kurtosis, useful but easy to over-interpret; visual checks (histograms, density plots, QQ-plots) usually suffice.
-- **Transformations:** Log transform for positive skew (e.g., pollutant concentrations); square root for counts; consider Box–Cox families.
-- **Outliers:** Investigate causes, instrument error, data entry, genuine variability? Do not auto-delete; document decisions.
-
-**Visualisation staples:** Histograms, violin/box plots, scatterplots with smoothers, time series with seasonal decomposition, maps with appropriate colour scales.
+If you write a one-page summary of your design before collecting data, you will save yourself a lot of trouble later.
 
 ---
 
-### Hypothesis Testing With Context
+## Statistical Approaches Matched to Designs
 
-- **Null hypothesis ($H_0$) vs alternative ($H_1$):** Set up before looking at results.
-- **p-value:** Probability of data at least as extreme as observed under $H_0$. It is not the probability that $H_0$ is true.
-- **Confidence intervals (CIs):** A 95% CI is a range constructed by a procedure that yields intervals covering the true parameter 95% of the time in repeated sampling. It does not guarantee the parameter has a 95% chance of lying within the interval for this specific sample (that is a Bayesian credible interval).
-- **Type I/II errors:** False positives vs false negatives; choose $\\alpha$ meaningfully.
-- **Power:** Probability of detecting a true effect of a given size, plan this before data collection.
-- **Multiple testing:** Adjust $p$-values or control false discovery rates when running many tests.
+### Descriptive Statistics and Exploratory Data Analysis
 
-**Advanced but practical:** Consider equivalence or non-inferiority tests when the goal is to demonstrate similarity within a margin (e.g., two sensors measuring PM2.5 within a pre-specified tolerance). The null becomes "difference larger than margin", which flips the usual logic.
+- **Central tendency:** Mean, median, and trimmed mean. For skewed data, the median is often better.
+- **Dispersion:** Standard deviation, interquartile range, and median absolute deviation. These show how spread out your data are.
+- **Shape:** Skewness and kurtosis describe the shape of your data, but it is usually better to look at plots such as histograms or boxplots.
+- **Transformations:** Taking the logarithm of positive, skewed data (such as pollution levels) can make your analysis more reliable. Square roots can help with counts.
+- **Outliers:** Check if unusual values are due to errors or real variation. Do not delete them without a good reason, and always document your decisions.
 
----
-
-### Parametric vs Nonparametric
-
-- **Parametric** methods assume a distributional form (normal errors, constant variance). They are powerful when assumptions are approximately met and are often robust with large samples.
-- **Nonparametric** methods (Wilcoxon, Kruskal-Wallis, Spearman) avoid distributional assumptions at the cost of power under ideal parametric conditions.
-- **Permutation/randomisation tests** can be intuitive and powerful, especially in small experiments with randomisation built in.
-
-The choice is not moral; it is situational, match your data’s quirks to the tool.
+**Useful plots:** Histograms, violin or box plots, scatterplots with smooth lines, time series plots, and maps.
 
 ---
 
-### Linear Models and Beyond
+### Hypothesis Testing in Context
 
-**Plain linear regression:**  
-Use for continuous outcomes with roughly normal residuals and homoscedasticity. Include interactions when the effect of one variable depends on another (e.g., temperature modifies pollution effects). Diagnose with residual plots, leverage/Cook’s distance, and variance inflation factors (VIFs) for collinearity.
+- **Null hypothesis ($H_0$) and alternative ($H_1$):** Decide what you are testing before looking at your results.
+- **p-value:** This is the probability of seeing data as extreme as yours if the null hypothesis is true. It is not the chance that the null hypothesis is true.
+- **Confidence intervals (CIs):** A 95 percent CI is a range that would contain the true value in 95 percent of repeated samples. It does not mean there is a 95 percent chance the true value is in your interval.
+- **Type I and II errors:** Type I is a false positive, Type II is a false negative. Choose your significance level ($\alpha$) carefully.
+- **Power:** This is the chance of detecting a real effect. Plan this before collecting data.
+- **Multiple testing:** If you do many tests, adjust your p-values or control the false discovery rate.
+
+**Advanced but useful:** Sometimes you want to show that two things are similar, not different. Equivalence or non-inferiority tests are designed for this.
+
+---
+
+### Parametric and Nonparametric Methods
+
+- **Parametric methods** assume your data follow a certain distribution, such as the normal distribution. They are powerful if the assumptions are met.
+- **Nonparametric methods** do not make these assumptions. Examples include the Wilcoxon test and Spearman correlation. They are safer when you are unsure about your data, but may be less powerful.
+- **Permutation or randomisation tests** are useful, especially in small experiments where you have randomisation.
+
+The choice depends on your data, not on which method is "better".
+
+---
+
+### Linear Models and More
+
+**Simple linear regression:**  
+Use this when your outcome is continuous and your data are roughly normal. Include interactions if the effect of one variable depends on another. Always check your model with plots of the residuals and look for problems like collinearity.
 
 **Generalised linear models (GLMs):**
 
-- **Logistic regression** for binary outcomes (e.g., bloom present vs absent).
-- **Poisson/Negative binomial** for counts (e.g., daily asthma ER visits; overdispersion suggests negative binomial).
-- **Gamma or log-normal** for strictly positive, right-skewed continuous outcomes (e.g., pollutant concentrations).
+- **Logistic regression** for binary outcomes.
+- **Poisson or negative binomial** for counts. If the variance is much larger than the mean, use negative binomial.
+- **Gamma or log-normal** for positive, skewed outcomes.
 
-**Offsets & exposure:**  
-In Poisson/negative binomial models, include exposure time or population as an offset (e.g., visits per day with log(days) as offset).
+**Offsets and exposure:**  
+In count models, include the time or population at risk as an offset.
 
 **Nonlinearity:**  
-Use splines or generalised additive models (GAMs) when relationships are not linear, common with temperature–health associations or pollutant dose–response curves.
+Use splines or generalised additive models if the relationship is not straight.
 
 ---
 
 ### ANOVA, ANCOVA, and Mixed-Effects Models
 
-- **ANOVA:** Compare means across groups in randomised experiments; handles factorial designs and interactions.
-- **ANCOVA:** Add covariates to improve precision or adjust for small imbalances.
-- **Repeated measures ANOVA:** Works for balanced designs with sphericity, often too restrictive.
-- **Mixed-effects models (LMM/GLMM):** Add random effects to model clustering (plots within sites, repeated measures within individuals). This tackles pseudoreplication and captures variability between clusters.
-  - Random intercepts: different baselines by cluster.
-  - Random slopes: different effect sizes by cluster.
+- **ANOVA:** Compare means across groups in experiments.
+- **ANCOVA:** Add other variables to improve precision.
+- **Repeated measures ANOVA:** For balanced designs with repeated measures, but often too restrictive.
+- **Mixed-effects models:** Add random effects to account for clustering or repeated measures. This helps avoid pseudoreplication.
 
-**Diagnostic notes:** Check residuals at the appropriate level; ensure random effects meaningfully reduce correlation in residuals.
+**Diagnostics:** Check residuals at the right level and make sure random effects are helping.
 
 ---
 
 ### Time Series and Longitudinal Analysis
 
-- **ARIMA/Seasonal ARIMA:** Model autocorrelation and seasonality in a single station’s series, useful for forecasting.
-- **State-space models:** Flexible for noisy processes; Kalman filtering for real-time estimation.
-- **Distributed lag models (DLM):** Capture lagged effects of exposures (e.g., pollutants affecting health over several days).
-- **Interrupted time series (segmented regression):** Test for level and slope changes after an intervention date; include seasonal terms and autocorrelation structures.
+- **ARIMA:** Model patterns over time, such as trends and seasonality.
+- **State-space models:** Flexible models for noisy data.
+- **Distributed lag models:** Capture effects that happen with a delay.
+- **Interrupted time series:** Test for changes after an event or policy.
 
-For panel data (many units over time), consider fixed effects (unit-specific intercepts) to control for unobserved, time-invariant confounders, common in DiD setups.
+For data from many units over time, use fixed effects to control for differences between units.
 
 ---
 
 ### Spatial and Spatiotemporal Methods
 
-- **Spatial autocorrelation:** Nearby locations resemble each other, Moran’s I and semivariograms detect this.
-- **Kriging/geostatistics:** Interpolate spatial fields (e.g., PM2.5 surfaces) using variograms and covariance structures.
-- **Spatial regression:**
-  - SAR/CAR models incorporate spatial lag/dependence.
-  - Geographically weighted regression (GWR) explores spatially varying relationships, interpret with care; it is exploratory.
-- **Spatiotemporal models:** Combine space and time, Gaussian process models, hierarchical Bayesian approaches when warranted.
+- **Spatial autocorrelation:** Nearby places tend to be similar. Use Moran’s I or semivariograms to check this.
+- **Kriging:** A method for predicting values at new locations.
+- **Spatial regression:** Models that include spatial relationships.
+- **Spatiotemporal models:** Combine space and time, often using advanced methods.
 
-**Practicality:** If you only have a handful of locations, complex spatial models may be overkill; start with mixed models and spatial random effects.
+**Practical advice:** If you have only a few locations, start with simple models.
 
 ---
 
-### Causal Inference Without Wishful Thinking
+### Causal Inference Without Overconfidence
 
-- **DAGs (Directed Acyclic Graphs):** Clarify causal assumptions. Identify minimal adjustment sets, avoid controlling for colliders or mediators unless the goal demands it.
-- **Propensity scores:** Model probability of treatment given covariates and then match/weight/stratify to balance groups. Check balance diagnostics rigorously.
-- **Instrumental variables:** Useful but fragile, requires an instrument that influences the exposure but has no direct path to the outcome other than through that exposure.
-- **Regression discontinuity:** Uses thresholds to approximate random assignment locally, requires no manipulation around threshold and continuity of potential outcomes.
-- **Difference-in-differences:** Needs parallel trends assumption; check pre-trends, use event-study specifications.
+- **DAGs:** Draw diagrams to clarify your assumptions about what causes what.
+- **Propensity scores:** Estimate the chance of treatment given other variables, then match or weight your groups.
+- **Instrumental variables:** Use a variable that affects the exposure but not the outcome directly.
+- **Regression discontinuity:** Use a threshold to compare groups.
+- **Difference-in-differences:** Compare trends in treated and control groups.
 
-**Sensitivity analyses:** Always include them, test robustness to unmeasured confounding, alternative specifications, and different bandwidths (RD), or different matching methods (propensity and matching).
+**Sensitivity analyses:** Always check how robust your results are to different assumptions.
 
 ---
 
 ### Multivariate and High-Dimensional Methods
 
-- **PCA (Principal Components Analysis):** Reduce correlated variables to orthogonal components, useful for summarising multi-pollutant mixtures or spectral data.
-- **Clustering (k-means, hierarchical):** Group sites or samples, unsupervised, exploratory.
-- **Ordination (NMDS, PCoA):** For community composition or multi-metric ecological data, distance-based, emphasises relative dissimilarities.
-- **PERMANOVA:** Tests group differences on distance matrices, assumes similar dispersion unless adjusted.
-- **Regularisation (Ridge, LASSO, Elastic Net):** When predictors are many and collinear; helps with prediction and variable selection cautiously.
-- **Cross-validation:** Essential for predictive modelling, honest estimates of performance.
+- **PCA:** Reduce many correlated variables to a few summary variables.
+- **Clustering:** Group similar samples together.
+- **Ordination:** Methods for summarising complex data, often used in ecology.
+- **PERMANOVA:** Test for group differences using distance measures.
+- **Regularisation:** Methods like Ridge or LASSO help when you have many predictors.
+- **Cross-validation:** Always check how well your model predicts new data.
 
-**Caution:** If the goal is inference on a small set of interpretable parameters, high-dimensional feature selection can obscure interpretability, be explicit about priorities (prediction vs explanation).
+**Caution:** If you want to explain your results, be careful with methods that make interpretation harder.
 
 ---
 
@@ -335,286 +332,286 @@ For panel data (many units over time), consider fixed effects (unit-specific int
 
 ### Calibration and Quality Control
 
-- Calibrate instruments regularly; log calibration runs.
-- Include field blanks, duplicates, and lab spikes as appropriate.
-- Track metadata: instrument model, firmware/software versions, environmental conditions, operator notes.
+- Calibrate your instruments regularly and keep records.
+- Include blanks, duplicates, and other checks.
+- Record metadata such as instrument type, software version, and conditions.
 
 ### Missing Data
 
-- Classify missingness: MCAR (missing completely at random), MAR (missing at random), or MNAR (missing not at random), procedures differ.
-- Multiple imputation often outperforms complete-case analysis if MAR is plausible.
-- Keep the imputation model at least as rich as the analysis model.
+- Understand why data are missing. Are they missing completely at random, at random, or not at random?
+- Multiple imputation is often better than just dropping missing data.
+- Make sure your imputation model is at least as detailed as your analysis model.
 
 ### Censoring and Truncation
 
-- **Censored** (e.g., values below LOD): Consider Tobit models or censored likelihoods; simple substitutions (LOD/2) can bias variance and effects.
-- **Truncated**: Data not recorded below/above thresholds, affects distributions and inference.
+- **Censored data:** For example, values below the detection limit. Use special models if possible.
+- **Truncated data:** Data not recorded below or above certain values. This affects your analysis.
 
 ### Data Structure
 
-- Tidy data principles: each variable a column, each observation a row, each type of observational unit a table, makes analysis smoother and reproducible.
+- Follow tidy data principles: each variable in a column, each observation in a row, each type of unit in a table.
 
 ---
 
-## Sample Size and Power, Before You Step into the Field
+## Sample Size and Power: Plan Before You Collect Data
 
-- **Define the minimum detectable effect (MDE)** that is substantively meaningful (not just statistically significant).
+- **Define the minimum effect you care about.**
 - **Estimate variability** from pilot data or the literature.
-- **Choose $\\alpha$ and power ($1-\\beta$)** meaningfully (not reflexively 0.05 and 0.80).
-- **Account for design effects**, clustering, stratification, unequal weights inflate or deflate variance relative to SRS.
-- **Plan for attrition** in longitudinal studies and sensor downtime in monitoring.
+- **Choose your significance level and power** carefully.
+- **Account for design effects** such as clustering or stratification.
+- **Plan for missing data** or equipment failures.
 
-A quick power calculation, even if approximate, can save months of fruitless data collection.
-
----
-
-## Common Pitfalls and How to Dodge Them
-
-1. **Pseudoreplication:** Treating technical replicates or subsamples as independent units.  
-   _Fix:_ Identify the true experimental unit; use random effects.
-
-2. **Dichotomising continuous variables:** Turning continuous exposures into "high/low", throws away information.  
-   _Fix:_ Model the continuous variable or use splines.
-
-3. **Fishing expeditions (p-hacking):** Trying many models and highlighting the one that "worked".  
-   _Fix:_ Preregister analysis where possible; report all analyses; adjust for multiple comparisons.
-
-4. **Violating independence:** Ignoring correlation in time, space, or clusters.  
-   _Fix:_ Use mixed models, GEE, time series structures.
-
-5. **Overfitting:** Too many parameters relative to observations.  
-   _Fix:_ Penalisation, cross-validation, simpler models.
-
-6. **Extrapolation:** Predicting outside the observed range.  
-   _Fix:_ Be explicit about domains of applicability.
-
-7. **Confounding left unaddressed:** Misattributing effects to the wrong cause.  
-   _Fix:_ Use DAGs, design-based controls, thoughtful covariate adjustment.
-
-8. **Unit mismatch:** Combining variables with incompatible spatial/temporal scales (e.g., hourly pollution with annual health outcomes).  
-   _Fix:_ Align scales or model them appropriately (aggregation/disaggregation with care).
-
-9. **Ignoring measurement error:** Treating noisy exposure measures as perfect.  
-   _Fix:_ Use calibration, replicate measures, measurement-error models if needed.
-
-10. **Misinterpreting p-values and CIs:** Equating non-significance with "no effect".  
-    _Fix:_ Report effect sizes with uncertainty and discuss practical significance.
+A quick power calculation can save you a lot of wasted effort.
 
 ---
 
-## A Method-Selection Guide by Question Type
+## Common Mistakes and How to Avoid Them
+
+1. **Pseudoreplication:** Treating subsamples as independent.  
+   _Solution:_ Identify the true experimental unit and use random effects.
+
+2. **Turning continuous variables into categories:** This wastes information.  
+   _Solution:_ Model the variable as continuous or use splines.
+
+3. **Trying many models and only reporting the best:**  
+   _Solution:_ Plan your analysis in advance and report all results.
+
+4. **Ignoring correlation in your data:**  
+   _Solution:_ Use models that account for repeated measures or clustering.
+
+5. **Overfitting:** Too many variables for your sample size.  
+   _Solution:_ Use simpler models or regularisation.
+
+6. **Extrapolating beyond your data:**  
+   _Solution:_ Be clear about where your results apply.
+
+7. **Not adjusting for confounding:**  
+   _Solution:_ Use DAGs and adjust for the right variables.
+
+8. **Mixing up units:** For example, combining hourly pollution with yearly health outcomes.  
+   _Solution:_ Align your data or model the differences carefully.
+
+9. **Ignoring measurement error:**  
+   _Solution:_ Use calibration and consider measurement error in your models.
+
+10. **Misinterpreting p-values and confidence intervals:**  
+    _Solution:_ Report effect sizes and uncertainty, and discuss what they mean in practice.
+
+---
+
+## A Guide to Choosing Methods by Question Type
 
 **Descriptive (What is happening?)**
 
 - **Design:** Cross-sectional sampling or monitoring.
-- **Analyses:** Summaries, CIs for means/medians, distribution plots, spatial maps, time series decomposition for trends.
-- **Deliverable:** A clear picture of central tendency, spread, and heterogeneity, no implied causation.
+- **Analyses:** Summaries, confidence intervals, plots, maps, and time series analysis.
+- **Goal:** Give a clear picture of what is happening, without claiming causes.
 
-**Associational (What co-moves?)**
+**Associational (What varies together?)**
 
-- **Design:** Observational; cross-sectional, cohort, or panel.
-- **Analyses:** Correlations, GLMs, GAMs, mixed models; adjust for confounders; consider nonlinearity.
-- **Deliverable:** Quantified association with caveats about causality.
+- **Design:** Observational, such as cross-sectional or cohort studies.
+- **Analyses:** Correlations, generalised linear models, mixed models, and splines.
+- **Goal:** Quantify associations, but be careful about causality.
 
 **Predictive (What will happen?)**
 
-- **Design:** Any; aim for representative training data and a validation plan.
-- **Analyses:** Regularised regression, tree-based models, ensembles; cross-validation; calibration plots.
-- **Deliverable:** Predictive accuracy and calibration; interpretability is helpful but secondary.
+- **Design:** Any, but make sure your training data are representative and you have a validation plan.
+- **Analyses:** Regularised regression, tree-based models, and cross-validation.
+- **Goal:** Predict accurately, with interpretability as a bonus.
 
 **Causal (What is the effect?)**
 
-- **Design:** Randomised experiment if possible; else quasi-experimental (DiD, ITS, RD, IV) or carefully controlled observational studies with propensity methods.
-- **Analyses:** Appropriate causal estimators with diagnostic checks and sensitivity analyses.
-- **Deliverable:** Estimated effect with assumptions stated and evaluated as far as possible.
+- **Design:** Randomised experiment if possible, otherwise use quasi-experimental or carefully controlled observational studies.
+- **Analyses:** Use the right causal estimators and check your assumptions.
+- **Goal:** Estimate the effect and be clear about your assumptions.
 
 ---
 
-## Concrete Examples from Environmental and Pollution Science
+## Simple Examples from Environmental and Pollution Science
 
-### Example 1: Citywide Air Quality Description
+### Example 1: Describing Air Quality in a City
 
-**Question:** What is the distribution of PM2.5 across neighbourhoods during winter?
+**Question:** What is the range of air pollution levels across neighbourhoods in winter?
 
-- **Design:** Stratified cross-sectional sampling, strata by land use and elevation.
-- **Measurement:** Portable sensors calibrated weekly; duplicates in 10% of sites; metadata for wind conditions.
+- **Design:** Stratified sampling by land use and elevation.
+- **Measurement:** Portable sensors calibrated weekly, duplicates at some sites, and records of wind conditions.
 - **Analysis:**
-  - Descriptive stats: medians, IQR, 10th/90th percentiles.
-  - Spatial maps with interpolation only if justified (variogram supports spatial correlation).
-  - Confidence intervals for neighbourhood means using stratified sampling weights.
-- **Outcome:** A defensible baseline that tells residents, planners, and researchers what levels to expect and where outliers exist.
+  - Descriptive statistics: medians, interquartile ranges, and percentiles.
+  - Maps if spatial patterns are clear.
+  - Confidence intervals for neighbourhood means.
+- **Outcome:** A clear baseline for residents and planners.
 
-### Example 2: Effect of a Riverbank Vegetation Restoration on Water Temperature
+### Example 2: Effect of Riverbank Planting on Water Temperature
 
-**Question:** Does riparian planting reduce downstream water temperature?
+**Question:** Does planting trees along a river reduce water temperature downstream?
 
-- **Design:** Before–after control–impact (BACI), measure temperature upstream and downstream at treated sites and at similar control sites across time.
+- **Design:** Measure temperature before and after planting, upstream and downstream, and at control sites.
 - **Analysis:**
-  - Mixed-effects model with fixed effects for treatment, time (before/after), and their interaction, plus random intercepts for site.
-  - Include seasonal splines to absorb seasonal cycles and an AR(1) residual structure for autocorrelation.
-- **Outcome:** The interaction term estimates the treatment effect net of background temporal trends and site differences.
+  - Mixed-effects model with treatment, time, and their interaction, plus random effects for site.
+  - Include seasonal trends and autocorrelation.
+- **Outcome:** The interaction term shows the effect of planting.
 
-### Example 3: Experimental Algal Growth Under Nutrient and Temperature Factors
+### Example 3: Experimental Study of Algal Growth
 
-**Question:** How do nitrate concentration and temperature interact to affect algal growth?
+**Question:** How do nitrate and temperature affect algal growth?
 
-- **Design:** 3×3 factorial experiment (three nitrate levels × three temperatures), randomised block by batch to control for day-to-day lab variation.
-- **Analysis:** Two-way ANOVA or linear model with interaction; check residuals; consider log transform of growth.
-- **Outcome:** Main effects and interaction, does high nitrate matter more at higher temperatures?
+- **Design:** Experiment with different levels of nitrate and temperature, randomised by batch.
+- **Analysis:** Two-way ANOVA or linear model with interaction, check residuals, and consider transforming the outcome.
+- **Outcome:** Main effects and interaction.
 
-### Example 4: Policy Impact on NO₂ Levels, Difference-in-Differences
+### Example 4: Policy Impact on Pollution Using Difference-in-Differences
 
-**Question:** Did new bus fleet regulations reduce roadside NO₂ compared to cities that did not implement similar regulations?
+**Question:** Did new bus regulations reduce pollution compared to cities without the policy?
 
-- **Design:** DiD with monthly averages from multiple monitoring stations in treated and control cities for three years pre- and two years post-policy.
+- **Design:** Compare treated and control cities before and after the policy.
 - **Analysis:**
-  - Two-way fixed effects (city and month/year fixed effects), weather controls (temperature, wind speed), and station random intercepts.
-  - Event-study plots to inspect pre-trends.
-- **Outcome:** An average treatment effect with uncertainty; robustness checks with alternative control groups and varying post-policy windows.
+  - Fixed effects for city and time, weather controls, and random effects for monitoring stations.
+  - Plots to check trends before the policy.
+- **Outcome:** Estimate of the policy effect with uncertainty.
 
-### Example 5: Exposure–Response for Daily Health Visits, Count Models with Lags
+### Example 5: Health Visits and Pollution with Lags
 
-**Question:** Are daily ER visits for respiratory issues associated with same-day and lagged PM2.5?
+**Question:** Are daily hospital visits for breathing problems linked to pollution today and in the past few days?
 
-- **Design:** Time series at city level with daily counts and pollutant measurements; account for seasonality and day-of-week effects.
-- **Analysis:** Overdispersed Poisson (negative binomial) with distributed lags for PM2.5, splines for temperature and long-term trend, holiday indicators, and an offset for population.
-- **Outcome:** Cumulative lagged effect estimate with interpretable relative risks per 10 µg/m³ increase.
-
----
-
-## Reporting Results with Candour and Precision
-
-- **Lead with the effect size and uncertainty**, not just the $p$-value.
-- **Describe assumptions** and diagnostics briefly; put full checks in an appendix or supplement.
-- **Contextualise magnitude**, what does a 5 µg/m³ reduction mean in practical or health terms?
-- **Show the data** with clean plots, boxplots, trend lines, partial effect plots.
-- **Admit limitations**: residual confounding, measurement error, generalisability, missingness.
-
-A good rule: write the abstract as if you are explaining to a careful colleague who has ten minutes and a sharp pencil.
+- **Design:** Time series of daily counts and pollution levels, accounting for season and day of the week.
+- **Analysis:** Negative binomial model with lags, splines for temperature and trend, and an offset for population.
+- **Outcome:** Estimate of the effect over several days.
 
 ---
 
-## Reproducibility and Workflow That Saves You Later
+## Reporting Results Clearly and Honestly
 
-- **Plan & preregistration:** Even a one-page plan reduces researcher degrees of freedom.
-- **Version control (Git):** Track changes; branch for experiments.
-- **Notebooks & reports:** R Markdown/Quarto/Jupyter for reproducible narratives.
-- **Tidy data & code style:** Consistent naming, functions for repeated steps, clear outputs.
-- **Set seeds & record environments:** Document package versions; use renv (R) or virtual environments/conda (Python).
-- **Data sharing & FAIR:** If possible, deposit data/code or a synthetic dataset and analysis scripts.
+- **Start with the effect size and uncertainty,** not just the p-value.
+- **Describe your assumptions** and how you checked them.
+- **Explain what the effect means in real terms.**
+- **Show your data** with clear plots.
+- **Admit limitations:** such as confounding, measurement error, or missing data.
 
----
-
-## Tools That Are Friendly to Beginners but Scale Well
-
-- **Spreadsheets (with caution):** Good for initial inspection; error-prone for serious analysis.
-- **R:** `tidyverse` for wrangling/plots; `lme4`/`glmmTMB` for mixed/GLMs; `mgcv` for GAMs; `sf`, `sp`, `gstat` for spatial; `forecast` or `fable` for time series; `MatchIt`/`WeightIt` for propensity methods.
-- **Python:** `pandas`, `statsmodels`, `scikit-learn`, `patsy`; `geopandas`, `PySAL` for spatial; `pmdarima` for time series.
-- **Power/sample size:** G\*Power, `pwr` in R, simulation-based power with your planned model.
-- **GIS:** QGIS or ArcGIS for mapping and spatial joins.
-- **Visualisation:** `ggplot2` (R), `seaborn`/`plotly` (Python).
-
-Pick one primary analysis language and get comfortable. You can always add another later.
+A good rule is to write your summary as if you are explaining it to a careful colleague who has only a few minutes.
 
 ---
 
-## A Practical Flowchart in Words
+## Reproducibility and Good Workflow
 
-1. **Write your question** in one sentence, tag it as descriptive, associational, predictive, causal, or evaluative.
-2. **Sketch a DAG** if there is any hint of causality, identify confounders to measure or block on.
-3. **Choose a design** that your constraints allow, randomise if you can; otherwise, choose the cleanest quasi-experimental or observational design.
-4. **Define your measurements**, units, instruments, calibration plan, detection limits, metadata.
-5. **Plan sampling**, stratification, clustering, spatial coverage, temporal frequency.
-6. **Run a power analysis** or small pilot.
-7. **Write an analysis plan**, primary model, alternative specifications, diagnostics, sensitivity analyses.
-8. **Collect data** with quality checks; log everything.
-9. **Explore data**, plots, summaries, transformations.
-10. **Fit models**, check assumptions; revise as needed without hunting for significance.
-11. **Quantify uncertainty**, CIs, prediction intervals, posterior intervals if Bayesian.
-12. **Report honestly**, effects, uncertainty, assumptions, limitations, and, importantly, what it means practically.
-
-Tape this list near your workspace. It is boring, but it helps.
+- **Plan and preregister:** Even a short plan helps.
+- **Version control:** Use Git to track changes.
+- **Notebooks and reports:** Use tools like R Markdown, Quarto, or Jupyter.
+- **Tidy data and code:** Use clear names and functions for repeated steps.
+- **Set seeds and record environments:** Keep track of software versions.
+- **Data sharing:** Share your data and code if possible.
 
 ---
 
-## Frequently Asked "But What Do I Use When…?"
+## Tools That Are Friendly for Beginners and Useful Later
 
-- **Two groups, continuous outcome, randomised:** Two-sample t-test (or Wilcoxon if assumptions shaky); consider ANCOVA if baseline covariates help.
-- **More than two groups, factorial experiment:** ANOVA with interactions; mixed models if blocks/random factors present.
-- **Binary outcome (present/absent):** Logistic regression; add random effects for clustering.
+- **Spreadsheets:** Good for a first look, but not for serious analysis.
+- **R:** Use tidyverse for data, lme4 or glmmTMB for mixed models, mgcv for splines, sf or sp for spatial data, forecast for time series, and MatchIt for propensity methods.
+- **Python:** Use pandas, statsmodels, scikit-learn, patsy, geopandas, PySAL, and pmdarima.
+- **Power and sample size:** G\*Power, pwr in R, or simulation-based power analysis.
+- **GIS:** QGIS or ArcGIS for mapping.
+- **Visualisation:** ggplot2 in R, seaborn or plotly in Python.
+
+Pick one main analysis language and get comfortable with it.
+
+---
+
+## A Practical Checklist
+
+1. **Write your question** in one sentence and label it as descriptive, associational, predictive, causal, or evaluative.
+2. **Draw a DAG** if you are interested in causality, and identify confounders.
+3. **Choose a design** that fits your constraints, randomise if possible.
+4. **Define your measurements,** instruments, calibration, detection limits, and metadata.
+5. **Plan your sampling,** including stratification and coverage.
+6. **Do a power analysis** or a small pilot.
+7. **Write an analysis plan,** including models, checks, and sensitivity analyses.
+8. **Collect data** with quality checks and good records.
+9. **Explore your data** with plots and summaries.
+10. **Fit models** and check assumptions.
+11. **Quantify uncertainty** with confidence or prediction intervals.
+12. **Report honestly,** including effects, uncertainty, assumptions, and practical meaning.
+
+Keep this list handy. It may seem simple, but it helps.
+
+---
+
+## Frequently Asked "What Should I Use When…?"
+
+- **Two groups, continuous outcome, randomised:** Two-sample t-test or Wilcoxon test; consider ANCOVA if you have baseline variables.
+- **More than two groups, factorial experiment:** ANOVA with interactions; mixed models if you have blocks or random factors.
+- **Binary outcome:** Logistic regression; add random effects for clustering.
 - **Counts with overdispersion:** Negative binomial regression.
-- **Proportions with varying denominators:** Binomial GLM with logit link and an offset if modelling counts of successes out of trials.
+- **Proportions with different denominators:** Binomial GLM with logit link and an offset.
 - **Skewed positive outcomes:** Gamma GLM with log link or log-normal model.
-- **Nonlinear relationships:** GAMs or splines in GLMs.
-- **Longitudinal with time-invariant confounding:** Fixed effects models; random effects if you assume uncorrelated random intercepts; add AR terms for autocorrelation.
-- **Policy effect at a known time:** Interrupted time series; add seasonal and ARIMA structures as needed.
-- **Policy effect with treated vs control units:** DiD with pre-trend checks and event-study plots.
-- **Threshold-based assignment:** Regression discontinuity, local regression around the cutoff.
-- **Exposure measured with error:** Regression calibration or simulation-extrapolation (SIMEX) if feasible.
-- **Spatial interpolation:** Kriging if variogram supports spatial correlation and stationarity assumptions are plausible.
+- **Nonlinear relationships:** Use splines or generalised additive models.
+- **Longitudinal data:** Fixed effects models or random effects if appropriate; add terms for autocorrelation.
+- **Policy effect at a known time:** Interrupted time series with seasonal and ARIMA terms.
+- **Policy effect with treated and control units:** Difference-in-differences with trend checks.
+- **Threshold-based assignment:** Regression discontinuity with local regression.
+- **Exposure measured with error:** Use regression calibration or simulation-extrapolation.
+- **Spatial interpolation:** Use kriging if spatial correlation is present.
 
 ---
 
-## Interpreting Effects, Beyond "It Is Significant"
+## Interpreting Effects: More Than Just "Significant"
 
-- **Effect size:** Report magnitudes in interpretable units (e.g., a 10 µg/m³ increase relates to X% increase in outcome).
-- **Uncertainty:** CIs or credible intervals; prediction intervals when forecasting.
-- **Nonlinearity:** Show partial dependence plots or smooths with ribbons.
-- **Heterogeneity:** If effects differ across subgroups (e.g., season, site), present stratified estimates or interaction terms, with caution about multiple testing.
-- **Practical significance:** Tie back to standards, guidelines, or biological relevance.
-- **Caveats:** Remind readers where assumptions matter, parallel trends, unmeasured confounding, or sensor accuracy.
-
----
-
-## A Mini-Glossary You Will Actually Use
-
-- **Confounder:** A variable related to both exposure and outcome that, if unadjusted, biases effect estimates.
-- **Collider:** A variable influenced by two other variables; conditioning on it can create spurious associations.
-- **Blocking:** Grouping experimental units by a nuisance factor to reduce variance.
-- **Fixed effects:** Parameters for specific levels (e.g., city dummies) that control for time-invariant differences.
-- **Random effects:** Parameters drawn from a distribution to capture cluster-level variability.
-- **Homoscedasticity:** Constant variance of residuals across fitted values, violations suggest transformations or robust SEs.
-- **Autocorrelation:** Correlation of residuals across time or space, model it or adjust SEs.
-- **Overdispersion:** Variance exceeding the mean in count data, suggests negative binomial or quasi-Poisson.
-- **Parallel trends:** DiD assumption that treated and control would have followed similar trends absent treatment.
-- **Bandwidth (RD):** Window around the cutoff used for estimation, smaller reduces bias but increases variance.
+- **Effect size:** Report in clear units, such as a 10 unit increase leads to a certain percentage change.
+- **Uncertainty:** Use confidence or credible intervals, and prediction intervals for forecasts.
+- **Nonlinearity:** Show plots of the relationship with uncertainty.
+- **Heterogeneity:** If effects differ by group, show separate estimates or interactions, but be careful about multiple testing.
+- **Practical significance:** Relate your results to real-world standards or guidelines.
+- **Caveats:** Remind readers about important assumptions and limitations.
 
 ---
 
-## What I Would Do If Starting a New Environmental Study Tomorrow
+## A Mini-Glossary for Beginners
 
-1. **Write the question:** "Does converting a congested corridor to a bus-only lane reduce roadside NO₂ relative to parallel roads?"
-2. **DAG:** Traffic → NO₂; weather affects NO₂; holidays affect traffic and NO₂; economic trends might affect both treated and control corridors similarly.
-3. **Design:** DiD with treated corridor vs parallel corridors over two years pre- and one year post-intervention.
-4. **Measure:** Fixed monitors at several sites along each corridor; portable cross-checks; weather station data; traffic counts.
-5. **Sampling:** Continuous monitoring, validate with portable sensors on a rotating schedule.
-6. **Power:** Use historical variance to estimate detectable change in NO₂ given station counts and time horizon.
-7. **Analysis plan:** Two-way fixed effects, station random intercepts, weather controls, event-study pre-trend checks; sensitivity to alternative control corridors.
-8. **Implementation:** Git repository, data dictionary, preprocessing scripts, preregister the plan.
-9. **Results:** Effect size with 95% CI, graphics showing pre- and post-trends; robustness checks.
-10. **Communication:** Implications for air quality targets; limitations, suggestions for further monitoring.
-
-This skeleton adapts to many interventions, industrial scrubbers, fuel policy shifts, low-emission zones, or construction dust controls.
+- **Confounder:** A variable that affects both the exposure and the outcome, which can bias your results if not adjusted for.
+- **Collider:** A variable influenced by two other variables; adjusting for it can create false associations.
+- **Blocking:** Grouping units by a factor to reduce variation.
+- **Fixed effects:** Parameters for specific groups, such as cities, to control for differences.
+- **Random effects:** Parameters that capture variation between groups.
+- **Homoscedasticity:** Constant variance of errors; if this is not true, consider transformations or robust standard errors.
+- **Autocorrelation:** Correlation of errors over time or space; model it or adjust your standard errors.
+- **Overdispersion:** When the variance is greater than the mean in count data; use negative binomial models.
+- **Parallel trends:** The assumption that treated and control groups would have followed similar trends without treatment.
+- **Bandwidth (in regression discontinuity):** The window around the cut-off used for estimation.
 
 ---
 
-## A Closing Note, On Humility and Iteration
+## What I Would Do If Starting a New Environmental Study
 
-Statistics does not remove uncertainty, it quantifies and manages it. The best work I have seen is cautious, explicit about assumptions, and generous with diagnostics and alternative checks. As you move from beginner toward comfortable practitioner, your taste sharpens, you will care less about fancy methods and more about whether your design is credible, your measurements are defensible, and your conclusions are realistically bounded.
+1. **Write the question:** For example, "Does converting a busy road to a bus-only lane reduce pollution compared to similar roads?"
+2. **Draw a DAG:** Show how traffic, weather, and other factors affect pollution.
+3. **Design:** Use difference-in-differences with treated and control roads before and after the change.
+4. **Measure:** Use fixed monitors, portable sensors, weather data, and traffic counts.
+5. **Sampling:** Continuous monitoring, with checks using portable sensors.
+6. **Power:** Use past data to estimate the smallest change you can detect.
+7. **Analysis plan:** Fixed effects, random effects, weather controls, and trend checks.
+8. **Implementation:** Use version control, a data dictionary, and clear scripts.
+9. **Results:** Report effect size with confidence intervals and clear plots.
+10. **Communication:** Explain what the results mean for air quality and policy.
 
-This post is a starting point, one I will build on with more detailed examples and hands-on walkthroughs (including code) in future posts. If there is a section you want expanded first, say, power analysis by simulation, or a full BACI example with mixed models, or a practical guide to interrupted time series, tell me, and I will prioritise it.
+This approach can be adapted to many types of interventions.
 
 ---
 
-## Quick Reference, Choosing Designs and Analyses (Cheat Sheet)
+## A Final Note: Be Humble and Keep Improving
 
-- **Descriptive:** Stratified sampling or monitoring → summaries, CIs, maps, trend plots.
-- **Associational:** Observational cross-sectional or cohort → GLMs/GAMs/mixed models with confounder adjustment.
-- **Predictive:** Any representative data → regularisation, cross-validation, calibration.
-- **Experimental:** Randomised designs (CRD, blocks, factorial, split-plot) → ANOVA/ANCOVA/mixed models.
-- **Quasi-Experimental:** ITS, DiD, RD, IV → segmented regression, fixed effects, local regressions, 2SLS; assumption checks.
-- **Longitudinal:** Mixed models, GEE, ARIMA, distributed lags; account for autocorrelation.
-- **Spatial:** Kriging, SAR/CAR, spatial random effects; check variograms and Moran’s I.
-- **Multivariate:** PCA/NMDS/cluster; PERMANOVA for group differences on distances.
-- **Special data types:** Counts → Poisson/NB; Proportions → Binomial/Beta; Skewed positive → Gamma/log-normal.
-- **Always:** Diagnose; report effect sizes with uncertainty; document assumptions and
+Statistics does not remove uncertainty, but helps you understand and manage it. The best work is careful, clear about assumptions, and open about limitations. As you learn more, you will care less about fancy methods and more about whether your design is solid, your measurements are reliable, and your conclusions are realistic.
+
+This post is a starting point. I will add more detailed examples and hands-on guides in future posts. If you want a particular topic covered first, such as power analysis or a full example with mixed models, let me know.
+
+---
+
+## Quick Reference: Designs and Analyses (Cheat Sheet)
+
+- **Descriptive:** Stratified sampling or monitoring, summaries, confidence intervals, maps, and trend plots.
+- **Associational:** Observational studies, generalised linear models, splines, and mixed models with confounder adjustment.
+- **Predictive:** Any representative data, regularisation, cross-validation, and calibration.
+- **Experimental:** Randomised designs, ANOVA, ANCOVA, and mixed models.
+- **Quasi-Experimental:** Interrupted time series, difference-in-differences, regression discontinuity, instrumental variables, and assumption checks.
+- **Longitudinal:** Mixed models, generalised estimating equations, time series models, and distributed lags.
+- **Spatial:** Kriging, spatial regression, and random effects; check for spatial correlation.
+- **Multivariate:** Principal components, ordination, clustering, and PERMANOVA.
+- **Special data types:** Counts use Poisson or negative binomial, proportions use binomial or beta, skewed positive data use gamma or log-normal.
+- **Always:** Check your models, report effect sizes with uncertainty,
