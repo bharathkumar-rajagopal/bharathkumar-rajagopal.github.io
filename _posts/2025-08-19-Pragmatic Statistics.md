@@ -180,31 +180,25 @@ A lot of confusion in statistics comes from trying to answer a **causal** questi
 When you are not sure, ask yourself these questions:
 
 1. **What is your main aim? Is it descriptive, predictive, or causal?**
-
    - Descriptive: Use surveys or monitoring, and focus on summaries and visualisation.
    - Predictive: Split your data into training and validation sets, and focus on how well your model predicts new data.
    - Causal: Randomise if you can. If not, consider methods like difference-in-differences or interrupted time series.
 
 2. **What are your constraints?**
-
    - Ethical: You cannot randomly assign harmful exposures.
    - Practical: What equipment, time, and money do you have? Can you access the sites you need?
    - Policy or operational: Are there fixed dates or partial rollouts?
 
 3. **What are the main confounders or nuisance factors?**
-
    - Draw a DAG. Decide what you need to adjust for. Plan blocking or stratification if needed.
 
 4. **What is your unit of analysis and replication?**
-
    - Are you studying individual people, plants, plots, rivers, or cities? Avoid treating subsamples as independent.
 
 5. **What effect size and variability do you expect?**
-
    - Do a power analysis to decide how many samples you need. If you are not sure, do a small pilot study.
 
 6. **What is the time and place covered by your study?**
-
    - Are you capturing seasonal changes, daily cycles, or differences between places?
 
 7. **What quality controls do you need?**

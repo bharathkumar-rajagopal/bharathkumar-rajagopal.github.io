@@ -36,7 +36,7 @@ I really enjoy working with `analytical instruments`. I love learning how high-e
 
 In this field, we always start by studying sample, materials or pollutants to see what they're made of. That's my favourite part. I just like characterising things. Maybe that's why I like the instruments so much, they help me get to know them better.
 
-For my master's dissertation, I studied nanoplastics. I did `health risk assessments` using tests on _in vitro_ models. I'm also very interested in `microbial systems` and how microbes help our environment. Lately, I'm also learning to use `programming languages and other computational tools`. I often try to combine all these areas in my work to get a broader perspective of the problem.
+For my master's dissertation, I studied nanoplastics. I `characterised and assessed ecotoxicity` using tests on _in vitro_ models. I'm also very interested in `microbial systems`, such as Biofilms and in learning how microbes play their part with pollutants such as micro- & nanoplastics. Lately, I'm also learning to use `programming languages and other computational tools` helpful in studying metagenomics of these microbial systems. I often try to combine at least two of these areas in my work to get a broader perspective of the problem.
 
 I got my **Master’s in Biotechnology** with **First Class Distinction** (CGPA 8.75/10) from [Amity University, Uttar Pradesh](https://amity.edu/). Right now, I'm working independently with [Dr. Boobal Rangaswamy](https://www.linkedin.com/in/boobal-rangaswamy-14a76819a/?originalSubdomain=kr). He was my adviser during my undergrad too. Together, we're focusing on projects about ecotoxicology and microbial ecology.
 
