@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>MSc in Biotechnology</a>. Microplastics | Analytical Chemistry | Microbial Ecology
+subtitle: <a href='https://www.mio.osupytheas.fr/en/directory/bharathkumar-rajagopal/'>Incoming Doctoral Student @MIO</a>. Microplastics | Analytical Chemistry | Microbial Ecology
 
 description: sample description "leave blank to include all the news in the `_news` folder."
 
@@ -30,17 +30,11 @@ latest_posts:
 
 <div style="margin-top: 1.5em;"></div>
 
-I'm an **early-career researcher** who loves exploring how biotechnology can solve environmental problems. My past projects and intended future work are all about trying interdisciplinarity to better understand the research question.
-
-I really enjoy working with `analytical instruments`. I love learning how high-end instruments work, and with a bit of guidance, I'll always give them a try. This means I'm now pretty comfortable with almost all the analytical tools used in environmental research.
+I’m an **incoming doctoral student** at [amU](https://www.univ-amu.fr/) under the supervision of [**Dr. Christos Panagiotopoulos (MIO)**](https://www.mio.osupytheas.fr/en/directory/christos-panagiotopoulos/) and [**Dr. Stéphanie Rossignol** (LCE)](https://www.researchgate.net/profile/Stephanie-Rossignol). My research interests focus on transport dynamics of poluutants.
 
 In this field, we always start by studying sample, materials or pollutants to see what they're made of. That's my favourite part. I just like characterising things. Maybe that's why I like the instruments so much, they help me get to know them better.
 
-For my master's dissertation, I studied nanoplastics. I `characterised and assessed ecotoxicity` using tests on _in vitro_ models. I'm also very interested in `microbial systems`, such as Biofilms and in learning how microbes play their part with pollutants such as micro- & nanoplastics. Lately, I'm also learning to use `programming languages and other computational tools` helpful in studying metagenomics of these microbial systems. I often try to combine at least two of these areas in my work to get a broader perspective of the problem.
-
-I got my **Master’s in Biotechnology** with **First Class Distinction** (CGPA 8.75/10) from [Amity University, Uttar Pradesh](https://amity.edu/). Right now, I'm working independently with [Dr. Boobal Rangaswamy](https://www.linkedin.com/in/boobal-rangaswamy-14a76819a/?originalSubdomain=kr). He was my adviser during my undergrad too. Together, we're focusing on projects about ecotoxicology and microbial ecology.
-
-My name's up there, but you can just call me Bharath. Not sure how to say it? Check out my [pronunciation guide 🔍](https://bharathkumar-rajagopal.github.io/pronunciation/).
+And, my name's up there, but you can just call me Bharath. Not sure how to say it? Check out my [pronunciation guide 🔍](https://bharathkumar-rajagopal.github.io/pronunciation/).
 
 > <span style="font-family: 'Georgia', serif; font-size: 1.5em; font-style: italic;">
 >  **Science**, for me, is less about having answers and more about learning to ask better questions.
