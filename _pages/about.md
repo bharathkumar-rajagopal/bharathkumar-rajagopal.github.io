@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.mio.osupytheas.fr/en/directory/bharathkumar-rajagopal/'>Incoming Doctoral Student @MIO</a>. Microplastics | Analytical Chemistry | Microbial Ecology
+subtitle: <a href='https://www.mio.osupytheas.fr/en/directory/bharathkumar-rajagopal/'>Incoming Doctoral Student @amU</a>. Oceanography | Atmospheric Chemistry | Analytical Techniques
 
 description: sample description "leave blank to include all the news in the `_news` folder."
 
@@ -30,11 +30,11 @@ latest_posts:
 
 <div style="margin-top: 1.5em;"></div>
 
-I’m an **incoming doctoral student** at [amU](https://www.univ-amu.fr/) under the supervision of [**Dr. Christos Panagiotopoulos (MIO)**](https://www.mio.osupytheas.fr/en/directory/christos-panagiotopoulos/) and [**Dr. Stéphanie Rossignol** (LCE)](https://www.researchgate.net/profile/Stephanie-Rossignol). My research interests focus on transport dynamics of poluutants.
+I’m an **incoming doctoral student** at [amU](https://www.univ-amu.fr/) under the supervision of [**Dr. Christos Panagiotopoulos (MIO)**](https://www.mio.osupytheas.fr/en/directory/christos-panagiotopoulos/) and [**Dr. Stéphanie Rossignol** (LCE)](https://www.researchgate.net/profile/Stephanie-Rossignol). My research interests focus on transport dynamics of polutants.
 
-In this field, we always start by studying sample, materials or pollutants to see what they're made of. That's my favourite part. I just like characterising things. Maybe that's why I like the instruments so much, they help me get to know them better.
+Around 70% of ocean pollution comes from land-based sources, often carried by wind and runoff before settling in coastal waters. From microplastics to industrial chemicals, these pollutants don’t just stay put; they travel across air, land and sea, shaping ecosystems and affecting communities that depend on them. My PhD will explore some of these topics in more depth.
 
-And, my name's up there, but you can just call me Bharath. Not sure how to say it? Check out my [pronunciation guide 🔍](https://bharathkumar-rajagopal.github.io/pronunciation/).
+Feel free to call me Bharath. If you’re curious about how to pronounce it, I’ve put together a quick [pronunciation guide 🔍](https://bharathkumar-rajagopal.github.io/pronunciation/).
 
 > <span style="font-family: 'Georgia', serif; font-size: 1.5em; font-style: italic;">
 >  **Science**, for me, is less about having answers and more about learning to ask better questions.
