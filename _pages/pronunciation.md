@@ -5,7 +5,7 @@ description: How to say my name right, just in case you’re unsure.
 permalink: /pronunciation/
 ---
 
-> **TL;DR:** Just call me Bharath (pronounced: **Baa-rath**).
+> **TL;DR:** Just call me Bharath (pronounced: **Ba-rath(like wrath but without "w"**)).
 > {: .block-tip }
 
 My name’s a bit of a long one with Indian roots. Some people find it a little tricky at first, but honestly, it’s easier than it looks.

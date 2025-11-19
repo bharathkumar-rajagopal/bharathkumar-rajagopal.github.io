@@ -5,7 +5,7 @@ title: CV
 nav: true
 nav_order: 5
 cv_pdf: bharath_cv_001.pdf # you can also use external links here
-description: I am a postgraduate interested in applying biotechnology to study complex environmental systems through interdisciplinary research. My work often combines analytical methods with biological models and microbes to explore interactions within these systems.
+description: 'I am an incoming PhD student at the <a href="https://www.mio.osupytheas.fr/en/" target="_blank" rel="noopener">Mediterranean Institute of Oceanography</a>.'
 
 toc:
   sidebar: left
