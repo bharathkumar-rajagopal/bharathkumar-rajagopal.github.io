@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "I am a postgraduate interested in applying biotechnology to study complex environmental systems through interdisciplinary research. My work often combines analytical methods with biological models and microbes to explore interactions within these systems.",
+          description: "I am an incoming PhD student at the Mediterranean Institute of Oceanography.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
