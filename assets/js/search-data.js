@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "I am an incoming PhD student at the Mediterranean Institute of Oceanography.",
+          description: "I am a PhD student at the Mediterranean Institute of Oceanography.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -173,6 +173,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-mortar-board-officially-graduated-with-msc-in-biotechnology-received-my-degree-certificate-through-mail",
           title: ':mortar_board: Officially graduated with MSc in Biotechnology - received my degree certificate through...',
+          description: "",
+          section: "News",},{id: "news-star-struck-officially-started-my-phd-in-oceanograhy-research-at-aix-marseille-université",
+          title: ':star_struck: Officially started my PhD in Oceanograhy Research at Aix-Marseille Université!',
           description: "",
           section: "News",},{id: "news-newspaper-preprint-of-our-publication-on-integrating-kinetic-models-gene-circuits-and-biofilm-dynamics-for-enhanced-exopolysaccharide-production-in-nitrifying-bacterial-consortia-is-available-online",
           title: ':newspaper: Preprint of our publication on “Integrating Kinetic Models, Gene Circuits, and Biofilm...',
