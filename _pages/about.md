@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.mio.osupytheas.fr/en/directory/bharathkumar-rajagopal/'>Incoming Doctoral Student @amU</a>. Oceanography | Atmospheric Chemistry | Analytical Techniques
+subtitle: <a href='https://www.mio.osupytheas.fr/en/directory/bharathkumar-rajagopal/'>Doctoral Student @amU</a>. Oceanography | Analytcal Chemistry
 
 description: sample description "leave blank to include all the news in the `_news` folder."
 
@@ -10,10 +10,10 @@ profile:
   align: center
   image: prof_pic2.png
   image_circular: true # crops the image to make it circular
-  # more_info: >
-  #   <div style="text-align: center;">
-  #   MSc Biotechnology<br>
-  #   </div>
+  more_info: >
+    <div style="text-align: center;">
+    Room No. 26p/162 – Bât. OCEANOMED - Pacifique, 163 avenue de Luminy 13288 Marseille cedex 09 – France<br>
+    </div>
   selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
@@ -30,11 +30,11 @@ latest_posts:
 
 <div style="margin-top: 1.5em;"></div>
 
-I’m an **incoming doctoral student** at [amU](https://www.univ-amu.fr/) under the supervision of [**Dr. Christos Panagiotopoulos (MIO)**](https://www.mio.osupytheas.fr/en/directory/christos-panagiotopoulos/) and [**Dr. Stéphanie Rossignol** (LCE)](https://www.researchgate.net/profile/Stephanie-Rossignol). My research interests focus on transport dynamics of polutants.
+I’m a **Doctoral student** at [amU](https://www.univ-amu.fr/) under the supervision of [**Dr. Christos Panagiotopoulos (MIO)**](https://www.mio.osupytheas.fr/en/directory/christos-panagiotopoulos/) and [**Dr. Stéphanie Rossignol** (LCE)](https://www.researchgate.net/profile/Stephanie-Rossignol). My research interests focus on transport dynamics of Tyre Wear Particles (TWP)/Residues (TWR) and its associated additives.
 
-Around 70% of ocean pollution comes from land-based sources, often carried by wind and runoff before settling in coastal waters. From microplastics to industrial chemicals, these pollutants don’t just stay put; they travel across air, land and sea, shaping ecosystems and affecting communities that depend on them. My PhD will explore some of these topics in more depth.
+Around 70% of ocean pollution comes from land-based sources, carried by wind and runoff before settling in coastal waters. From microplastics to industrial chemicals, these pollutants don’t just stay put; they move through air, land, and sea, reshaping ecosystems and threatening marine life. Studies show tire wear particles alone account for more than 45% of microplastic pollution in oceans, disrupting food chains and even entering human diets through seafood. My PhD will focus on tracing the sources and pathways of TWP/TWR and their associated additives, examining how they reach the ocean and what impacts they have on marine systems.
 
-Feel free to call me Bharath. If you’re curious about how to pronounce it, I’ve put together a quick [pronunciation guide 🔍](https://bharathkumar-rajagopal.github.io/pronunciation/).
+Feel free to call me Bharath. If you’re curious about how to pronounce my name, I’ve put together a quick [pronunciation guide 🔍](https://bharathkumar-rajagopal.github.io/pronunciation/).
 
 > <span style="font-family: 'Georgia', serif; font-size: 1.5em; font-style: italic;">
 >  **Science**, for me, is less about having answers and more about learning to ask better questions.

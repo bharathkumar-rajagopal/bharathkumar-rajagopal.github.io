@@ -24,6 +24,16 @@
   },
   "work": [
     {
+      "name": "Mediterranean Institute of Oceanography (MIO) & Laboratoire de Chimie de l’Environnement (LCE)",
+      "position": "Doctoral Researcher",
+      "url": "https://www.mio.osupytheas.fr/fr/annuaire/bharathkumar-rajagopal/",
+      "startDate": "2025-12-01",
+      "endDate": "present",
+      "project": "",
+      "summary": "Studying the production, atmospheric dispersion, aquatic transfer and impact of tire-wear particles/residues (TWP/TWR) and their associated chemical additives.",
+      "highlights": ["Oceanography, Analytical Chemistry"]
+    },
+    {
       "name": "",
       "position": "Independent Research Assistant (Under Scholarly Mentorship)",
       "url": "",
@@ -130,6 +140,17 @@
   ],
   "education": [
     {
+      "institution": "Aix Marseille Université",
+      "location": "Marseille, France",
+      "url": "https://www.univ-amu.fr/",
+      "area": "Major: Oceanography",
+      "studyType": "Doctor of Philosophy (PhD)",
+      "startDate": "2025-12-01",
+      "endDate": "present",
+      "score": "",
+      "courses": ["Supervisors: Dr. Christos Panagiotopoulos (MIO), Dr. Stéphanie Rossignol (LCE)"]
+    },
+    {
       "institution": "Amity Institute of Biotechnology, Amity University Uttar Pradesh",
       "location": "Noida, India",
       "url": "https://www.amity.edu/",
@@ -232,18 +253,11 @@
       "summary": "Under Review"
     },
     {
-      "name": "Biogenic Synthesis of Silver Nanoparticles Using Endophytic Bacteria from Andrographis paniculata",
-      "publisher": "",
+      "name": " Ecogenomic Footprints of Urbanization: Microbial Community Responses to Anthropogenic Inputs in a Freshwater Lake.",
+      "publisher": "Cleaner Water",
       "releaseDate": "-",
       "url": "",
-      "summary": "In preparation"
-    },
-    {
-      "name": "Functional Dynamics Revealing Metacommunity and Organisation of Microbial Populations in Lentic Environment",
-      "publisher": "",
-      "releaseDate": "-",
-      "url": "",
-      "summary": "In preparation."
+      "summary": "Under Review"
     }
   ],
   "skills": [
@@ -282,8 +296,10 @@
       "level": "Master",
       "icon": "fa-solid fa-microscope",
       "keywords": [
-        "Column chromatography",
-        "Affinity chromatography",
+        "LDIR",
+        "μFTIR",
+        "Pyrolysis-GC-MS",
+        "FACS (Flow Cytometry)",
         "GC-MS/MS",
         "HPLC",
         "Spectrophotometry",
@@ -313,16 +329,16 @@
 
   "references": [
     {
+      "name": "Dr. Christos Panagiotopoulos",
+      "icon": "fa-solid fa-envelope",
+      "email": "christos.panagiotopoulos@mio.osupytheas.fr",
+      "reference": "CR-Charge de Recherche – Aix Marseille University, Université́de Toulon, CNRS, IRD, MIO UM 110, 13288, Marseille, France"
+    },
+    {
       "name": "Dr. Boobal Rangaswamy",
       "icon": "fa-solid fa-envelope",
       "email": "boobal@psgcas.ac.in",
       "reference": "Assistant Professor – Department of Biotechnology, PSG College of Arts & Science, Tamil Nadu"
-    },
-    {
-      "name": "Dr. Alok Kumar Pandey",
-      "icon": "fa-solid fa-envelope",
-      "reference": "Senior Principal Scientist - CSIR - Indian Institute of Toxicology Research, Lucknow",
-      "email": "alokpandey@iitr.res.in"
     },
     {
       "name": "Dr. Ravi Kant Singh",
