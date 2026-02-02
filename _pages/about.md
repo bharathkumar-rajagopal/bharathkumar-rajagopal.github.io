@@ -30,7 +30,7 @@ latest_posts:
 
 <div style="margin-top: 1.5em;"></div>
 
-I’m a **Doctoral student** at [amU](https://www.univ-amu.fr/) under the supervision of [**Dr. Christos Panagiotopoulos (MIO)**](https://www.mio.osupytheas.fr/en/directory/christos-panagiotopoulos/) and [**Dr. Stéphanie Rossignol** (LCE)](https://www.researchgate.net/profile/Stephanie-Rossignol). My research interests focus on transport dynamics of Tyre Wear Particles (TWP)/Residues (TWR) and its associated additives.
+I’m a **Doctoral student** at [amU](https://www.univ-amu.fr/) under the supervision of [**Dr. Christos Panagiotopoulos (MIO)**](https://www.mio.osupytheas.fr/en/directory/christos-panagiotopoulos/) and [**Dr. Stéphanie Rossignol (LCE)**](https://www.researchgate.net/profile/Stephanie-Rossignol). My research interests focus on transport dynamics of Tyre Wear Particles (TWP)/Residues (TWR) and its associated additives.
 
 Around 70% of ocean pollution comes from land-based sources, carried by wind and runoff before settling in coastal waters. From microplastics to industrial chemicals, these pollutants don’t just stay put; they move through air, land, and sea, reshaping ecosystems and threatening marine life. Studies show tire wear particles alone account for more than 45% of microplastic pollution in oceans, disrupting food chains and even entering human diets through seafood. My PhD will focus on tracing the sources and pathways of TWP/TWR and their associated additives, examining how they reach the ocean and what impacts they have on marine systems.
 
