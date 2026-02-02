@@ -7,8 +7,8 @@ module Jekyll
 		    input = input.gsub(/^.*\b#{keyword}\b *= *\{.*$\n/, '')
 	    end
 
-      # Clean superscripts in author lists
-      input = input.gsub(/^.*\bauthor\b *= *\{.*$\n/) { |line| line.gsub(/[*†‡§¶‖&^]/, '') }
+      # Remove author_html field (custom field, not needed in BibTeX output)
+      input = input.gsub(/^.*\bauthor_html\b *= *\{.*$\n/, '')
 
       return input
     end
