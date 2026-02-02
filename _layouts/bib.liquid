@@ -53,7 +53,7 @@
     <div class="author">
       {%- if entry.author_html -%}
         <!-- Use custom author_html field if available -->
-        {{ entry.author_html | markdownify | strip_html | replace: '<sup>', '<sup>' | replace: '</sup>', '</sup>' }}
+        {{ entry.author_html }}
       {%- else -%}
         {%- assign author_array_size = entry.author_array | size %}
 
