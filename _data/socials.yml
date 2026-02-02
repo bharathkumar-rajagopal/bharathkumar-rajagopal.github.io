@@ -42,7 +42,7 @@ orcid_id: 0000-0002-7922-8467 # your ORCID ID
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 # wikidata_id: # your wikidata id
 # wikipedia_id: # your wikipedia id (Case sensitive)
-# work_url: # work page URL
+work_url: https://www.mio.osupytheas.fr/fr/annuaire/bharathkumar-rajagopal/ # work page URL
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 # custom_social: # can be any name here other than the ones already defined above

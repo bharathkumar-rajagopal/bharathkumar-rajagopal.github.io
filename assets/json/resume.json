@@ -238,24 +238,24 @@
     }
   ],
   "publications": [
+        {
+      "name": "Ecogenomic profiling of spatial variations in sediment microbial communities of a freshwater lake",
+      "publisher": "Cleaner Water",
+      "releaseDate": "2026",
+      "url": "https://doi.org/10.1016/j.clwat.2026.100214",
+      "summary": ""
+    },
     {
       "name": "Integrating Kinetic Models, Gene Circuits, and Biofilm Dynamics for Enhanced Exopolysaccharide Production in Nitrifying Bacterial Consortia",
       "publisher": "Journal of Microbiological Methods",
       "releaseDate": "2025",
       "url": "https://doi.org/10.1016/j.mimet.2025.107237",
-      "summary": ""
+      "summary": "Published"
     },
     {
       "name": "Development of Artocarpus heterophyllus Lam. Nanosuspension",
       "publisher": "Nanotechnology for Environmental Engineering",
       "releaseDate": "",
-      "url": "",
-      "summary": "Under Review"
-    },
-    {
-      "name": " Ecogenomic Footprints of Urbanization: Microbial Community Responses to Anthropogenic Inputs in a Freshwater Lake.",
-      "publisher": "Cleaner Water",
-      "releaseDate": "-",
       "url": "",
       "summary": "Under Review"
     }
