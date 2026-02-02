@@ -203,7 +203,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%69.%62%68%61%72%61%74%68@%6F%75%74%6C%6F%6F%6B.%63%6F%6D", "_blank");
+          window.open("mailto:%62%68%61%72%61%74%68%6B%75%6D%61%72.%72%61%6A%61%67%6F%70%61%6C@%6D%69%6F.%6F%73%75%70%79%74%68%65%61%73.%66%72", "_blank");
         },
       },{
         id: 'social-linkedin',
@@ -232,6 +232,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://orcid.org/0000-0002-7922-8467", "_blank");
+        },
+      },{
+        id: 'social-work',
+        title: 'Work',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.mio.osupytheas.fr/fr/annuaire/bharathkumar-rajagopal/", "_blank");
         },
       },{
       id: 'light-theme',
